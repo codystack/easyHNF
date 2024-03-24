@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../../fonts/flaticon_7bd489e997c1aef07fb65d046dd77e13.ttf") format("truetype"),
+url("../../fonts/flaticon_7bd489e997c1aef07fb65d046dd77e13.woff") format("woff"),
+url("../../fonts/flaticon_7bd489e997c1aef07fb65d046dd77e13.woff2") format("woff2"),
+url("../../fonts/flaticon_7bd489e997c1aef07fb65d046dd77e13.eot#iefix") format("embedded-opentype"),
+url("../../fonts/flaticon_7bd489e997c1aef07fb65d046dd77e13.svg#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-computer:before {
+    content: "\f101";
+}
+.flaticon-left-quote:before {
+    content: "\f102";
+}
+.flaticon-lotus:before {
+    content: "\f103";
+}
+.flaticon-lotus-flower:before {
+    content: "\f104";
+}
+.flaticon-lunges:before {
+    content: "\f105";
+}
+.flaticon-maps-and-flags:before {
+    content: "\f106";
+}
+.flaticon-notification:before {
+    content: "\f107";
+}
