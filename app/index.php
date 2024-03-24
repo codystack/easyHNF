@@ -12,7 +12,7 @@
                     <div class="mb-6 mb-xl-10">
                         <div class="row align-items-center">
                             <div class="">
-                                <h3 class="ls-tight"><span id="greet" style="color:#8A95BF"></span> <?php echo $_SESSION['first_name']; ?></h3>
+                                <h3 class="ls-tight"><span id="greet"></span>, <?php echo $_SESSION['first_name']; ?></h3>
                             </div>
                             <div class="d-flex">
                                 <h2 class="ls-tight"></h2>
@@ -24,7 +24,7 @@
                     <div class="row g-3 g-xxl-6">
                         <div class="col-xxl-12">
                             <div class="vstack gap-3 gap-md-6">
-                                <div class="row g-3">
+                                <!-- <div class="row g-3">
                                     <div class="col-md col-sm-6">
                                         <div class="card border-primary-hover">
                                             <div class="card-body p-4">
@@ -51,23 +51,23 @@
                                         <div class="card border-primary-hover">
                                             <div class="card-body p-4">
                                                 <div class="d-flex align-items-center gap-2">
-                                                    <span class="badge badge-lg icon icon-lg icon-shape text-lg rounded-circle bg-danger text-white flex-none" alt="..."><i class="bi bi-people"></i></span> <span class="fw-bold">App Users</span>
+                                                    <span class="badge badge-lg icon icon-lg icon-shape text-lg rounded-circle bg-danger text-white flex-none" alt="..."><i class="bi bi-book"></i></span> <span class="fw-bold">Meal Plan</span>
                                                 </div>
-                                                <div class="text-m fw-semibold mt-3">3.2893</div>
+                                                <div class="text-m fw-semibold mt-3">3</div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
 
 
                                 <div class="card">
                                     <div class="card-body pb-0">
                                         <div class="d-flex justify-content-between align-items-center">
                                             <div>
-                                                <h5>Devotionals</h5>
+                                                <h5>Meal Plans</h5>
                                             </div>
                                             <div class="hstack align-items-center">
-                                                <a href="devotionals" class="btn btn-sm btn-neutral d-none d-sm-inline-flex"> <span class="pe-2">View all</span><span> <i class="bi bi-arrow-right"></i></span></a>
+                                                <a href="#" class="btn btn-sm btn-neutral d-none d-sm-inline-flex"> <span class="pe-2">View all</span><span> <i class="bi bi-arrow-right"></i></span></a>
                                             </div>
                                         </div>
                                         <div class="table-responsive mb-10 mt-5">
