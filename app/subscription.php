@@ -184,7 +184,7 @@
                                                             </div>
                                                         </th>
                                                         <th scope="col">Amount</th>
-                                                        <th scope="col">Subbscription Date</th>
+                                                        <th scope="col">Subscription Date</th>
                                                         <th scope="col">Transaction Reference</th>
                                                         <th scope="col">Status</th>
                                                         <th scope="col" class="d-none text-end d-xl-table-cell">Action</th>
