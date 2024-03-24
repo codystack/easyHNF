@@ -1,5 +1,5 @@
 //Greet Agent
-var time = new Date().getHours();
+const time = new Date().getHours();
 if (time < 12) {
     greeting = "Good Morning";
 } else if (time < 16) {

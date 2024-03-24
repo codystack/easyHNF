@@ -194,7 +194,7 @@
                                                 <tbody>
                                                     <?php
                                                     $topup_id = 1;
-                                                    $select_query = "SELECT * FROM subscription ORDER BY subscription_date ASC";
+                                                    $select_query = "SELECT * FROM subscription WHERE userID ='".$_SESSION['user_id']."' ORDER BY subscription_date ASC";
                                                         $result = mysqli_query($conn, $select_query);
                                                         if (mysqli_num_rows($result) > 0) {
                                                             // output data of each row
