@@ -9,8 +9,6 @@
         <div class="overlay"></div>
 
 
-
-        <!-- Slider Section Start -->
         <div class="slider-section slider-active section">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
@@ -281,102 +279,19 @@
 
         <?php @include("components/testimonial.php"); ?>
 
-        
-        <div class="section section-padding-02 overflow-hidden">
-            <div class="container">
 
-                <!-- Brand Wrapper Start -->
-                <div class="brand-wrapper">
-
-                    <img class="shape" src="assets/images/shape/shape-12.png" alt="Shape">
-
-                    <!-- Section Title Start -->
-                    <div class="section-title shape-none">
-                        <h6 class="sub-title">Work With Trusted Brand</h6>
-                        <h2 class="main-title">We Have 8,00+ Trusted Partners.</h2>
-                        <p>Printing and typesetting standard dummy text ever since</p>
-                    </div>
-                    <!-- Section Title End -->
-
-                    <!-- Brand Logo Wrapper Start -->
-                    <div class="brand-logo-wrapper brand-active">
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper">
-
-                                <div class="swiper-slide">
-                                    <!-- Single Brand Start -->
-                                    <div class="single-brand">
-                                        <img class="brand" src="assets/images/brand/brand-1-1.png" alt="Brand">
-                                        <img class="brand-hover" src="assets/images/brand/brand-2-1.png" alt="Brand">
-                                    </div>
-                                    <!-- Single Brand End -->
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <!-- Single Brand Start -->
-                                    <div class="single-brand">
-                                        <img class="brand" src="assets/images/brand/brand-1-2.png" alt="Brand">
-                                        <img class="brand-hover" src="assets/images/brand/brand-2-2.png" alt="Brand">
-                                    </div>
-                                    <!-- Single Brand End -->
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <!-- Single Brand Start -->
-                                    <div class="single-brand">
-                                        <img class="brand" src="assets/images/brand/brand-1-3.png" alt="Brand">
-                                        <img class="brand-hover" src="assets/images/brand/brand-2-3.png" alt="Brand">
-                                    </div>
-                                    <!-- Single Brand End -->
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <!-- Single Brand Start -->
-                                    <div class="single-brand">
-                                        <img class="brand" src="assets/images/brand/brand-1-4.png" alt="Brand">
-                                        <img class="brand-hover" src="assets/images/brand/brand-2-4.png" alt="Brand">
-                                    </div>
-                                    <!-- Single Brand End -->
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <!-- Single Brand Start -->
-                                    <div class="single-brand">
-                                        <img class="brand" src="assets/images/brand/brand-1-5.png" alt="Brand">
-                                        <img class="brand-hover" src="assets/images/brand/brand-2-5.png" alt="Brand">
-                                    </div>
-                                    <!-- Single Brand End -->
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Brand Logo Wrapper End -->
-
-                </div>
-                <!-- Brand Wrapper End -->
-
-            </div>
-        </div>
-        <!-- Brand Section End -->
-
-        <!-- Blog Section End -->
         <div class="section section-padding-02">
             <div class="container">
 
-                <!-- Section Title Start -->
                 <div class="section-title">
                     <h6 class="sub-title">Our Blog Post</h6>
                     <h2 class="main-title">Latest Article of Nutrition</h2>
                 </div>
-                <!-- Section Title End -->
-
-                <!-- Blog Wrapper Start -->
+                
                 <div class="blog-wrapper">
                     <div class="row gx-xxl-5">
                         <div class="col-lg-4">
 
-                            <!-- Single Blog Start -->
                             <div class="single-blog">
                                 <div class="blog">
                                     <div class="blog-date-meta">
@@ -397,12 +312,11 @@
                                     <p>Lorem sum same dummy text theme industry psum have been them industry the leaf into type setting.</p>
                                 </div>
                             </div>
-                            <!-- Single Blog End -->
 
                         </div>
+
                         <div class="col-lg-4">
 
-                            <!-- Single Blog Start -->
                             <div class="single-blog">
                                 <div class="blog">
                                     <div class="blog-date-meta">
@@ -423,12 +337,11 @@
                                     <p>Lorem sum same dummy text theme industry psum have been them industry the leaf into type setting.</p>
                                 </div>
                             </div>
-                            <!-- Single Blog End -->
 
                         </div>
+
                         <div class="col-lg-4">
 
-                            <!-- Single Blog Start -->
                             <div class="single-blog">
                                 <div class="blog">
                                     <div class="blog-date-meta">
@@ -449,16 +362,13 @@
                                     <p>Lorem sum same dummy text theme industry psum have been them industry the leaf into type setting.</p>
                                 </div>
                             </div>
-                            <!-- Single Blog End -->
 
                         </div>
                     </div>
                 </div>
-                <!-- Blog Wrapper End -->
 
             </div>
         </div>
-        <!-- Blog Section End -->.
 
 
 

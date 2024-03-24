@@ -2,8 +2,6 @@
 
             <div class="footer-widget-section section-padding">
 
-                <img class="shape-01 animation-rotate" src="assets/images/shape/shape-9.png" alt="Shape">
-
                 <div class="container">
 
                     <div class="footer-widget-wrapper">
@@ -63,12 +61,6 @@
                                             <li><a href="#">Saturday: 9 AM – 4 PM</a></li>
                                             <li><a href="#">Sunday: Closed</a></li>
                                         </ul>
-
-                                        <div class="widget-location">
-                                            <h3 class="footer-widget-title">Location</h3>
-
-                                            <p>176 W street name, New <br> York, NY 10014</p>
-                                        </div>
                                     </div>
 
                                 </div>
@@ -77,8 +69,6 @@
                     </div>
 
                 </div>
-
-                <img class="shape-02 animation-rotate" src="assets/images/shape/shape-9.png" alt="Shape">
 
             </div>
             
