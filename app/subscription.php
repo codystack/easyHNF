@@ -30,12 +30,12 @@
                                                         <p class="text-sm text-muted d-none d-sm-block">The perfect way to get started.</p>
                                                     </div>
                                                     <div class="ms-sm-auto">
-                                                        <div class="align-items-center mt-5 mb-3 lh-none text-heading d-block display-5 ls-tight mb-0"><span class="fw-semibold text-2xl align-self-start mt-1 me-1">₦</span><span>30,000</span><span class="d-inline-block fw-normal text-muted text-lg mt-sm-3 ms-1">/ One-off</span></div>
+                                                        <div class="align-items-center mt-5 mb-3 lh-none text-heading d-block display-5 ls-tight mb-0"><span class="fw-semibold text-2xl align-self-start mt-1 me-1">₦</span><span>10,000</span><span class="d-inline-block fw-normal text-muted text-lg mt-sm-3 ms-1">/ month</span></div>
                                                     </div>
                                                 </div>
                                                 <hr class="my-4">
                                                 <div class="d-flex flex-wrap gap-2 align-items-center justify-content-between">
-                                                    <a href="#" class="text-muted text-dark-hover text-sm fw-semibold"><i class="bi bi-info-circle text-danger"></i> Plan features</a>
+                                                    <a href="" data-bs-target="#basicPlanModal" data-bs-toggle="modal" class="text-muted text-dark-hover text-sm fw-semibold"><i class="bi bi-info-circle text-danger"></i> Plan features</a>
                                                     <form id="paymentForm">
                                                         <div class="form-floating mb-3" style="display: none">
                                                             <input type="text" class="form-control" id="userID" placeholder="name@example.com" value="<?php echo $_SESSION['user_id']; ?>" disabled/>
@@ -78,12 +78,12 @@
                                                         <p class="text-sm text-muted d-none d-sm-block">The perfect way to get started.</p>
                                                     </div>
                                                     <div class="ms-sm-auto">
-                                                        <div class="align-items-center mt-5 mb-3 lh-none text-heading d-block display-5 ls-tight mb-0"><span class="fw-semibold text-2xl align-self-start mt-1 me-1">₦</span><span>300,000</span><span class="d-inline-block fw-normal text-muted text-lg mt-sm-3 ms-1">/ month</span></div>
+                                                        <div class="align-items-center mt-5 mb-3 lh-none text-heading d-block display-5 ls-tight mb-0"><span class="fw-semibold text-2xl align-self-start mt-1 me-1">₦</span><span>150,000</span><span class="d-inline-block fw-normal text-muted text-lg mt-sm-3 ms-1">/ month</span></div>
                                                     </div>
                                                 </div>
                                                 <hr class="my-4">
                                                 <div class="d-flex flex-wrap gap-2 align-items-center justify-content-between">
-                                                    <a href="#" class="text-muted text-dark-hover text-sm fw-semibold"><i class="bi bi-info-circle text-warning"></i> Plan features</a>
+                                                    <a href="" data-bs-target="#customizedPlanModal" data-bs-toggle="modal" class="text-muted text-dark-hover text-sm fw-semibold"><i class="bi bi-info-circle text-warning"></i> Plan features</a>
                                                     <form id="paymentFormCustomized">
                                                         <div class="form-floating mb-3" style="display: none">
                                                             <input type="text" class="form-control" id="userID" placeholder="name@example.com" value="<?php echo $_SESSION['user_id']; ?>" disabled/>
@@ -126,12 +126,12 @@
                                                         <p class="text-sm text-muted d-none d-sm-block">The perfect way to get started.</p>
                                                     </div>
                                                     <div class="ms-sm-auto">
-                                                        <div class="align-items-center mt-5 mb-3 lh-none text-heading d-block display-5 ls-tight mb-0"><span class="fw-semibold text-2xl align-self-start mt-1 me-1">₦</span><span>645,000</span><span class="d-inline-block fw-normal text-muted text-lg mt-sm-3 ms-1">/ month</span></div>
+                                                        <div class="align-items-center mt-5 mb-3 lh-none text-heading d-block display-5 ls-tight mb-0"><span class="fw-semibold text-2xl align-self-start mt-1 me-1">₦</span><span>450,000</span><span class="d-inline-block fw-normal text-muted text-lg mt-sm-3 ms-1">/ month</span></div>
                                                     </div>
                                                 </div>
                                                 <hr class="my-4">
                                                 <div class="d-flex flex-wrap gap-2 align-items-center justify-content-between">
-                                                    <a href="#" class="text-muted text-success-hover text-sm fw-semibold"><i class="bi bi-info-circle text-success"></i> Plan features</a> 
+                                                    <a href="" data-bs-target="#coachingPlanModal" data-bs-toggle="modal" class="text-muted text-success-hover text-sm fw-semibold"><i class="bi bi-info-circle text-success"></i> Plan features</a> 
                                                     <form id="paymentFormCoaching">
                                                         <div class="form-floating mb-3" style="display: none">
                                                             <input type="text" class="form-control" id="userID" placeholder="name@example.com" value="<?php echo $_SESSION['user_id']; ?>" disabled/>

@@ -45,7 +45,7 @@
                 </li>
 
                 <li class="nav-item my-1">
-                    <a class="nav-link d-flex align-items-center rounded-pill <?php if($page=='Meal Plan'){echo 'active';}?>" href="#"><i class="bi bi-book-fill"></i> <span>Meal Plans</span></a>
+                    <a class="nav-link d-flex align-items-center rounded-pill <?php if($page=='Meal Plan'){echo 'active';}?>" href="#"><i class="bi bi-book-fill"></i> <span>My Plan</span></a>
                 </li>
 
                 <li class="nav-item my-1">
