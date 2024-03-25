@@ -36,7 +36,7 @@
                 showConfirmButton: true,
                 confirmButtonText: 'Subscribe Now',
                 confirmButtonColor: '#FF3366',
-                timer: 4000
+                timer: 2000
             }).then(function() {
                     window.location = "./subscription";
                 });

@@ -24,9 +24,9 @@ function payWithPaystack(e) {
       alert('Window closed.');
     },
     callback: function(response){
-      let message = 'Payment complete! Reference: ' + response.reference;
+      //let message = 'Payment complete! Reference: ' + response.reference;
       //alert(message);
-      window.location = "https://easyhnf.com/app/verify_transaction?reference=" + response.reference; // Live Location
+      window.location = "./verify_transaction?reference=" + response.reference; // Live Location
       //window.location = "http://localhost/easyHNF/app/verify_transaction?reference=" + response.reference; // Demo Location
     }
   });
@@ -61,9 +61,9 @@ function payWithPaystackCustomized(e) {
       alert('Window closed.');
     },
     callback: function(response){
-      let message = 'Payment complete! Reference: ' + response.reference;
+      //let message = 'Payment complete! Reference: ' + response.reference;
       //alert(message);
-      window.location = "https://easyhnf.com/app/verify_transaction?reference=" + response.reference; // Live Location
+      window.location = "./verify_transaction?reference=" + response.reference; // Live Location
       //window.location = "http://localhost/easyHNF/app/verify_transaction?reference=" + response.reference; // Demo Location
     }
   });
@@ -98,9 +98,9 @@ function payWithPaystackCoaching(e) {
       alert('Window closed.');
     },
     callback: function(response){
-      let message = 'Payment complete! Reference: ' + response.reference;
+      //let message = 'Payment complete! Reference: ' + response.reference;
       //alert(message);
-      window.location = "https://easyhnf.com/app/verify_transaction?reference=" + response.reference; // Live Location
+      window.location = "./verify_transaction?reference=" + response.reference; // Live Location
       //window.location = "http://localhost/easyHNF/app/verify_transaction?reference=" + response.reference; // Demo Location
     }
   });
