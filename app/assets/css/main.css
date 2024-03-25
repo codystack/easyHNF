@@ -5681,3 +5681,7 @@ span.flatpickr-weekday {
     0%, 100% { stroke-opacity: 1; }
     100% { stroke-dashoffset: 0; }
 }
+
+.sweet-alert button:focus {
+    box-shadow: none;
+}

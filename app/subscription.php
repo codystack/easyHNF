@@ -105,10 +105,10 @@
                                                         </div>
                                                         <div class="input-group mb-3">
                                                             <div>
-                                                                <button class="btn btn-sm btn-danger" type="submit" onclick="payWithPaystackCustomized()" style="<?php if($subscription_plan == ""){echo 'display: unset';}elseif($subscription_plan == "Customized Plan"){echo 'display: none';}else{echo 'display: unset';}?>">Subscribe</button>
+                                                                <button class="btn btn-sm btn-warning text-white" type="submit" onclick="payWithPaystackCustomized()" style="<?php if($subscription_plan == ""){echo 'display: unset';}elseif($subscription_plan == "Customized Plan"){echo 'display: none';}else{echo 'display: unset';}?>">Subscribe</button>
                                                             </div>
                                                             <div>
-                                                                <button class="btn btn-sm btn-danger" type="button" disabled style="<?php if($subscription_plan == "Customized Plan"){echo 'display: unset';}else{echo 'display: none';}?>">Subscribed</button>
+                                                                <button class="btn btn-sm btn-warning text-white" type="button" disabled style="<?php if($subscription_plan == "Customized Plan"){echo 'display: unset';}else{echo 'display: none';}?>">Subscribed</button>
                                                             </div>
                                                         </div>
                                                     </form>
@@ -153,10 +153,10 @@
                                                         </div>
                                                         <div class="input-group mb-3">
                                                             <div>
-                                                                <button class="btn btn-sm btn-danger" type="submit" onclick="payWithPaystackCoaching()" style="<?php if($subscription_plan == ""){echo 'display: unset';}elseif($subscription_plan == "Nutrition Coaching Plan"){echo 'display: none';}else{echo 'display: unset';}?>">Subscribe</button>
+                                                                <button class="btn btn-sm btn-success text-white" type="submit" onclick="payWithPaystackCoaching()" style="<?php if($subscription_plan == ""){echo 'display: unset';}elseif($subscription_plan == "Nutrition Coaching Plan"){echo 'display: none';}else{echo 'display: unset';}?>">Subscribe</button>
                                                             </div>
                                                             <div>
-                                                                <button class="btn btn-sm btn-danger" type="button" disabled style="<?php if($subscription_plan == "Nutrition Coaching Plan"){echo 'display: unset';}else{echo 'display: none';}?>">Subscribed</button>
+                                                                <button class="btn btn-sm btn-success text-white" type="button" disabled style="<?php if($subscription_plan == "Nutrition Coaching Plan"){echo 'display: unset';}else{echo 'display: none';}?>">Subscribed</button>
                                                             </div>
                                                         </div>
                                                     </form>
