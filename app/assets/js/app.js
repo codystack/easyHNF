@@ -7,4 +7,4 @@ if (time < 12) {
 } else {
     greeting = "Good Evening";
 }
-document.getElementById("greet").innerHTML = greeting;
+document.getElementById("greetings").innerHTML = greeting;

@@ -12,7 +12,7 @@
                     <div class="mb-6 mb-xl-10">
                         <div class="row align-items-center">
                             <div class="">
-                                <h3 class="ls-tight"><span id="greet"></span>, <?php echo $_SESSION['first_name']; ?></h3>
+                                <h3 class="ls-tight"><span id="greetings"></span>, <?php echo $_SESSION['first_name']; ?></h3>
                             </div>
                             <div class="d-flex">
                                 <h2 class="ls-tight"></h2>
