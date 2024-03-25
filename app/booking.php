@@ -17,7 +17,7 @@
                     <div class="mb-0 mb-xl-0">
                         <div class="row g-3 align-items-center">
                             <div class="col">
-                                <h1 class="ls-tight">Book a Session</h1>
+                                <h2 class="ls-tight">Book a Session</h2>
                             </div>
                         </div>
                     </div>
