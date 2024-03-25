@@ -25,12 +25,12 @@
     </script>
 
     <?php
-        if (isset($_SESSION['bookking_error_message']))
+        if (isset($_SESSION['booking_error_message']))
         {
     ?>
         <script>
             Swal.fire({
-                text: "<?php echo $_SESSION['bookking_error_message']; ?>",
+                text: "<?php echo $_SESSION['booking_error_message']; ?>",
                 icon: "error",
                 showCancelButton: false,
                 showConfirmButton: true,
@@ -42,7 +42,7 @@
                 });
         </script>
     <?php
-            unset($_SESSION['bookking_error_message']);
+            unset($_SESSION['booking_error_message']);
         }
     ?>
 

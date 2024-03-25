@@ -2,10 +2,12 @@
     $page = "Branches";
     include "./components/header.php";
     require_once "./auth/userinfo.php";
-    if ($subscription_plan == "" || "Basic Plan") {
-        $_SESSION['bookking_error_message'] = "Upgrade your subscription to book a session";
+    if (!$subscription_plan) {
+        $_SESSION['booking_error_message'] = "Upgrade your subscription to book a session";
+    }elseif ($subscription_plan == "Basic Plan") {
+        $_SESSION['booking_error_message'] = "Upgrade your subscription to book a session";
     }else {
-
+        //Do Nothing
     }
 ?>
     <div class="d-flex flex-column flex-lg-row h-lg-100 gap-1">
