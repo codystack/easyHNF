@@ -35,20 +35,20 @@
                                                     $title = $row['title'];
                                                     $meal_image = $row['meal_image'];
                                         ?>
-                                            <div class="position-relative group-item-hover">
-                                                <img src="https://admin.easyhnf.com/<?php echo $meal_image; ?>" class="card-img-rounded" alt="...">
-                                                <div class="group-item rounded d-flex flex-column p-4 position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-25">
-                                                    <div class="mt-auto">
-                                                        <a href="view-meal?id=<?php echo $meal_id; ?>">
-                                                            <div class="gap-2"><span class="h4 text-md text-white"><?php echo $title; ?></span></div>
-                                                            <div class="gap-1 text-sm mb-2">
-                                                                <span class="text-white">Meal Code: <span class="text-white fw-bold"><?php echo $meal_code; ?></span></span> 
-                                                            </div>
-                                                        </a>
-                                                    </div>
+                                        <div class="position-relative group-item-hover">
+                                            <img src="https://admin.easyhnf.com/<?php echo $meal_image; ?>" class="card-img-rounded" alt="...">
+                                            <div class="group-item rounded d-flex flex-column p-4 position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-25">
+                                                <div class="mt-auto">
+                                                    <a href="view-meal?id=<?php echo $meal_id; ?>">
+                                                        <div class="gap-2"><span class="h4 text-md text-white"><?php echo $title; ?></span></div>
+                                                        <div class="gap-1 text-sm mb-2">
+                                                            <span class="text-white">Meal Code: <span class="text-white fw-bold"><?php echo $meal_code; ?></span></span> 
+                                                        </div>
+                                                    </a>
                                                 </div>
                                             </div>
-                                            <?php
+                                        </div>
+                                        <?php
                                                 }
                                             }
                                         ?>
