@@ -80,7 +80,7 @@ if (isset($_POST['user_login'])) {
             echo "<meta http-equiv='refresh' content='10; URL=contact'>";
         }elseif ($verified == 1){
             $_SESSION['success_message'] = "Login Successfull";
-            header('location: app/index');
+            header('location: app');
         }
     }else {
         $_SESSION['error_message'] = "Incorrect Login Details";

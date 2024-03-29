@@ -33,7 +33,7 @@
 
             <ul class="navbar-nav">
                 <li class="nav-item my-1">
-                    <a class="nav-link d-flex align-items-center rounded-pill <?php if($page=='Dashboard'){echo 'active';}?>" href="index"><i class="bi bi-grid-1x2-fill"></i> <span>Overview</span></a>
+                    <a class="nav-link d-flex align-items-center rounded-pill <?php if($page=='Dashboard'){echo 'active';}?>" href="./"><i class="bi bi-grid-1x2-fill"></i> <span>Overview</span></a>
                 </li>
 
                 <li class="nav-item my-1">
@@ -45,14 +45,11 @@
                 </li>
 
                 <li class="nav-item my-1">
-                    <a class="nav-link d-flex align-items-center rounded-pill <?php if($page=='My Plan' || $page=='All Meals'){echo 'active';}?>" href="#sidebarMyPlan" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarMyPlan"><i class="bi bi-book-fill"></i> <span>My Plan</span> 
-                    <span class="badge badge-sm rounded-pill me-n2 bg-success-subtle text-success ms-auto"></span></a>
-                    <div class="collapse" id="sidebarMyPlan">
-                        <ul class="nav nav-sm flex-column mt-1">
-                            <li class="nav-item"><a href="my-plan" class="nav-link <?php if($page=='My Plan'){echo 'fw-bold';}?>">View my plan</a></li>
-                            <li class="nav-item"><a href="all-meals" class="nav-link <?php if($page=='All Meals'){echo 'fw-bold';}?>">View all meals</a></li>
-                        </ul>
-                    </div>
+                    <a class="nav-link d-flex align-items-center rounded-pill <?php if($page=='My Plan'){echo 'active';}?>" href="my-plan"><i class="bi bi-book-fill"></i> <span>My Plan</span></a>
+                </li>
+
+                <li class="nav-item my-1">
+                    <a class="nav-link d-flex align-items-center rounded-pill <?php if($page=='All Meals'){echo 'active';}?>" href="all-meals"><i class="bi bi-egg-fried"></i> <span>All Meals</span></a>
                 </li>
 
                 <li class="nav-item my-1">
