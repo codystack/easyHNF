@@ -23,25 +23,8 @@
                         $instructions = $row['instructions'];
                         $notes = $row['notes'];
                         $nutrition = $row['nutrition'];
-                        $status = $row['status'];
-                        $invoice_id = $row['invoice_id'];
-                        $date = strtotime($subscription_date);
-                        switch ($status) {
-                            case "failed";
-                                $class  = 'bg-danger';
-                                $text  = 'text-danger';
-                                break;
-                            case "success";
-                                $class  = 'bg-success';
-                                $text  = 'text-success';
-                                break;
-                            case "pending";
-                                $class  = 'bg-warning';
-                                $text  = 'text-warning';
-                                break;
-                            default:
-                                $class  = '';
-                        }
+                        $short_description = $row['short_description'];
+                        $long_description = $row['long_description'];
                 ?>
                 <main class="container-fluid" style="padding: unset">
                     <div class="mb-6 mb-xl-10" style="background-image: url(https://admin.easyhnf.com/<?php echo $meal_image; ?>);height: 400px;background-repeat: no-repeat;background-position: center;background-size: cover;">
@@ -64,7 +47,7 @@
                             </div>
                             <div class="col">
                                 <div class="hstack justify-content-end">
-                                    <div class="d-flex wprm-decoration-line" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
+                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
                                 </div>
                             </div>
                             <div class="mb-20 mt-5">
@@ -76,7 +59,7 @@
                             </div>
                             <div class="col">
                                 <div class="hstack justify-content-end">
-                                    <div class="d-flex wprm-decoration-line" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
+                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
                                 </div>
                             </div>
                             <div class="mb-20 mt-5">
@@ -88,7 +71,7 @@
                             </div>
                             <div class="col">
                                 <div class="hstack justify-content-end">
-                                    <div class="d-flex wprm-decoration-line" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
+                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
                                 </div>
                             </div>
                             <div class="mb-20 mt-5">
@@ -100,11 +83,35 @@
                             </div>
                             <div class="col">
                                 <div class="hstack justify-content-end">
-                                    <div class="d-flex wprm-decoration-line" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
+                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
                                 </div>
                             </div>
                             <div class="mb-20 mt-5">
                                <?php echo $nutrition; ?>
+                            </div>
+
+                            <div class="col-sm-4 col-12" style="display: <?php if (!$short_description) { echo = "none"}else { echo = "unset"}?>">
+                                <h2 class="ls-tight">Short Description</h2>
+                            </div>
+                            <div class="col">
+                                <div class="hstack justify-content-end">
+                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
+                                </div>
+                            </div>
+                            <div class="mb-20 mt-5">
+                               <?php echo $short_description; ?>
+                            </div>
+
+                            <div class="col-sm-4 col-12">
+                                <h2 class="ls-tight">Long Description</h2>
+                            </div>
+                            <div class="col">
+                                <div class="hstack justify-content-end">
+                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
+                                </div>
+                            </div>
+                            <div class="mb-20 mt-5">
+                               <?php echo $long_description; ?>
                             </div>
                         </div>
                    </div>
@@ -118,7 +125,5 @@
     </div>
 
 <?php
-include "./components/modals.php";
-include "./components/delete-modals.php";
 include "./components/footer.php"; 
 ?>
