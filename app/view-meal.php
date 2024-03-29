@@ -17,9 +17,9 @@
                     while($row = mysqli_fetch_assoc($result)) {
                         $meal_id = $row['meal_id'];
                         $meal_image = $row['meal_image'];
-                        $amount = $row['amount'];
-                        $subscription_date = $row['subscription_date'];
-                        $payment_method = $row['payment_method'];
+                        $title = $row['title'];
+                        $meal_code = $row['meal_code'];
+                        $instructions = $row['instructions'];
                         $status = $row['status'];
                         $invoice_id = $row['invoice_id'];
                         $date = strtotime($subscription_date);
@@ -41,7 +41,7 @@
                         }
                 ?>
                 <main class="container-fluid" style="padding: unset">
-                    <div class="mb-6 mb-xl-10" style="    background-image: url(https://admin.easyhnf.com/<?php echo $meal_image; ?>);height: 400px;background-repeat: no-repeat;background-position: center;background-size: cover;">
+                    <div class="mb-6 mb-xl-10" style="background-image: url(https://admin.easyhnf.com/upload/9B2BDC07-B965-4D74-B459-44272950AD08.jpg);height: 400px;background-repeat: no-repeat;background-position: center;background-size: cover;">
                         <div class="row g-3 align-items-center">
                             <div class="col">
                                 
@@ -49,22 +49,25 @@
                         </div>
                     </div>
     
-                    <div class="row g-3 g-xxl-6">
-                        <div class="col-xxl-12">
-                            <div class="vstack gap-6">
-                                <div class="row g-6">
-                                    <div class="col-xl-3 col-sm-6">
-                                    
-                                        
-                                    </div>
-                                    
-                                </div>
-                                <div class="text-center mt-5">
-                                    <a href="" class="btn btn-lg btn-dark">View All Meals</a>
+                   <div class="container px-16">
+                        <div class="row align-items-center">
+                            <div class="text-center mb-10 mt-5">
+                               <h1><?php echo $title; ?></h1>
+                               <h5>Meal Code: <?php echo $meal_code; ?></h5>
+                            </div>
+                            <div class="col-sm-4 col-12">
+                                <h2 class="ls-tight">Instructions</h2>
+                            </div>
+                            <div class="col">
+                                <div class="hstack justify-content-end">
+                                    <div class="d-flex wprm-decoration-line" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
                                 </div>
                             </div>
+                            <div class="mb-10 mt-5">
+                               <?php echo $instructions; ?>
+                            </div>
                         </div>
-                    </div>
+                   </div>
                 </main>
                 <?php 
                     }
