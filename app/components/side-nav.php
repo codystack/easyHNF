@@ -33,7 +33,7 @@
 
             <ul class="navbar-nav">
                 <li class="nav-item my-1">
-                    <a class="nav-link d-flex align-items-center rounded-pill <?php if($page=='Dashboard'){echo 'active';}?>" href="./"><i class="bi bi-grid-1x2-fill"></i> <span>Overview</span></a>
+                    <a class="nav-link d-flex align-items-center rounded-pill <?php if($page=='Dashboard'){echo 'active';}?>" href="index"><i class="bi bi-grid-1x2-fill"></i> <span>Overview</span></a>
                 </li>
 
                 <li class="nav-item my-1">
