@@ -31,7 +31,7 @@
                         <div class="container mw-screen-xl">
                             <div class="py-10 rounded-5 px-lg-16 text-center text-md-start" style="background-image: url('./assets/img/communitybg.jpg'); background-repeat: no-repeat; background-size: cover;">
                                 <div class="row justify-content-center">
-                                    <div class="col-12 col-md-10 col-lg-8 text-center">
+                                    <div class="col-12 col-md-12 col-lg-12 text-center">
                                         <h3 class="ls-tight fw-bolder display-4 mb-5 text-white">Expert tips & tricks</h3>
                                         <p class="lead text-white opacity-8 mb-10">Connect with others who share your goals and get motivated by their success stories.</p>
                                         <div class="mx-n2">
@@ -83,7 +83,7 @@
                                 </div> -->
 
 
-                                <div class="card">
+                                <!-- <div class="card">
                                     <div class="card-body pb-0">
                                         <div class="d-flex justify-content-between align-items-center">
                                             <div>
@@ -152,7 +152,7 @@
                                             </table>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
 
                             </div>
                         </div>
