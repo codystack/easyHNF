@@ -19,7 +19,10 @@
                         $meal_image = $row['meal_image'];
                         $title = $row['title'];
                         $meal_code = $row['meal_code'];
+                        $ingredients = $row['ingredients'];
                         $instructions = $row['instructions'];
+                        $notes = $row['notes'];
+                        $nutrition = $row['nutrition'];
                         $status = $row['status'];
                         $invoice_id = $row['invoice_id'];
                         $date = strtotime($subscription_date);
@@ -41,7 +44,7 @@
                         }
                 ?>
                 <main class="container-fluid" style="padding: unset">
-                    <div class="mb-6 mb-xl-10" style="background-image: url(https://admin.easyhnf.com/upload/9B2BDC07-B965-4D74-B459-44272950AD08.jpg);height: 400px;background-repeat: no-repeat;background-position: center;background-size: cover;">
+                    <div class="mb-6 mb-xl-10" style="background-image: url(https://admin.easyhnf.com/<?php echo $meal_image; ?>);height: 400px;background-repeat: no-repeat;background-position: center;background-size: cover;">
                         <div class="row g-3 align-items-center">
                             <div class="col">
                                 
@@ -53,18 +56,55 @@
                         <div class="row align-items-center">
                             <div class="text-center mb-10 mt-5">
                                <h1><?php echo $title; ?></h1>
-                               <h5>Meal Code: <?php echo $meal_code; ?></h5>
+                               <h5 class="mt-2">Meal Code: <?php echo $meal_code; ?></h5>
                             </div>
+
                             <div class="col-sm-4 col-12">
-                                <h2 class="ls-tight">Instructions</h2>
+                                <h2 class="ls-tight">Ingredients</h2>
                             </div>
                             <div class="col">
                                 <div class="hstack justify-content-end">
                                     <div class="d-flex wprm-decoration-line" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
                                 </div>
                             </div>
-                            <div class="mb-10 mt-5">
+                            <div class="mb-20 mt-5">
+                               <?php echo $ingredients; ?>
+                            </div>
+
+                            <div class="col-sm-4 col-12">
+                                <h2 class="ls-tight">Direction</h2>
+                            </div>
+                            <div class="col">
+                                <div class="hstack justify-content-end">
+                                    <div class="d-flex wprm-decoration-line" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
+                                </div>
+                            </div>
+                            <div class="mb-20 mt-5">
                                <?php echo $instructions; ?>
+                            </div>
+
+                            <div class="col-sm-4 col-12">
+                                <h2 class="ls-tight">Notes</h2>
+                            </div>
+                            <div class="col">
+                                <div class="hstack justify-content-end">
+                                    <div class="d-flex wprm-decoration-line" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
+                                </div>
+                            </div>
+                            <div class="mb-20 mt-5">
+                               <?php echo $notes; ?>
+                            </div>
+
+                            <div class="col-sm-4 col-12">
+                                <h2 class="ls-tight">Nutrition Info</h2>
+                            </div>
+                            <div class="col">
+                                <div class="hstack justify-content-end">
+                                    <div class="d-flex wprm-decoration-line" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
+                                </div>
+                            </div>
+                            <div class="mb-20 mt-5">
+                               <?php echo $nutrition; ?>
                             </div>
                         </div>
                    </div>
