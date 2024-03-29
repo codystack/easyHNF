@@ -2085,6 +2085,10 @@ progress {
     border-top-right-radius: var(--x-card-inner-border-radius)
 }
 
+.card-img-rounded {
+    border-radius: var(--x-card-inner-border-radius);
+}
+
 .accordion {
     --x-accordion-color: var(--x-body-color);
     --x-accordion-bg: transparent;
