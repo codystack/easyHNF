@@ -27,7 +27,7 @@
                         $long_description = $row['long_description'];
                 ?>
                 <main class="container-fluid" style="padding: unset">
-                    <div class="mb-6 mb-xl-10" style="background-image: url(https://admin.easyhnf.com/<?php echo $meal_image; ?>);height: 400px;background-repeat: no-repeat;background-position: center;background-size: cover;">
+                    <div class="mb-6 mb-xl-10" style="background-image: url(https://admin.easyhnf.com/<?php echo $meal_image; ?>);height: 800px;background-repeat: no-repeat;background-position: center;background-size: cover;">
                         <div class="row g-3 align-items-center">
                             <div class="col">
                                 
