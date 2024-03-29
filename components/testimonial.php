@@ -1,9 +1,9 @@
         <div class="section section-padding testimonial-section testimonial-active">
-            
+
             <div class="container">
 
                 <div class="section-title section-title-white">
-                    <h6 class="sub-title">happy students</h6>
+                    <!-- <h6 class="sub-title">happy students</h6> -->
                     <h2 class="main-title">What Client Say About Us</h2>
                 </div>
 
