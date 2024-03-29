@@ -12,10 +12,33 @@
                     <div class="mb-6 mb-xl-10">
                         <div class="row align-items-center">
                             <div class="">
-                                <h3 class="ls-tight"><span id="greetings"></span>, <?php echo $_SESSION['first_name']; ?></h3>
+                                <h3 class="ls-tight">Hey, <?php echo $_SESSION['first_name']; ?></h3>
+                                <h5 class="text-dark mt-0 lead" id="greet"></h5>
                             </div>
                             <div class="d-flex">
                                 <h2 class="ls-tight"></h2>
+                            </div>
+                        </div>
+
+                        <div class="mt-10">
+                            <div class="alert alert-success text-center" role="alert">Hey there, we just curated new meals just for you, <a href="my-meals" class="text-dark fw-bold">Click Here</a> to check them out</div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="py-lg-10">
+                        <div class="container mw-screen-xl">
+                            <div class="py-10 rounded-5 px-lg-16 text-center text-md-start" style="background-image: url('./assets/img/communitybg.jpg'); background-repeat: no-repeat; background-size: cover;">
+                                <div class="row justify-content-center">
+                                    <div class="col-12 col-md-10 col-lg-8 text-center">
+                                        <h3 class="ls-tight fw-bolder display-4 mb-5 text-white">Expert tips & tricks</h3>
+                                        <p class="lead text-white opacity-8 mb-10">Connect with others who share your goals and get motivated by their success stories.</p>
+                                        <div class="mx-n2">
+                                            <a href="" class="btn btn-lg btn-light mx-2 px-lg-8">Join our community</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

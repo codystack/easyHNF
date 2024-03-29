@@ -7,10 +7,24 @@
     <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
     <script src="assets/js/pay.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/app.js"></script>
     <script src="assets/js/delete.js"></script>
     <script src="assets/js/view.js"></script>
     <script src="assets/js/switcher.js"></script>
+
+    <script>
+        //Greet User
+        var time = new Date().getHours();
+        if (time < 4) {
+            greeting = "You should be in bed 🙄!";
+        }  else if (time < 12) {
+            greeting = "Good morning, wash your hands 🌤";
+        } else if (time < 16) {
+            greeting = "It's lunch 🍛 time, what's on the menu!";
+        } else {
+            greeting = "Good Evening 🌙, how was your day?";
+        }
+        document.getElementById("greet").innerHTML = greeting;
+    </script>
    
 
     <script>

@@ -1,4 +1,3 @@
-<!-- <meta http-equiv="refresh" content="5;url=wallet" /> -->
 <?php
     if ($_GET['status'] !== "success") {
         header("location:javascript://history.go(-1)");
@@ -6,7 +5,6 @@
 
     $page = "Subscription";
     include "./components/header.php";
-    require_once "./auth/delete.php";
 ?>
     <div class="d-flex flex-column flex-lg-row h-lg-100 gap-1">
         <?php include "./components/side-nav.php"; ?>

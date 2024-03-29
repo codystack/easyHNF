@@ -45,7 +45,14 @@
                 </li>
 
                 <li class="nav-item my-1">
-                    <a class="nav-link d-flex align-items-center rounded-pill <?php if($page=='Meal Plan'){echo 'active';}?>" href="#"><i class="bi bi-book-fill"></i> <span>My Plan</span></a>
+                    <a class="nav-link d-flex align-items-center rounded-pill <?php if($page=='My Plan' || $page=='All Meals'){echo 'active';}?>" href="#sidebar-media" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebar-media"><i class="bi bi-book-fill"></i> <span>My Plan</span> 
+                    <span class="badge badge-sm rounded-pill me-n2 bg-success-subtle text-success ms-auto"></span></a>
+                    <div class="collapse" id="sidebar-media">
+                        <ul class="nav nav-sm flex-column mt-1">
+                            <li class="nav-item"><a href="my-plan" class="nav-link <?php if($page=='My Plan'){echo 'fw-bold';}?>">View my plan</a></li>
+                            <li class="nav-item"><a href="all-meals" class="nav-link <?php if($page=='All Meals'){echo 'fw-bold';}?>">View all meals</a></li>
+                        </ul>
+                    </div>
                 </li>
 
                 <li class="nav-item my-1">

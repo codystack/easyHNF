@@ -29,6 +29,47 @@ if (isset($_GET['logout'])) {
     <link rel="stylesheet" href="assets/css/datatable.css">
     <link rel="stylesheet" href="assets/css/font/fonts.css">
     <link rel="icon" type="image/png" href="assets/img/easy-favicon.png">
+
+    <style>
+        @supports (animation: grow .5s cubic-bezier(.25, .25, .25, 1) forwards) {
+            .tick {
+                stroke-opacity: 0;
+                stroke-dasharray: 29px;
+                stroke-dashoffset: 29px;
+                animation: draw .5s cubic-bezier(.25, .25, .25, 1) forwards;
+                animation-delay: .6s
+            }
+
+            .circle {
+                fill-opacity: 0;
+                stroke: #219a00;
+                stroke-width: 16px;
+                transform-origin: center;
+                transform: scale(0);
+                animation: grow 1s cubic-bezier(.25, .25, .25, 1.25) forwards;
+            }
+        }
+
+        @keyframes grow {
+            60% {
+                transform: scale(.8);
+                stroke-width: 4px;
+                fill-opacity: 0;
+            }
+            100% {
+                transform: scale(.9);
+                stroke-width: 8px;
+                fill-opacity: 1;
+                fill: #219a00;
+            }
+        }
+
+        @keyframes draw {
+            0%, 100% { stroke-opacity: 1; }
+            100% { stroke-dashoffset: 0; }
+        }
+
+    </style>
 </head>
 
 <body class="bg-body-tertiary">

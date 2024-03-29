@@ -50,12 +50,6 @@
                             <div class=""><input type="text" value="<?php echo $phone; ?>" class="form-control" disabled></div>
                         </div>
                     </div>
-                    <div class="row align-items-center mb-10">
-                        <div class="col-md-2"><label class="form-label">Designation</label></div>
-                        <div class="col-md-8 col-xl-5">
-                            <div class=""><input type="text" value="<?php echo $designation; ?>" class="form-control" disabled></div>
-                        </div>
-                    </div>
                     <hr class="my-6 ">
                     <div class="d-flex justify-content-end gap-2 mb-6">
                         <a  href="support" class="btn btn-lg btn-dark">Update Account</a>
