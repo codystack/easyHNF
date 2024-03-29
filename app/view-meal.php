@@ -90,7 +90,7 @@
                                <?php echo $nutrition; ?>
                             </div>
 
-                            <div class="col-sm-4 col-12" style="display: <?php if (!$short_description) { echo "none"}else { echo "unset"}?>">
+                            <div class="col-sm-4 col-12" style="display: <?php if (!$short_description) { echo 'none';}else { echo 'unset';}; ?>">
                                 <h2 class="ls-tight">Short Description</h2>
                             </div>
                             <div class="col">
