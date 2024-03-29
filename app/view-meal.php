@@ -93,24 +93,24 @@
                             <div class="col-sm-4 col-12" style="display: <?php if (!$short_description) { echo 'none';}else { echo 'unset';}; ?>">
                                 <h2 class="ls-tight">Short Description</h2>
                             </div>
-                            <div class="col">
+                            <div class="col" style="display: <?php if (!$short_description) { echo 'none';}else { echo 'unset';}; ?>">
                                 <div class="hstack justify-content-end">
                                     <div class="d-flex" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
                                 </div>
                             </div>
-                            <div class="mb-20 mt-5">
+                            <div class="mb-20 mt-5" style="display: <?php if (!$short_description) { echo 'none';}else { echo 'unset';}; ?>">
                                <?php echo $short_description; ?>
                             </div>
 
-                            <div class="col-sm-4 col-12">
+                            <div class="col-sm-4 col-12" style="display: <?php if (!$long_description) { echo 'none';}else { echo 'unset';}; ?>">
                                 <h2 class="ls-tight">Long Description</h2>
                             </div>
                             <div class="col">
-                                <div class="hstack justify-content-end">
+                                <div class="hstack justify-content-end" style="display: <?php if (!$long_description) { echo 'none';}else { echo 'unset';}; ?>">
                                     <div class="d-flex" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
                                 </div>
                             </div>
-                            <div class="mb-20 mt-5">
+                            <div class="mb-20 mt-5" style="display: <?php if (!$long_description) { echo 'none';}else { echo 'unset';}; ?>">
                                <?php echo $long_description; ?>
                             </div>
                         </div>
