@@ -36,7 +36,7 @@
                                                     $meal_image = $row['meal_image'];
                                         ?>
                                             <div class="position-relative group-item-hover">
-                                                <img src="http://localhost/easyhnf-admin/<?php echo $meal_image; ?>" class="card-img-rounded" alt="...">
+                                                <img src="https://admin.easyhnf.com/<?php echo $meal_image; ?>" class="card-img-rounded" alt="...">
                                                 <div class="group-item rounded d-flex flex-column p-4 position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-25">
                                                     <div class="mt-auto">
                                                         <div class="gap-2"><span class="h4 text-md text-white"><?php echo $title; ?></span></div>
@@ -54,26 +54,6 @@
                                         </div>
                                         
                                     </div>
-
-                                    <!-- <div class="col-xl-3 col-sm-6">
-                                        <div class="card">
-                                            <div class="position-relative group-item-invisible group-item-visible-hover">
-                                                <img src="./upload/keto.jpeg" class="card-img-top" alt="...">
-                                                <div class="group-item rounded-top d-flex flex-column p-4 position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-25">
-                                                    <div class="text-center mt-auto">
-                                                        <a href="view-meal" class="btn btn-sm btn-danger">View Meal</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-body p-3 text-center">
-                                                <div class="text-center gap-2"><span class="h4 text-md">Greek Yogurt</span></div>
-                                                <div class="text-sm text-muted my-1">Little description</div>
-                                                <div class="text-center gap-1 text-sm">
-                                                    <span class="text-muted">Meal Code: <span class="text-heading fw-bold">M002</span></span> 
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> -->
                                     
                                 </div>
                                 <div class="text-center mt-5">
