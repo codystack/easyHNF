@@ -19,11 +19,14 @@
                                 <h2 class="ls-tight"></h2>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="mt-10">
-                            <div class="alert alert-success text-center" role="alert">Hey there, we just curated new meals just for you, <a href="my-meals" class="text-dark fw-bold">Click Here</a> to check them out</div>
+                    <div class="py-lg-10 mb-10">
+                        <div class="container ">
+                            <div style="display: <?php if (!$subscription_plan){ echo 'unset';}else{ echo 'none';}?>">
+                                <div class="alert alert-warning text-center" role="alert">Hey, <a href="subscription" class="fw-bold text-dark">Click Here</a> to subscribe to a plan to start enjoying the healthy life.</div>
+                            </div>
                         </div>
-
                     </div>
 
 

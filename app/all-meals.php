@@ -1,7 +1,12 @@
 <?php
     $page = "All Meals";
     include "./components/header.php";
-    require_once "./auth/delete.php";
+    require_once "./auth/userinfo.php";
+    if (!$subscription_plan) {
+        $_SESSION['sub_error_message'] = "Upgrade your subscription to book a session";
+    }else {
+        //Do Nothing
+    }
 ?>
     <div class="d-flex flex-column flex-lg-row h-lg-100 gap-1">
         <?php include "./components/side-nav.php"; ?>
@@ -17,7 +22,7 @@
                         </div>
                     </div>
     
-                    <div class="row g-3 g-xxl-6">
+                    <div class="row g-3 g-xxl-6" style=" display: <?php if (!$subscription_plan){ echo 'none';}else { echo 'unset';}?>">
                         <div class="col-xxl-12">
                             <div class="vstack gap-6">
                                 <div class="row g-6">
@@ -59,7 +64,8 @@
                                     
                                 </div>
                                 <div class="text-center mt-5">
-                                    <a href="" class="btn btn-lg btn-dark">View All Meals</a>
+                                    <button  class="btn btn-lg btn-dark" type="button" style="display: <?php if (!$subscription_plan){ echo 'none';}elseif ($subscription_plan == "Basic Plan"){ echo 'none';}else{ echo 'unset';}?>">View All Meals</button>
+                                    <a href="subscription"  class="btn btn-lg btn-danger" style="display: <?php if ($subscription_plan == "Basic Plan"){ echo 'unset';}else{ echo 'none';}?>">Upgrade Subscription</a>
                                 </div>
                             </div>
                         </div>

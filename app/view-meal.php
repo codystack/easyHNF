@@ -42,12 +42,12 @@
                                <h5 class="mt-2">Meal Code: <?php echo $meal_code; ?></h5>
                             </div>
 
-                            <div class="col-sm-4 col-12">
-                                <h2 class="ls-tight">Ingredients</h2>
-                            </div>
-                            <div class="col">
+                            <div class="d-flex col-12">
+                                <div class="text-start">
+                                    <h2 class="ls-tight">Ingredients</h2>
+                                </div>
                                 <div class="hstack justify-content-end">
-                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
+                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 0.1px solid #0f172a; */background-color: #0f172a;"></div>
                                 </div>
                             </div>
                             <div class="mb-20 mt-5">
@@ -59,7 +59,7 @@
                             </div>
                             <div class="col">
                                 <div class="hstack justify-content-end">
-                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
+                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 0.1px solid #0f172a; */background-color: #0f172a;"></div>
                                 </div>
                             </div>
                             <div class="mb-20 mt-5">
@@ -71,7 +71,7 @@
                             </div>
                             <div class="col">
                                 <div class="hstack justify-content-end">
-                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
+                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 0.1px solid #0f172a; */background-color: #0f172a;"></div>
                                 </div>
                             </div>
                             <div class="mb-20 mt-5">
@@ -83,7 +83,7 @@
                             </div>
                             <div class="col">
                                 <div class="hstack justify-content-end">
-                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
+                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 0.1px solid #0f172a; */background-color: #0f172a;"></div>
                                 </div>
                             </div>
                             <div class="mb-20 mt-5">
@@ -95,7 +95,7 @@
                             </div>
                             <div class="col" style="display: <?php if (!$short_description) { echo 'none';}else { echo 'unset';}; ?>">
                                 <div class="hstack justify-content-end">
-                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
+                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 0.1px solid #0f172a; */background-color: #0f172a;"></div>
                                 </div>
                             </div>
                             <div class="mb-20 mt-5" style="display: <?php if (!$short_description) { echo 'none';}else { echo 'unset';}; ?>">
@@ -107,7 +107,7 @@
                             </div>
                             <div class="col">
                                 <div class="hstack justify-content-end" style="display: <?php if (!$long_description) { echo 'none';}else { echo 'unset';}; ?>">
-                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 1px solid #0f172a; */background-color: #0f172a;"></div>
+                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 0.1px solid #0f172a; */background-color: #0f172a;"></div>
                                 </div>
                             </div>
                             <div class="mb-20 mt-5" style="display: <?php if (!$long_description) { echo 'none';}else { echo 'unset';}; ?>">

@@ -53,11 +53,11 @@
                 </li>
 
                 <li class="nav-item my-1">
-                    <a class="nav-link d-flex align-items-center rounded-pill <?php if($page=='Podcast'){echo 'active';}?>" href="#"><i class="bi bi-collection-play-fill"></i> <span>Podcast</span></a>
+                    <a class="nav-link d-flex align-items-center rounded-pill <?php if($page=='Podcast'){echo 'active';}?>" href="podcast"><i class="bi bi-collection-play-fill"></i> <span>Podcast</span></a>
                 </li>
 
                 <li class="nav-item my-1">
-                    <a class="nav-link d-flex align-items-center rounded-pill <?php if($page=='Support'){echo 'active';}?>" href="#"><i class="bi bi-headset"></i> <span>Support</span> 
+                    <a class="nav-link d-flex align-items-center rounded-pill" href="javascript:void(Tawk_API.toggle())"><i class="bi bi-headset"></i> <span>Support</span> 
                         <span class="badge badge-sm rounded-pill me-n2 bg-success-subtle text-success ms-auto"></span>
                     </a>
                 </li>

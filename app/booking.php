@@ -3,9 +3,9 @@
     include "./components/header.php";
     require_once "./auth/userinfo.php";
     if (!$subscription_plan) {
-        $_SESSION['booking_error_message'] = "Upgrade your subscription to book a session";
+        $_SESSION['sub_error_message'] = "Upgrade your subscription to book a session";
     }elseif ($subscription_plan == "Basic Plan") {
-        $_SESSION['booking_error_message'] = "Upgrade your subscription to book a session";
+        $_SESSION['sub_error_message'] = "Upgrade your subscription to book a session";
     }else {
         //Do Nothing
     }
@@ -24,7 +24,7 @@
                         </div>
                     </div>
 
-                    <div class="row g-3 g-xxl-6 mt-0">
+                    <div class="row g-3 g-xxl-6 mt-0" style=" display: <?php if (!$subscription_plan){ echo 'none';}elseif ($subscription_plan == "Basic Plan"){ echo 'none';}else{ echo 'unset';}?>">
                         <div class="col-xxl-12 mt-0">
                             <div class="calendly-inline-widget mb-0 mt-0" style="min-width:320px; height:630px;" data-url="https://calendly.com/easyhnf"></div>
                         </div>
@@ -35,6 +35,5 @@
     </div>
 
 <?php 
-include "./components/modals.php";
 include "./components/footer.php"; 
 ?>

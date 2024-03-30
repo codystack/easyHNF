@@ -11,6 +11,20 @@
     <script src="assets/js/view.js"></script>
     <script src="assets/js/switcher.js"></script>
 
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/660807b3a0c6737bd1267a8e/1hq7ls5s0';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+
     <script>
         //Greet User
         var time = new Date().getHours();
@@ -39,24 +53,24 @@
     </script>
 
     <?php
-        if (isset($_SESSION['booking_error_message']))
+        if (isset($_SESSION['sub_error_message']))
         {
     ?>
         <script>
             Swal.fire({
-                text: "<?php echo $_SESSION['booking_error_message']; ?>",
+                text: "<?php echo $_SESSION['sub_error_message']; ?>",
                 icon: "error",
                 showCancelButton: false,
                 showConfirmButton: true,
                 confirmButtonText: 'Subscribe Now',
                 confirmButtonColor: '#FF3366',
-                timer: 2000
+                timer: 4000
             }).then(function() {
                     window.location = "./subscription";
                 });
         </script>
     <?php
-            unset($_SESSION['booking_error_message']);
+            unset($_SESSION['sub_error_message']);
         }
     ?>
 
