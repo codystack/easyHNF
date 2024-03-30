@@ -13,32 +13,42 @@
 
                             <div class="single-testimonial swiper-slide">
                                 <div class="testimonial-author">
-                                    <img src="assets/images/author/author-01.jpg" alt="Author">
                                     <i class="flaticon-left-quote"></i>
                                 </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing typesetting industry has been the industry's standard dummy text ever ince the 1500s when unknown printer took a galley of type and scrambled it to</p>
-                                <h4 class="name">Pollock Austin</h4>
-                                <span class="designation">UI/UX DESIGNER</span>
+                                <p>Being on the plan was super useful in helping stay on track with my weightloss goals. The team was also willing to help switch our meals on request</p>
+                                <h4 class="name">Tolu</h4>
                             </div>
 
                             <div class="single-testimonial swiper-slide">
                                 <div class="testimonial-author">
-                                    <img src="assets/images/author/author-02.jpg" alt="Author">
                                     <i class="flaticon-left-quote"></i>
                                 </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing typesetting industry has been the industry's standard dummy text ever ince the 1500s when unknown printer took a galley of type and scrambled it to</p>
-                                <h4 class="name">Pollock Austin</h4>
-                                <span class="designation">UI/UX DESIGNER</span>
+                                <p>First off it’s the customer service!!! It’s something we normally don’t get here in these parts and EasyHNF does it seamlessly, the exceptional service cascades down to them. Then the food, makes you wonder why you haven’t been eating that healthy all your life. It’s not boring and you can tell it was prepared in the most hygienic setting/way. I genuinely hope more people find this brand! They change your relationship with food.</p>
+                                <h4 class="name">Nkechi</h4>
                             </div>
 
                             <div class="single-testimonial swiper-slide">
                                 <div class="testimonial-author">
-                                    <img src="assets/images/author/author-03.jpg" alt="Author">
                                     <i class="flaticon-left-quote"></i>
                                 </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing typesetting industry has been the industry's standard dummy text ever ince the 1500s when unknown printer took a galley of type and scrambled it to</p>
-                                <h4 class="name">Pollock Austin</h4>
-                                <span class="designation">UI/UX DESIGNER</span>
+                                <p>My reason for buying a meal plan was to remove the stress of deciding what to eat. Buying a healthy meal plan was a welcome addition. I never liked the idea of couscous and bulgur as a meal, because they are uninteresting to eat, but the way you prepared it changed my mind</p>
+                                <h4 class="name">Oluwatobi</h4>
+                            </div>
+
+                            <div class="single-testimonial swiper-slide">
+                                <div class="testimonial-author">
+                                    <i class="flaticon-left-quote"></i>
+                                </div>
+                                <p>Great improvement, I lost 6 kg in 5 days I always look foward to the next meal it’s fun and interesting, it saves me stress of thinking of what to eat the next day..Am also impressed with the deliveries the fact that they keep to the exact time I was given is top notch.. thank You</p>
+                                <h4 class="name">Precious</h4>
+                            </div>
+
+                            <div class="single-testimonial swiper-slide">
+                                <div class="testimonial-author">
+                                    <i class="flaticon-left-quote"></i>
+                                </div>
+                                <p>It was a great experience. I wish I had been more disciplined. I lost about 3kg and my bloating disappeared. The meal is delicious. I’ll definitely be returning, I’m hoping I could get a customized service this time.</p>
+                                <h4 class="name">Philippa</h4>
                             </div>
 
                         </div>

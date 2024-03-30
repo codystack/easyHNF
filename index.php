@@ -109,7 +109,7 @@
                 <div class="row align-items-center gx-xxl-5">
                     <div class="col-lg-5">
                         <div class="about-images">
-                            <img src="assets/images/get-shape.png" alt="shape" class="shape">
+                            <img src="assets/images/get-shape2.png" alt="shape" class="shape">
                             <div class="images">
                                 <img src="assets/images/coach.jpeg" alt="About">
                             </div>
@@ -141,8 +141,8 @@
         <div class="container">
 
             <div class="section-title">
-                <h6 class="sub-title">100+ courses available</h6>
-                <h2 class="main-title">Fitness & Nutrition Courses</h2>
+                <!-- <h6 class="sub-title">100+ courses available</h6> -->
+                <h2 class="main-title">We cater to different nutrition goals</h2>
             </div>
 
             <div class="courses-wrapper">
@@ -151,19 +151,11 @@
 
                         <div class="single-courses">
                             <div class="courses-images">
-                                <a href="courses-details-left-sidebar.html"><img src="assets/images/courses/courses-1.jpg" alt="courses"></a>
+                                <a href="courses-details-left-sidebar.html"><img src="assets/images/courses/high-protein.jpg" alt="courses"></a>
                             </div>
                             <div class="courses-content">
-                                <div class="courses-price">
-                                    <span class="price">$98</span>
-                                </div>
                                 <div class="content-wrapper">
-                                    <p class="author">By: <a href="#">Ryan Patterson</a></p>
-                                    <h4 class="title"><a href="courses-details-left-sidebar.html">Children Nutrition and Cooking</a></h4>
-                                    <ul class="meta">
-                                        <li>08 hr 20 mins</li>
-                                        <li>28 Lectures</li>
-                                    </ul>
+                                    <h4 style="align-items: center;" class="title"><a href="courses-details-left-sidebar.html">High Protein</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -172,19 +164,11 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="single-courses">
                             <div class="courses-images">
-                                <a href="courses-details-left-sidebar.html"><img src="assets/images/courses/courses-2.jpg" alt="courses"></a>
+                                <a href="courses-details-left-sidebar.html"><img src="assets/images/courses/blood-sugar.jpg" alt="courses"></a>
                             </div>
                             <div class="courses-content">
-                                <div class="courses-price">
-                                    <span class="price">$72</span>
-                                </div>
                                 <div class="content-wrapper">
-                                    <p class="author">By: <a href="courses-details-left-sidebar.html">Arlene Daniels</a></p>
-                                    <h4 class="title"><a href="#">Introduction to Food and Health. </a></h4>
-                                    <ul class="meta">
-                                        <li>09 hr 25 mins</li>
-                                        <li>16 Lectures</li>
-                                    </ul>
+                                    <h4 style="align-items: center;" class="title"><a href="courses-details-left-sidebar.html">Blood sugar friendly</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -192,19 +176,11 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="single-courses">
                             <div class="courses-images">
-                                <a href="courses-details-left-sidebar.html"><img src="assets/images/courses/courses-3.jpg" alt="courses"></a>
+                                <a href="courses-details-left-sidebar.html"><img src="assets/images/courses/hypertension.jpg" alt="courses"></a>
                             </div>
                             <div class="courses-content">
-                                <div class="courses-price">
-                                    <span class="price">$68</span>
-                                </div>
                                 <div class="content-wrapper">
-                                    <p class="author">By: <a href="#">Selina Benton</a></p>
-                                    <h4 class="title"><a href="courses-details-left-sidebar.html">Nutrition and Lifestyle in Pregnancy</a></h4>
-                                    <ul class="meta">
-                                        <li>03 hr 38 mins</li>
-                                        <li>18 Lectures</li>
-                                    </ul>
+                                    <h4 style="align-items: center;" class="title"><a href="courses-details-left-sidebar.html"> DASH (Dietary Approaches to Stop Hypertension) diet</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -212,21 +188,11 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="single-courses">
                             <div class="courses-images">
-                                <a href="courses-details-left-sidebar.html"><img src="assets/images/courses/courses-4.jpg" alt="courses"></a>
+                                <a href="courses-details-left-sidebar.html"><img src="assets/images/courses/weight-loss.jpg" alt="courses"></a>
                             </div>
                             <div class="courses-content">
-                                <div class="courses-price">
-                                    <span class="price">$98</span>
-                                </div>
                                 <div class="content-wrapper">
-                                    <p class="author">By: <a href="#">Ryan Patterson</a></p>
-                                    <h4 class="title"><a href="courses-details-left-sidebar.html">Expertise on Fitness, Nutrition and Health
-
-                                        </a></h4>
-                                    <ul class="meta">
-                                        <li>02 hr 16 mins</li>
-                                        <li>14 Lectures</li>
-                                    </ul>
+                                    <h4 style="align-items: center;" class="title"><a href="courses-details-left-sidebar.html">Weight loss</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -234,19 +200,11 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="single-courses">
                             <div class="courses-images">
-                                <a href="courses-details-left-sidebar.html"><img src="assets/images/courses/courses-5.jpg" alt="courses"></a>
+                                <a href="courses-details-left-sidebar.html"><img src="assets/images/courses/weight-gain.jpg" alt="courses"></a>
                             </div>
                             <div class="courses-content">
-                                <div class="courses-price">
-                                    <span class="price">$72</span>
-                                </div>
                                 <div class="content-wrapper">
-                                    <p class="author">By: <a href="#">Arlene Daniels</a></p>
-                                    <h4 class="title"><a href="courses-details-left-sidebar.html">Hacking exercise for health new science of fitness</a></h4>
-                                    <ul class="meta">
-                                        <li>06 hr 12 mins</li>
-                                        <li>35 Lectures</li>
-                                    </ul>
+                                    <h4 style="align-items: center;" class="title"><a href="courses-details-left-sidebar.html">Weight gain</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -254,19 +212,11 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="single-courses">
                             <div class="courses-images">
-                                <a href="courses-details-left-sidebar.html"><img src="assets/images/courses/courses-6.jpg" alt="courses"></a>
+                                <a href="courses-details-left-sidebar.html"><img src="assets/images/courses/cholesterol-friendly.jpg" alt="courses"></a>
                             </div>
                             <div class="courses-content">
-                                <div class="courses-price">
-                                    <span class="price">$68</span>
-                                </div>
                                 <div class="content-wrapper">
-                                    <p class="author">By: <a href="#">Selina Benton</a></p>
-                                    <h4 class="title"><a href="courses-details-left-sidebar.html">Designing Your Personal Weight Loss Plan</a></h4>
-                                    <ul class="meta">
-                                        <li>09 hr 34 mins</li>
-                                        <li>28 Lectures</li>
-                                    </ul>
+                                    <h4 style="align-items: center;" class="title"><a href="courses-details-left-sidebar.html">Cholesterol friendly </a></h4>
                                 </div>
                             </div>
                         </div>
@@ -295,21 +245,15 @@
                         <div class="single-blog">
                             <div class="blog">
                                 <div class="blog-date-meta">
-                                    <span>
-                                        <strong>24</strong>
-                                        Feb
-                                    </span>
                                     <div class="meta">
-                                        <p class="author">By: <a href="#">Maddie Rife</a></p>
-                                        <ul>
-                                            <li>87 Likes</li>
-                                            <li>58 Share</li>
-                                        </ul>
+                                        <p class="author">By: <a href="https://www.thisdaylive.com/index.php/2021/08/08/a-beginners-guide-to-intermittent-fasting ">Arinola Odunuga <p>ThisDayLive</p></a></p>
                                     </div>
                                 </div>
 
-                                <h4 class="title"><a href="blog-details-left-sidebar.html">It was popularised sheets the release contain</a></h4>
-                                <p>Lorem sum same dummy text theme industry psum have been them industry the leaf into type setting.</p>
+                                <h4 class="title"><a href="blog-details-left-sidebar.html">A Beginner’s Guide to Intermittent Fasting</a></h4>
+                                <p>Intermittent fasting is not a diet, it is a meal timing plan.
+
+                                    What you’re doing is focusing on a specific period of time in which you’re abstaining from food and a set time when you consume all your calories</p>
                             </div>
                         </div>
 
@@ -320,21 +264,14 @@
                         <div class="single-blog">
                             <div class="blog">
                                 <div class="blog-date-meta">
-                                    <span>
-                                        <strong>24</strong>
-                                        Feb
-                                    </span>
+
                                     <div class="meta">
-                                        <p class="author">By: <a href="#">Maddie Rife</a></p>
-                                        <ul>
-                                            <li>87 Likes</li>
-                                            <li>58 Share</li>
-                                        </ul>
+                                        <p class="author">By: <a href="https://www.arise.tv/losing-weight-reaching-fitness-goals-easier-than-you-think/ ">Arinola Odunuga <p>Arise News</p> <br></a></p>
                                     </div>
                                 </div>
 
-                                <h4 class="title"><a href="blog-details-left-sidebar.html">It was popularised sheets the release contain</a></h4>
-                                <p>Lorem sum same dummy text theme industry psum have been them industry the leaf into type setting.</p>
+                                <h4 class="title"><a href="blog-details-left-sidebar.html">Losing Weight, Reaching Fitness Goals Easier Than You Think</a></h4>
+                                <p>Setting goals that you can visualize yourself achieving will make you more committed but that doesn’t mean your goals shouldn’t challenge you.</p>
                             </div>
                         </div>
 
@@ -345,20 +282,13 @@
                         <div class="single-blog">
                             <div class="blog">
                                 <div class="blog-date-meta">
-                                    <span>
-                                        <strong>24</strong>
-                                        Feb
-                                    </span>
+
                                     <div class="meta">
-                                        <p class="author">By: <a href="#">Maddie Rife</a></p>
-                                        <ul>
-                                            <li>87 Likes</li>
-                                            <li>58 Share</li>
-                                        </ul>
+                                        <p class="author">By: <a href="#">Arinola Odunuga <p>ThisDayLive</p> <br></a></p>
                                     </div>
                                 </div>
 
-                                <h4 class="title"><a href="blog-details-left-sidebar.html">It was popularised sheets the release contain</a></h4>
+                                <h4 class="title"><a href="blog-details-left-sidebar.html">How Crash Dieting Messes up Your Metabolism</a></h4>
                                 <p>Lorem sum same dummy text theme industry psum have been them industry the leaf into type setting.</p>
                             </div>
                         </div>
