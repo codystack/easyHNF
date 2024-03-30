@@ -9,10 +9,10 @@
                             <div class="col-lg-4">
 
                                 <div class="footer-widget">
-                                    <h3 class="footer-widget-title">Subscribe Newsletter</h3>
+                                    <h3 class="footer-widget-title">Subscribe to our Newsletter</h3>
 
                                     <div class="widget-newsletter">
-                                        <p>Lorem Ipsum has been them an industry printer took a galley make book.</p>
+                                        <p>Get a free copy of our bi-annual newsletter on health, nutrition and fitness.</p>
 
                                         <div class="newsletter-form">
                                             <form action="#">
@@ -28,38 +28,39 @@
                                 <div class="widget-wrapper">
 
                                     <div class="footer-widget">
-                                        <h3 class="footer-widget-title">All Courses</h3>
+                                        <h3 class="footer-widget-title">All Plans</h3>
 
                                         <ul class="widget-link">
-                                            <li><a href="#">Daily Exercise</a></li>
-                                            <li><a href="#">Find Your Balance</a></li>
-                                            <li><a href="#">Personal Program</a></li>
-                                            <li><a href="#">Natural Process</a></li>
-                                            <li><a href="#">Immune System</a></li>
-                                            <li><a href="#">Gives You Energy</a></li>
+                                            <li><a href="#">1,200 calories</a></li>
+                                            <li><a href="#">1,500 calories</a></li>
+                                            <li><a href="#">1,500 calories high protein</a></li>
+                                            <li><a href="#">1,500 low carb</a></li>
+                                            <li><a href="#">1,500 DASH</a></li>
+                                            <li><a href="#">Custom </a></li>
+                                            <li><a href="#">Nutrition coaching</a></li>
                                         </ul>
                                     </div>
-                                    
+
                                     <div class="footer-widget">
-                                        <h3 class="footer-widget-title">Help Links</h3>
+                                        <h3 class="footer-widget-title">Other useful Links</h3>
 
                                         <ul class="widget-link">
                                             <li><a href="#">Privacy Policy</a></li>
-                                            <li><a href="#">Discussion</a></li>
                                             <li><a href="#">Terms & Conditions</a></li>
+                                            <li><a href="#">Blog Posts</a></li>
                                             <li><a href="#">Customer Support</a></li>
-                                            <li><a href="#">Course FAQ’s</a></li>
-                                            <li><a href="#">Online Classes</a></li>
+                                            <li><a href="#">FAQ’s</a></li>
                                         </ul>
                                     </div>
-                                    
+
                                     <div class="footer-widget">
-                                        <h3 class="footer-widget-title">Opening Hours</h3>
+                                        <h3 class="footer-widget-title">Social Media</h3>
 
                                         <ul class="widget-link">
-                                            <li><a href="#">Mon-Fri: 9 AM – 6 PM</a></li>
-                                            <li><a href="#">Saturday: 9 AM – 4 PM</a></li>
-                                            <li><a href="#">Sunday: Closed</a></li>
+                                            <li><a href="#">Facebook</a></li>
+                                            <li><a href="#">X (formerly twitter)</a></li>
+                                            <li><a href="#">Instagram</a></li>
+                                            <li><a href="#">linkedin</a></li>
                                         </ul>
                                     </div>
 
@@ -71,14 +72,16 @@
                 </div>
 
             </div>
-            
+
             <div class="footer-copyright">
                 <div class="container">
 
                     <div class="copyright-wrapper">
 
                         <div class="copyright-text">
-                            <p>&copy; <script>document.write(new Date().getFullYear());</script> <span> EasyHNF&reg; </span> All rights reserved.</p>
+                            <p>&copy; <script>
+                                    document.write(new Date().getFullYear());
+                                </script> <span> EasyHNF&reg; </span> All rights reserved.</p>
                         </div>
 
                         <div class="copyright-link">
@@ -92,27 +95,27 @@
             </div>
 
         </div>
-        
+
         <a href="#" class="back-to-top">
             <i class="icofont-simple-up"></i>
         </a>
 
-    </div>
+        </div>
 
-    <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
-    <script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
+        <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+        <script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
 
-    <script src="assets/js/plugins/popper.min.js"></script>
-    <script src="assets/js/plugins/bootstrap.min.js"></script>
+        <script src="assets/js/plugins/popper.min.js"></script>
+        <script src="assets/js/plugins/bootstrap.min.js"></script>
 
-    <script src="assets/js/plugins/swiper-bundle.min.js"></script>
-    <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/plugins/jquery.nice-select.min.js"></script>
-    <script src="assets/js/plugins/video-playlist.js"></script>
-    <script src="assets/js/plugins/ajax-contact.js"></script>
+        <script src="assets/js/plugins/swiper-bundle.min.js"></script>
+        <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/plugins/jquery.nice-select.min.js"></script>
+        <script src="assets/js/plugins/video-playlist.js"></script>
+        <script src="assets/js/plugins/ajax-contact.js"></script>
 
-    <script src="assets/js/main.js"></script>
+        <script src="assets/js/main.js"></script>
 
-</body>
+        </body>
 
-</html>
+        </html>
