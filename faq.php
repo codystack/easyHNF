@@ -133,15 +133,14 @@
         <!-- FAQ Section End -->
 
         <!-- Download App Start -->
-        <div class="section section-padding download-section">
-
-            <img class="shape-01" src="assets/images/shape/shape-7.png" alt="Shape">
-            <img class="shape-02" src="assets/images/shape/shape-8.png" alt="Shape">
-
+        <div class="section section-padding">
             <div class="container">
 
-                <!-- Download App Wrapper Start -->
-                <div class="download-app-wrapper">
+                <!-- Download Wrapper Start -->
+                <div class="download-wrapper">
+
+                    <img class="shape-01" src="assets/images/shape/shape-7.png" alt="Shape">
+                    <img class="shape-02" src="assets/images/shape/shape-8.png" alt="Shape">
 
                     <!-- Section Title Start -->
                     <div class="section-title shape-none">
@@ -150,17 +149,17 @@
                     </div>
                     <!-- Section Title End -->
 
-                    <!-- Download App Button End -->
-                    <!-- <div class="download-app-btn">
-                        <ul class="app-btn">
+                    <!-- download App End -->
+                    <!-- <div class="download-app">
+                        <ul>
                             <li><a href="#"><img src="assets/images/play-store.jpg" alt="Play Store"></a></li>
                             <li><a href="#"><img src="assets/images/app-store.jpg" alt="App Store"></a></li>
                         </ul>
                     </div> -->
-                    <!-- Download App Button End -->
+                    <!-- download App End -->
 
                 </div>
-                <!-- Download App Wrapper End -->
+                <!-- Download Wrapper End -->
 
             </div>
         </div>
