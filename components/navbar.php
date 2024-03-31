@@ -14,13 +14,13 @@
                         <ul class="nav-menu">
                             <li><a class="<?php if ($page == 'About') {
                                                 echo 'active';
-                                            } ?>" href="about">About</a></li>
+                                            } ?>" href="about.php">About</a></li>
                             <li><a class="<?php if ($page == 'Plans') {
                                                 echo 'active';
                                             } ?>" href="404.php">Plans</a></li>
                             <li><a class="<?php if ($page == 'Blog') {
                                                 echo 'active';
-                                            } ?>" href="blog">Blog</a></li>
+                                            } ?>" href="blog.php">Blog</a></li>
                             <li><a class="<?php if ($page == 'Faq') {
                                                 echo 'active';
                                             } ?>" href="faq.php">Faq</a></li>

@@ -1,3 +1,5 @@
+    
+        
         <div class="section footer-section">
 
             <div class="footer-widget-section section-padding">
@@ -31,11 +33,17 @@
                                         <h3 class="footer-widget-title">All Plans</h3>
 
                                         <ul class="widget-link">
-                                            <li><a href="#">1,200 calories</a></li>
-                                            <li><a href="#">1,500 calories</a></li>
-                                            <li><a href="#">1,500 calories high protein</a></li>
-                                            <li><a href="#">1,500 low carb</a></li>
-                                            <li><a href="#">1,500 DASH</a></li>
+                                            <li><a href="#">Basic</a>
+                                                <ul class="dropdown" style="margin-left: 20px;">
+                                                    <li><a href="#">- 1,200 calories plan</a></li>
+                                                    <li><a href="#">- 1,500 calories</a></li>
+                                                    <li><a href="#">- 1,500 calories high protein</a></li>
+                                                    <li><a href="#">- 1,500 blood sugar friendly plan</a></li>
+                                                    <li><a href="#">- 1,500 DASH</a></li>
+                                                    <li><a href="#">- Cholesterol friendly plan</a></li>
+                                                </ul>
+                                            </li>
+                                            
                                             <li><a href="#">Custom </a></li>
                                             <li><a href="#">Nutrition coaching</a></li>
                                         </ul>
@@ -57,10 +65,10 @@
                                         <h3 class="footer-widget-title">Social Media</h3>
 
                                         <ul class="widget-link">
-                                            <li><a href="#">Facebook</a></li>
-                                            <li><a href="#">X (formerly twitter)</a></li>
-                                            <li><a href="#">Instagram</a></li>
-                                            <li><a href="#">linkedin</a></li>
+                                            <li><a href="https://web.facebook.com/easyHNF">Facebook</a></li>
+                                            <li><a href="https://twitter.com/easyhnf?s=11&t=kR7TeOfAySMs5o5rlTNnRQ">X (formerly twitter)</a></li>
+                                            <li><a href="https://www.instagram.com/easyhnf?igsh=MzRlODBiNWFlZA==">Instagram</a></li>
+                                            <li><a href="https://www.linkedin.com/company/easyhnf/">Linkedin</a></li>
                                         </ul>
                                     </div>
 
