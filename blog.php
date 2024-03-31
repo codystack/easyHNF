@@ -9,7 +9,7 @@
     <div class="overlay"></div>
 
 
-    <div class="section section-padding">
+        <div class="section section-padding">
             <div class="container">
 
                 <!-- Download Wrapper Start -->
@@ -20,8 +20,8 @@
 
                     <!-- Section Title Start -->
                     <div class="section-title shape-none">
-                        <h6 class="sub-title">mobile app available</h6>
-                        <h2 class="main-title">Download our mobile <br> app. and start coaching anytime.</h2>
+                        <h6 class="sub-title">Our mobile is in the works</h6>
+                        <h2 class="main-title">Stay tuned for updates and be the first to experience the convenience and power of our app.</h2>
                     </div>
                     <!-- Section Title End -->
 
