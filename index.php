@@ -282,7 +282,7 @@
                                     </div>
                                 </div>
 
-                                <h4 class="title"><a href="blog-details-left-sidebar.html">A Beginner’s Guide to Intermittent Fasting</a></h4>
+                                <h4 class="title"><a href="https://www.thisdaylive.com/index.php/2021/08/08/a-beginners-guide-to-intermittent-fasting ">A Beginner’s Guide to Intermittent Fasting</a></h4>
                                 <p>Intermittent fasting is not a diet, it is a meal timing plan.
 
                                     What you’re doing is focusing on a specific period of time in which you’re abstaining from food and a set time when you consume all your calories</p>
@@ -302,7 +302,7 @@
                                     </div>
                                 </div>
 
-                                <h4 class="title"><a href="blog-details-left-sidebar.html">Losing Weight, Reaching Fitness Goals Easier Than You Think</a></h4>
+                                <h4 class="title"><a href="https://www.arise.tv/losing-weight-reaching-fitness-goals-easier-than-you-think/">Losing Weight, Reaching Fitness Goals Easier Than You Think</a></h4>
                                 <p>Setting goals that you can visualize yourself achieving will make you more committed but that doesn’t mean your goals shouldn’t challenge you.</p>
                             </div>
                         </div>
@@ -316,11 +316,11 @@
                                 <div class="blog-date-meta">
 
                                     <div class="meta">
-                                        <p class="author">By: <a href="#">Arinola Odunuga <p>ThisDayLive</p> <br></a></p>
+                                        <p class="author">By: <a href="https://www.thisdaylive.com/index.php/2021/07/11/how-crash-dieting-messes-up-your-metabolism ">Arinola Odunuga <p>ThisDayLive</p> <br></a></p>
                                     </div>
                                 </div>
 
-                                <h4 class="title"><a href="blog-details-left-sidebar.html">How Crash Dieting Messes up Your Metabolism</a></h4>
+                                <h4 class="title"><a href="https://www.thisdaylive.com/index.php/2021/07/11/how-crash-dieting-messes-up-your-metabolism ">How Crash Dieting Messes up Your Metabolism</a></h4>
                                 <p>Lorem sum same dummy text theme industry psum have been them industry the leaf into type setting.</p>
                             </div>
                         </div>
