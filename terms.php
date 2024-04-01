@@ -31,31 +31,31 @@
                         <p>
                             <h3 style="margin-top: 20px; margin-bottom: 10px;">1. Subscription and Refund Policy</h3>
                             <ol>
-                                <li style="margin-bottom: 10px;">1.1. Upon registering for a Service, you acknowledge that refunds are not available, and subscriptions cannot be canceled mid-term for a refund or transferred.</li>
-                                <li style="margin-bottom: 10px;">1.2. Payments are one-time and non-refundable.</li>
-                                <li style="margin-bottom: 10px;">1.3. Following payment, you are granted a grace period of 7 days to commence utilizing the Services. After this period, EasyHNF will not provide further follow-up or support.</li>
+                                <li style="margin-bottom: 10px;"><b>1.1.</b> Upon registering for a Service, you acknowledge that refunds are not available, and subscriptions cannot be canceled mid-term for a refund or transferred.</li>
+                                <li style="margin-bottom: 10px;"><b>1.2.</b> Payments are one-time and non-refundable.</li>
+                                <li style="margin-bottom: 10px;"><b>1.3.</b> Following payment, you are granted a grace period of 7 days to commence utilizing the Services. After this period, EasyHNF will not provide further follow-up or support.</li>
                             </ol>
                         </p>
 
                         <p>
                             <h3 style="margin-top: 20px; margin-bottom: 10px;">2. Pre-Service Requirements and User Responsibilities</h3>
                             <ol>
-                                <li style="margin-bottom: 10px;">2.1. Prior to commencement of services, completion of the consultation questions in their entirety is essential. It is mandatory to provide accurate statistics and full-length pictures before the proposed program can be offered to you. Be assured that all information provided, including pictures and statistics, will be treated with the utmost confidentiality.</li>
-                                <li style="margin-bottom: 10px;">2.2. EasyHNF will not display any before-and-after transformations without explicit consent from the User.</li>
-                                <li style="margin-bottom: 10px;">2.3. EasyHNF shall not be held liable for any adverse effects of the provided services on third parties.</li>
-                                <li style="margin-bottom: 10px;">2.4. You agree to provide accurate and up-to-date information during the registration and consultation process.</li>
-                                <li style="margin-bottom: 10px;">2.5. You are responsible for maintaining the confidentiality of your account credentials and ensuring the security of your account.</li>
+                                <li style="margin-bottom: 10px;"><b>2.1.</b> Prior to commencement of services, completion of the consultation questions in their entirety is essential. It is mandatory to provide accurate statistics and full-length pictures before the proposed program can be offered to you. Be assured that all information provided, including pictures and statistics, will be treated with the utmost confidentiality.</li>
+                                <li style="margin-bottom: 10px;"><b>2.2.</b> EasyHNF will not display any before-and-after transformations without explicit consent from the User.</li>
+                                <li style="margin-bottom: 10px;"><b>2.3.</b> EasyHNF shall not be held liable for any adverse effects of the provided services on third parties.</li>
+                                <li style="margin-bottom: 10px;"><b>2.4.</b> You agree to provide accurate and up-to-date information during the registration and consultation process.</li>
+                                <li style="margin-bottom: 10px;"><b>2.5.</b> You are responsible for maintaining the confidentiality of your account credentials and ensuring the security of your account.</li>
                             </ol>
                         </p>
 
                         <p>
                             <h3 style="margin-top: 20px; margin-bottom: 10px;">3. The Company</h3>
                             <ol>
-                                <li style="margin-bottom: 10px;">3.1. EasyHNF reserves the right to modify, suspend, or discontinue any aspect of the Services at any time without prior notice.</li>
-                                <li style="margin-bottom: 10px;">3.2. All content provided as part of the Services, including but not limited to text, graphics, logos, images, and software, is the intellectual property of EasyHNF and is protected by copyright and other intellectual property laws.</li>
-                                <li style="margin-bottom: 10px;">3.3. You agree not to reproduce, modify, distribute, display, or create derivative works of any content provided through the Services without prior written consent from EasyHNF.</li>
-                                <li style="margin-bottom: 10px;">3.4. EasyHNF shall not be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with the use of the Services, including but not limited to loss of profits, data, or goodwill.</li>
-                                <li style="margin-bottom: 10px;">3.5. On no occasion shall EasyHNF's total liability to you exceed the amount paid by you for the Services.</li>
+                                <li style="margin-bottom: 10px;"><b>3.1.</b> EasyHNF reserves the right to modify, suspend, or discontinue any aspect of the Services at any time without prior notice.</li>
+                                <li style="margin-bottom: 10px;"><b>3.2.</b> All content provided as part of the Services, including but not limited to text, graphics, logos, images, and software, is the intellectual property of EasyHNF and is protected by copyright and other intellectual property laws.</li>
+                                <li style="margin-bottom: 10px;"><b>3.3.</b> You agree not to reproduce, modify, distribute, display, or create derivative works of any content provided through the Services without prior written consent from EasyHNF.</li>
+                                <li style="margin-bottom: 10px;"><b>3.4.</b> EasyHNF shall not be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with the use of the Services, including but not limited to loss of profits, data, or goodwill.</li>
+                                <li style="margin-bottom: 10px;"><b>3.5.</b> On no occasion shall EasyHNF's total liability to you exceed the amount paid by you for the Services.</li>
                             </ol>
                         </p>
 
