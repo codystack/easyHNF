@@ -8,20 +8,16 @@
 
     <div class="overlay"></div>
 
-    <div class="section page-banner-section" style="background-image: url(assets/images/page-banner.jpg);">
+        <div class="section page-banner-section" style="background-image: url(assets/images/page-banner.jpg);">
             <div class="container">
-
-                <!-- Page banner Section Start -->
                 <div class="page-banner-content">
                     <h2 class="page-title">About</h2>
 
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="./">Home</a></li>
                         <li class="breadcrumb-item active">About</li>
                     </ul>
                 </div>
-                <!-- Page banner Section End -->
-
             </div>
         </div>
 
@@ -30,8 +26,6 @@
 
         <div class="section section-padding bg-grey">
             <div class="container">
-
-                <!-- Our Mission Wrapper Start -->
                 <div class="our-mission-wrapper">
                     <div class="row">
                         <div class="col-lg-6">
@@ -55,8 +49,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Our Mission Wrapper End -->
-
             </div>
         </div>
 
@@ -94,4 +86,4 @@
         </div>
     </div>
 
-        <?php @include("./components/footer.php"); ?>
+ <?php @include("./components/footer.php"); ?>

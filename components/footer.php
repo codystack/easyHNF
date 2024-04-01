@@ -53,11 +53,10 @@
                                         <h3 class="footer-widget-title">Other useful Links</h3>
 
                                         <ul class="widget-link">
-                                            <li><a href="#">Privacy Policy</a></li>
-                                            <li><a href="#">Terms & Conditions</a></li>
-                                            <li><a href="#">Blog Posts</a></li>
-                                            <li><a href="#">Customer Support</a></li>
-                                            <li><a href="#">FAQ’s</a></li>
+                                            <li><a href="privacy">Privacy Policy</a></li>
+                                            <li><a href="terms">Terms & Conditions</a></li>
+                                            <li><a href="javascript:void(Tawk_API.toggle())">Customer Support</a></li>
+                                            <li><a href="faq">FAQ’s</a></li>
                                         </ul>
                                     </div>
 
@@ -65,10 +64,10 @@
                                         <h3 class="footer-widget-title">Social Media</h3>
 
                                         <ul class="widget-link">
-                                            <li><a href="https://web.facebook.com/easyHNF">Facebook</a></li>
-                                            <li><a href="https://twitter.com/easyhnf?s=11&t=kR7TeOfAySMs5o5rlTNnRQ">X (formerly twitter)</a></li>
-                                            <li><a href="https://www.instagram.com/easyhnf?igsh=MzRlODBiNWFlZA==">Instagram</a></li>
-                                            <li><a href="https://www.linkedin.com/company/easyhnf/">Linkedin</a></li>
+                                            <li><a href="https://web.facebook.com/easyHNF" target="_blank">Facebook</a></li>
+                                            <li><a href="https://twitter.com/easyhnf?s=11&t=kR7TeOfAySMs5o5rlTNnRQ" target="_blank">X (formerly twitter)</a></li>
+                                            <li><a href="https://www.instagram.com/easyhnf?igsh=MzRlODBiNWFlZA==" target="_blank">Instagram</a></li>
+                                            <li><a href="https://www.linkedin.com/company/easyhnf/" target="_blank">Linkedin</a></li>
                                         </ul>
                                     </div>
 
@@ -87,9 +86,7 @@
                     <div class="copyright-wrapper">
 
                         <div class="copyright-text">
-                            <p>&copy; <script>
-                                    document.write(new Date().getFullYear());
-                                </script> <span> EasyHNF&reg; </span> All rights reserved.</p>
+                            <p>&copy; <script>document.write(new Date().getFullYear());</script> <span> EasyHNF&reg; </span> All rights reserved.</p>
                         </div>
 
                         <div class="copyright-link">
@@ -123,6 +120,20 @@
         <script src="assets/js/plugins/ajax-contact.js"></script>
 
         <script src="assets/js/main.js"></script>
+
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/660807b3a0c6737bd1267a8e/1hq7ls5s0';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script>
+        <!--End of Tawk.to Script-->
 
         </body>
 
