@@ -27,8 +27,8 @@ if (isset($_POST['user_registration'])) {
     }else {
         // Finally, register user if there are no errors in the form
         $password = sha1($password);//encrypt the password before saving in the database
-        $query = "INSERT INTO users (first_name, last_name, email, password, phone, picture, token, status) 
-  			        VALUES('$first_name', '$last_name', '$email', '$password', '$phone', 'assets/img/memoji/memoji-1.svg', '$token', 'Active')";
+        $query = "INSERT INTO users (first_name, last_name, email, password, phone, picture, token, status, verified) 
+  			        VALUES('$first_name', '$last_name', '$email', '$password', '$phone', 'assets/img/memoji/memoji-1.svg', '$token', 'Active', '1')";
         mysqli_query($conn, $query);
         if (mysqli_affected_rows($conn) > 0) {
             // sendVerificationEmail($email, $token, $first_name, $companyName);
@@ -37,6 +37,7 @@ if (isset($_POST['user_registration'])) {
             $_SESSION['email'] = $email;
             $_SESSION['verified'] = false;
             $_SESSION['first_name'] = $first_name;
+            $_SESSION['user_id'] = $user_id;
             header('location: registration-success');
         }else {
             $_SESSION['error_message']    = "Error creating account contact support";

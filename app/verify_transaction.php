@@ -63,7 +63,11 @@
                 $conn=mysqli_query($conn,"UPDATE users SET subscription_plan='$subscription_plan' WHERE user_id ='".$_SESSION['user_id']."'");
                 
                 $_SESSION['transactionRef'] = $transactionRef;
-                echo "<meta http-equiv='refresh' content='0; URL=payment-success?status=success'>";
+                if ($subscription_plan = "Basic Plan"){
+                    echo "<meta http-equiv='refresh' content='0; URL=basic-diets?status=success'>";
+                }else {
+                    echo "<meta http-equiv='refresh' content='0; URL=payment-success?status=success'>";
+                }
             } else {
                 echo 'Error Occured'. mysqli_error($conn);
                 exit;

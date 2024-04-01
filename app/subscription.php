@@ -16,7 +16,7 @@
                             </div>
                             <div class="col" style="display: <?php if ($subscription_plan == 'Basic Plan'){ echo 'unset';}elseif ($subscription_plan == 'Customized Plan' || 'Nutrition Coaching Plan'){ echo 'none';}else{ echo 'unset';}?>">
                                 <div class="hstack justify-content-end">
-                                    <a href="new-admin" class="btn d-inline-flex btn-sm btn-neutral"><span class="pe-2"><i class="bi bi-arrow-left-right"></i></span> <span> Swap Diets</span></a>
+                                    <a href="basic-diets" class="btn d-inline-flex btn-sm btn-neutral"><span class="pe-2"><i class="bi bi-arrow-left-right"></i></span> <span> Swap Diets</span></a>
                                 </div>
                             </div>
                         </div>
@@ -32,7 +32,6 @@
                                                 <div class="align-items-center justify-content-center text-center mb-5">
                                                     <div class="flex-1">
                                                         <h6 class="h5 text-limit fw-semibold mb-1">Basic Plan</h6>
-                                                        <p class="text-sm text-muted d-none d-sm-block">The perfect way to get started.</p>
                                                     </div>
                                                     <div class="ms-sm-auto">
                                                         <div class="align-items-center mt-5 mb-3 lh-none text-heading d-block display-5 ls-tight mb-0"><span class="fw-semibold text-2xl align-self-start mt-1 me-1">₦</span><span>10,000</span><span class="d-inline-block fw-normal text-muted text-lg mt-sm-3 ms-1">/ month</span></div>
@@ -80,7 +79,6 @@
                                                 <div class="align-items-center justify-content-center text-center mb-5">
                                                     <div class="flex-1">
                                                         <h6 class="h5 text-limit fw-semibold mb-1">Customized Plan</h6>
-                                                        <p class="text-sm text-muted d-none d-sm-block">The perfect way to get started.</p>
                                                     </div>
                                                     <div class="ms-sm-auto">
                                                         <div class="align-items-center mt-5 mb-3 lh-none text-heading d-block display-5 ls-tight mb-0"><span class="fw-semibold text-2xl align-self-start mt-1 me-1">₦</span><span>150,000</span><span class="d-inline-block fw-normal text-muted text-lg mt-sm-3 ms-1">/ month</span></div>
@@ -128,7 +126,6 @@
                                                 <div class="align-items-center justify-content-center text-center mb-5">
                                                     <div class="flex-1">
                                                         <h6 class="h5 text-limit fw-semibold mb-1">Nutrition Coaching Plan</h6>
-                                                        <p class="text-sm text-muted d-none d-sm-block">The perfect way to get started.</p>
                                                     </div>
                                                     <div class="ms-sm-auto">
                                                         <div class="align-items-center mt-5 mb-3 lh-none text-heading d-block display-5 ls-tight mb-0"><span class="fw-semibold text-2xl align-self-start mt-1 me-1">₦</span><span>450,000</span><span class="d-inline-block fw-normal text-muted text-lg mt-sm-3 ms-1">/ month</span></div>
