@@ -29,10 +29,10 @@
                             <div class="social-wrapper">
                                 <p>Connect with us:</p>
                                 <ul class="social">
-                                    <li><a href="#"><i class="icofont-facebook"></i></a></li>
-                                    <li><a href="#"><i class="icofont-instagram"></i></a></li>
-                                    <li><a href="#"><i class="icofont-twitter"></i></a></li>
-                                    <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                                    <li><a href="https://web.facebook.com/easyHNF"><i class="icofont-facebook"></i></a></li>
+                                    <li><a href="https://www.instagram.com/easyhnf?igsh=MzRlODBiNWFlZA== "><i class="icofont-instagram"></i></a></li>
+                                    <li><a href="https://twitter.com/easyhnf?s=11&t=kR7TeOfAySMs5o5rlTNnRQ"> <i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/easyhnf/"><i class="icofont-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -52,14 +52,15 @@
                         <!-- Single Feature Start -->
                         <div class="single-feature">
                             <div class="feature-icon">
-                                <span><i class="flaticon-lunges"></i></span>
+                                <span><i class="fa-solid fa-clipboard-list"></i></span>
                             </div>
                             <div class="feature-content">
                                 <div class="content-wrapper">
-                                    <h4 class="title"><a href="#">Customized plan</a></h4>
-                                    <p>Schedule an appointment with our dietitian to design a meal plan specific to your goal and health need.</p>
+                                    <h4 class="title"><a href="#">Basic Plans</a></h4>
+                                    <p>Explore options of our redesigned meal plans for weight loss or weight gain and health management .</p>
+                                   
                                 </div>
-                                <a href="#" class="arrow"><i class="icofont-long-arrow-right"></i></a>
+                                
                             </div>
                         </div>
                         <!-- Single Feature End -->
@@ -68,14 +69,14 @@
                         <!-- Single Feature Start -->
                         <div class="single-feature active">
                             <div class="feature-icon">
-                                <span><i class="flaticon-lotus"></i></span>
+                                <span><i class="fa-solid fa-user-gear"></i></span>
                             </div>
                             <div class="feature-content">
                                 <div class="content-wrapper">
-                                    <h4 class="title"><a href="#">Basic Plan</a></h4>
-                                    <p>Explore options of our redesigned meal plans for weight loss or weight gain and health management .</p>
+                                    <h4 class="title"><a href="#">Customized Plan</a></h4>
+                                    <p>Schedule an appointment with our dietitian to design a meal plan specific to your goal and health need.</p>
                                 </div>
-                                <a href="#" class="arrow"><i class="icofont-long-arrow-right"></i></a>
+                                
                             </div>
                         </div>
                         <!-- Single Feature End -->
@@ -84,14 +85,14 @@
                         <!-- Single Feature Start -->
                         <div class="single-feature">
                             <div class="feature-icon">
-                                <span><i class="flaticon-computer"></i></span>
+                                <span><i class="fa-solid fa-plate-wheat"></i></span>
                             </div>
                             <div class="feature-content">
                                 <div class="content-wrapper">
                                     <h4 class="title"><a href="#">Nutrition coaching</a></h4>
                                     <p>In addition to consultation sessions and designing you a tailor-made meal plan, we will coach you 1-on-1 on nutrition and meal prep.</p>
                                 </div>
-                                <a href="#" class="arrow"><i class="icofont-long-arrow-right"></i></a>
+                                
                             </div>
                         </div>
                         <!-- Single Feature End -->
@@ -114,7 +115,7 @@
                                 <img src="assets/images/coach.jpeg" alt="About">
                             </div>
                             <div class="about-btn">
-                                <a href="#" class="btn btn-primary btn-hover-secondary">Meet Instructor</a>
+                                <a href="about.php" class="btn btn-primary btn-hover-secondary">Meet Coach</a>
                             </div>
                         </div>
                     </div>
@@ -151,7 +152,7 @@
 
                         <div class="single-courses">
                             <div class="courses-images">
-                                <a href="courses-details-left-sidebar.html"><img src="assets/images/courses/high-protein.jpg" alt="courses"></a>
+                                <img src="assets/images/courses/high-protein.jpg" alt="courses"></a>
                             </div>
                             <div class="courses-content">
                                 <div class="content-wrapper">
@@ -164,11 +165,11 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="single-courses">
                             <div class="courses-images">
-                                <a href="courses-details-left-sidebar.html"><img src="assets/images/courses/blood-sugar.jpg" alt="courses"></a>
+                                <img src="assets/images/courses/blood-sugar.jpg" alt="courses"></a>
                             </div>
                             <div class="courses-content">
                                 <div class="content-wrapper">
-                                    <h4 style="align-items: center;" class="title"><a href="courses-details-left-sidebar.html">Blood sugar friendly</a></h4>
+                                    <h4 style="align-items: center;" class="title">Blood sugar friendly</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -176,11 +177,11 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="single-courses">
                             <div class="courses-images">
-                                <a href="courses-details-left-sidebar.html"><img src="assets/images/courses/hypertension.jpg" alt="courses"></a>
+                                <img src="assets/images/courses/hypertension.jpg" alt="courses"></a>
                             </div>
                             <div class="courses-content">
                                 <div class="content-wrapper">
-                                    <h4 style="align-items: center;" class="title"><a href="courses-details-left-sidebar.html"> DASH (Dietary Approaches to Stop Hypertension) diet</a></h4>
+                                    <h4 style="align-items: center;" class="title"> DASH (Dietary Approaches to Stop Hypertension) diet</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -188,11 +189,11 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="single-courses">
                             <div class="courses-images">
-                                <a href="courses-details-left-sidebar.html"><img src="assets/images/courses/weight-loss.jpg" alt="courses"></a>
+                                <img src="assets/images/courses/weight-loss.jpg" alt="courses"></a>
                             </div>
                             <div class="courses-content">
                                 <div class="content-wrapper">
-                                    <h4 style="align-items: center;" class="title"><a href="courses-details-left-sidebar.html">Weight loss</a></h4>
+                                    <h4 style="align-items: center;" class="title">Weight loss</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -200,11 +201,11 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="single-courses">
                             <div class="courses-images">
-                                <a href="courses-details-left-sidebar.html"><img src="assets/images/courses/weight-gain.jpg" alt="courses"></a>
+                                <img src="assets/images/courses/weight-gain.jpg" alt="courses"></a>
                             </div>
                             <div class="courses-content">
                                 <div class="content-wrapper">
-                                    <h4 style="align-items: center;" class="title"><a href="courses-details-left-sidebar.html">Weight gain</a></h4>
+                                    <h4 style="align-items: center;" class="title">Weight gain</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -212,11 +213,11 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="single-courses">
                             <div class="courses-images">
-                                <a href="courses-details-left-sidebar.html"><img src="assets/images/courses/cholesterol-friendly.jpg" alt="courses"></a>
+                                <img src="assets/images/courses/cholesterol-friendly.jpg" alt="courses"></a>
                             </div>
                             <div class="courses-content">
                                 <div class="content-wrapper">
-                                    <h4 style="align-items: center;" class="title"><a href="courses-details-left-sidebar.html">Cholesterol friendly </a></h4>
+                                    <h4 style="align-items: center;" class="title">Cholesterol friendly </a></h4>
                                 </div>
                             </div>
                         </div>
@@ -226,6 +227,37 @@
 
         </div>
     </div>
+
+        <div class="section section-padding">
+            <div class="container">
+
+                <!-- Download Wrapper Start -->
+                <div class="download-wrapper">
+
+                    <img class="shape-01" src="assets/images/shape/shape-7.png" alt="Shape">
+                    <img class="shape-02" src="assets/images/shape/shape-8.png" alt="Shape">
+
+                    <!-- Section Title Start -->
+                    <div class="section-title shape-none">
+                        <h6 class="sub-title">Our mobile is in the works</h6>
+                        <h2 class="main-title">Stay tuned for updates and be the first to experience the convenience and power of our app.</h2>
+                    </div>
+                    <!-- Section Title End -->
+
+                    <!-- download App End -->
+                    <!-- <div class="download-app">
+                        <ul>
+                            <li><a href="#"><img src="assets/images/play-store.jpg" alt="Play Store"></a></li>
+                            <li><a href="#"><img src="assets/images/app-store.jpg" alt="App Store"></a></li>
+                        </ul>
+                    </div> -->
+                    <!-- download App End -->
+
+                </div>
+                <!-- Download Wrapper End -->
+
+            </div>
+        </div>
 
     <?php @include("components/testimonial.php"); ?>
 
@@ -250,7 +282,7 @@
                                     </div>
                                 </div>
 
-                                <h4 class="title"><a href="blog-details-left-sidebar.html">A Beginner’s Guide to Intermittent Fasting</a></h4>
+                                <h4 class="title"><a href="https://www.thisdaylive.com/index.php/2021/08/08/a-beginners-guide-to-intermittent-fasting ">A Beginner’s Guide to Intermittent Fasting</a></h4>
                                 <p>Intermittent fasting is not a diet, it is a meal timing plan.
 
                                     What you’re doing is focusing on a specific period of time in which you’re abstaining from food and a set time when you consume all your calories</p>
@@ -270,7 +302,7 @@
                                     </div>
                                 </div>
 
-                                <h4 class="title"><a href="blog-details-left-sidebar.html">Losing Weight, Reaching Fitness Goals Easier Than You Think</a></h4>
+                                <h4 class="title"><a href="https://www.arise.tv/losing-weight-reaching-fitness-goals-easier-than-you-think/">Losing Weight, Reaching Fitness Goals Easier Than You Think</a></h4>
                                 <p>Setting goals that you can visualize yourself achieving will make you more committed but that doesn’t mean your goals shouldn’t challenge you.</p>
                             </div>
                         </div>
@@ -284,11 +316,11 @@
                                 <div class="blog-date-meta">
 
                                     <div class="meta">
-                                        <p class="author">By: <a href="#">Arinola Odunuga <p>ThisDayLive</p> <br></a></p>
+                                        <p class="author">By: <a href="https://www.thisdaylive.com/index.php/2021/07/11/how-crash-dieting-messes-up-your-metabolism ">Arinola Odunuga <p>ThisDayLive</p> <br></a></p>
                                     </div>
                                 </div>
 
-                                <h4 class="title"><a href="blog-details-left-sidebar.html">How Crash Dieting Messes up Your Metabolism</a></h4>
+                                <h4 class="title"><a href="https://www.thisdaylive.com/index.php/2021/07/11/how-crash-dieting-messes-up-your-metabolism ">How Crash Dieting Messes up Your Metabolism</a></h4>
                                 <p>Lorem sum same dummy text theme industry psum have been them industry the leaf into type setting.</p>
                             </div>
                         </div>
