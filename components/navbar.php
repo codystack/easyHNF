@@ -13,7 +13,7 @@
 
                         <ul class="nav-menu">
                             <li><a class="" href="about">About</a></li>
-                            <li><a class="" href="404">Plans</a></li>
+                            <li><a class="" href="plan">Plans</a></li>
                             <!-- <li><a class="" href="blog.php">Blog</a></li> -->
                             <li><a class="" href="faq">Faq</a></li>
                             <li><a class="" href="podcast">Podcast</a></li>
