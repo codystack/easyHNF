@@ -29,15 +29,15 @@
         //Greet User
         var time = new Date().getHours();
         if (time < 4) {
-            greeting = "You should be in bed 🙄!";
+            xgreeting = "You should be in bed 🙄!";
         }  else if (time < 12) {
-            greeting = "Good morning, wash your hands 🌤";
+            xgreeting = "Good morning, wash your hands 🌤";
         } else if (time < 16) {
-            greeting = "It's lunch 🍛 time, what's on the menu!";
+            xgreeting = "It's lunch 🍛 time, what's on the menu!";
         } else {
-            greeting = "Good Evening 🌙, how was your day?";
+            xgreeting = "Good Evening 🌙, how was your day?";
         }
-        document.getElementById("greet").innerHTML = greeting;
+        document.getElementById("greet").innerHTML = xgreeting;
     </script>
    
 
@@ -62,9 +62,9 @@
                 icon: "error",
                 showCancelButton: false,
                 showConfirmButton: true,
-                confirmButtonText: 'Subscribe Now',
+                confirmButtonText: 'Upgrade Now',
                 confirmButtonColor: '#FF3366',
-                timer: 4000
+                timer: 6000
             }).then(function() {
                     window.location = "./subscription";
                 });

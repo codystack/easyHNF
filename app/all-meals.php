@@ -3,7 +3,7 @@
     include "./components/header.php";
     require_once "./auth/userinfo.php";
     if (!$subscription_plan) {
-        $_SESSION['sub_error_message'] = "Upgrade your subscription to book a session";
+        $_SESSION['sub_error_message'] = "Upgrade your subscription to access meals";
     }else {
         //Do Nothing
     }
@@ -46,9 +46,9 @@
                                                     <div class="group-item rounded d-flex flex-column p-4 position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-25">
                                                         <div class="mt-auto">
                                                             <div class="gap-2"><span class="h4 text-md text-white"><?php echo $title; ?></span></div>
-                                                            <div class="gap-1 text-sm mb-2">
+                                                            <!-- <div class="gap-1 text-sm mb-2">
                                                                 <span class="text-white">Meal Code: <span class="text-white fw-bold"><?php echo $meal_code; ?></span></span> 
-                                                            </div>
+                                                            </div> -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -65,7 +65,7 @@
                                 </div>
                                 <div class="text-center mt-5">
                                     <button  class="btn btn-lg btn-dark" type="button" style="display: <?php if (!$subscription_plan){ echo 'none';}elseif ($subscription_plan == "Basic Plan"){ echo 'none';}else{ echo 'unset';}?>">View All Meals</button>
-                                    <a href="subscription"  class="btn btn-lg btn-danger" style="display: <?php if ($subscription_plan == "Basic Plan"){ echo 'unset';}else{ echo 'none';}?>">Upgrade Subscription</a>
+                                    <a href="subscription"  class="btn btn-lg btn-danger" style="display: <?php if ($subscription_plan == "Basic Plan"){ echo 'unset';}else{ echo 'none';}?>">Upgrade to view all meal</a>
                                 </div>
                             </div>
                         </div>

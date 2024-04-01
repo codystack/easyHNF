@@ -14,6 +14,11 @@
                             <div class="col">
                                 <h2 class="ls-tight">Subscription</h2>
                             </div>
+                            <div class="col" style="display: <?php if ($subscription_plan == 'Basic Plan'){ echo 'unset';}elseif ($subscription_plan == 'Customized Plan' || 'Nutrition Coaching Plan'){ echo 'none';}else{ echo 'unset';}?>">
+                                <div class="hstack justify-content-end">
+                                    <a href="new-admin" class="btn d-inline-flex btn-sm btn-neutral"><span class="pe-2"><i class="bi bi-arrow-left-right"></i></span> <span> Swap Diets</span></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
