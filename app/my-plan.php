@@ -122,7 +122,7 @@
                                             <div class="card-body d-flex gap-3">
                                                 <img src="./assets/img/healthy-food.png" class="w-rem-8 h-rem-8 mt-1" alt="...">
                                                 <div class="">
-                                                    <span class="d-block mb-1 text-dark">Cheat Day</span> 
+                                                    <span class="d-block mb-1 text-dark">Freestyle Day</span> 
                                                     <span class="d-block text-muted text-sm">Greek Yogurt, Apple & Almond</span>
                                                 </div>
                                             </div>

@@ -51,88 +51,50 @@
                                                 unset($_SESSION['success_message']);
                                             }
                                         ?>
-                                        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
-                                            <div class="form-floating mb-3" style="display: none">
-                                                <input type="number" class="form-control" name="userID" id="userID" value="<?php echo $_SESSION['user_id']; ?>"/>
-                                            </div>
+                                        
                                             <div class="row align-items-center g-3">
                                                 <div class="col-md-2"><label class="form-label mb-0">Choose Diet</label></div>
                                                 <div class="col-md-10 col-xl-12">
-                                                    <div class="row mb-5">
-                                                        <div class="col">
-                                                            <div class="form-item-checkable">
-                                                                <input class="form-item-check" type="radio" name="diet" value="1,200 Calories" id="12-calories" <?php if($diet == "1,200 Calories"){ echo 'checked';}else{} ?>> 
-                                                                <label class="form-item cursor-pointer" for="12-calories">
-                                                                    <span class="form-item-click d-inline-flex flex-column gap-3 align-items-center justify-content-center form-control w-rem-24 h-rem-24 text-center text-muted">
-                                                                        <span class="fw-semibold text-xs">1,200<br>Calories</span>
-                                                                    </span>
-                                                                </label>
+                                                    <div class="row mb-5 g-3 g-xl-6">
+                                                        <div class="col-xl-3 col-sm-6">
+                                                            <div class="card">
+                                                                <div class="card-body pb-5">
+                                                                    <form id="paymentForm">
+                                                                        <div class="form-floating mb-3" style="display: none">
+                                                                            <input type="text" class="form-control" id="userID" placeholder="name@example.com" value="<?php echo $_SESSION['user_id']; ?>" />
+                                                                        </div>
+                                                                        <div class="form-floating mb-3" style="display: none">
+                                                                            <input type="text" class="form-control" id="first_name" value="<?php echo $_SESSION['first_name']; ?>" />
+                                                                        </div>
+                                                                        <div class="form-floating mb-3" style="display: none">
+                                                                            <input type="text" class="form-control" id="last_name" value="<?php echo $_SESSION['last_name']; ?>" />
+                                                                        </div>
+                                                                        <div class="form-floating mb-3" style="display: none">
+                                                                            <input type="text" class="form-control" id="email" value="<?php echo $_SESSION['email']; ?>" />
+                                                                        </div>
+                                                                        <div class="form-floating mb-3" style="display: none">
+                                                                            <input type="text" class="form-control" id="subscription_plan" value="Basic Plan" />
+                                                                        </div>
+                                                                        <div class="form-floating mb-3" style="display: none">
+                                                                            <input type="text" class="form-control" id="diet" value="1,200 Calories" />
+                                                                        </div>
+                                                                        <div class="form-floating mb-3" style="display: none">
+                                                                            <input type="text" class="form-control" id="amount" value="1000" />
+                                                                        </div>
+                                                                        <div class="">
+                                                                            <button class="stretched-link h6 mb-2" style="display: contents" type="submit" onclick="payWithPaystack()"></button>
+                                                                            <h6 class="d-block mb-2 text-heading fw-bold">1,200 Calories</h6>
+                                                                            <div class="d-flex justify-content-between gap-4">
+                                                                                <div class=""><span class="d-block text-sm text-muted">Basic Plan</span></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
                                                             </div>
                                                         </div>
-
-                                                        <div class="col">
-                                                            <div class="form-item-checkable">
-                                                                <input class="form-item-check" type="radio" name="diet" value="1,500 Calories" id="1500-calories" <?php if($diet == "1,500 Calories"){ echo 'checked';}else{} ?>>
-                                                                <label class="form-item cursor-pointer" for="1500-calories">
-                                                                    <span class="form-item-click d-inline-flex flex-column gap-3 align-items-center justify-content-center form-control w-rem-24 h-rem-24 text-center text-muted">
-                                                                        <span class="fw-semibold text-xs">1,500<br>Calories </span>
-                                                                    </span>
-                                                                </label>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col">
-                                                            <div class="form-item-checkable">
-                                                                <input class="form-item-check" type="radio" name="diet" value="1,500 Calories High Protein" id="calories-high-protein" <?php if($diet == "1,500 Calories High Protein"){ echo 'checked';}else{} ?>> 
-                                                                <label class="form-item cursor-pointer" for="calories-high-protein">
-                                                                    <span class="form-item-click d-inline-flex flex-column gap-3 align-items-center justify-content-center form-control w-rem-24 h-rem-24 text-center text-muted">
-                                                                        <span class="fw-semibold text-xs">1,500<br>Calories<br>High Protein </span>
-                                                                    </span>
-                                                                </label>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col">
-                                                            <div class="form-item-checkable">
-                                                                <input class="form-item-check" type="radio" name="diet" value="1,500 Low Carb" id="low-carb" <?php if($diet == "1,500 Low Carb"){ echo 'checked';}else{} ?>> 
-                                                                <label class="form-item cursor-pointer" for="low-carb">
-                                                                    <span class="form-item-click d-inline-flex flex-column gap-3 align-items-center justify-content-center form-control w-rem-24 h-rem-24 text-center text-muted">
-                                                                        <span class="fw-semibold text-xs">1,500<br>Low Carb</span>
-                                                                    </span>
-                                                                </label>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col">
-                                                            <div class="form-item-checkable">
-                                                                <input class="form-item-check" type="radio" name="diet" value="1,500 DASH" id="dash" <?php if($diet == "1,500 DASH"){ echo 'checked';}else{} ?>> 
-                                                                <label class="form-item cursor-pointer" for="dash">
-                                                                    <span class="form-item-click d-inline-flex flex-column gap-3 align-items-center justify-content-center form-control w-rem-24 h-rem-24 text-center text-muted">
-                                                                        <span class="fw-semibold text-xs">1,500<br>DASH</span>
-                                                                    </span>
-                                                                </label>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col">
-                                                            <div class="form-item-checkable">
-                                                                <input class="form-item-check" type="radio" name="diet" value="Cholesterol Friendly Plan" id="cholesterol" <?php if($diet == "Cholesterol Friendly Plan"){ echo 'checked';}else{} ?>> 
-                                                                <label class="form-item cursor-pointer" for="cholesterol">
-                                                                    <span class="form-item-click d-inline-flex flex-column gap-3 align-items-center justify-content-center form-control w-rem-24 h-rem-24 text-center text-muted">
-                                                                        <span class="fw-semibold text-xs">Cholesterol<br>Friendly Plan</span>
-                                                                    </span>
-                                                                </label>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="text-end mb-3">
-                                                    <div>
-                                                        <button class="btn btn-danger" name="diet_update-btn" type="submit">Save Diet</button>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </form>
                                     </div>
                                 </div>
                             </div>

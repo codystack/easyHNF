@@ -19,7 +19,7 @@
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => "GET",
         CURLOPT_HTTPHEADER => array(
-        "Authorization: Bearer sk_test_361959c5aa7038177439211363d843ec57233f38",
+        "Authorization: Bearer sk_test_6b40ec0fb2219f4e58739cbc178a868bc1b41495",
         "Cache-Control: no-cache",
         ),
     ));
@@ -40,6 +40,7 @@
         $userID = $_SESSION['user_id'];
         $status = $result->data->status;
         $subscription_plan = $result->data->metadata->custom_fields[0]->value;
+        $diet = $result->data->metadata->custom_fields[1]->value;
         $transaction_ref = $result->data->reference;
         $amount = $result->data->amount / 100;
         $payment_method = $result->data->channel;
@@ -51,21 +52,22 @@
 
         $check_user_query = "SELECT * FROM users WHERE user_id ='".$_SESSION['user_id']."'";
         $result = mysqli_query($conn, $check_user_query);
-        if (mysqli_num_rows($result) > 0) {
-            
+        if (mysqli_num_rows($result) > 0) {            
   
             $query = "INSERT INTO subscription (userID, status, transaction_ref, amount, payment_method, invoice_id, subscription_plan)
                 VALUES ('$userID', '$status', '$transaction_ref', '$amount', '$payment_method', '$invoice_id', '$subscription_plan')";
-            
+                
             mysqli_query($conn, $query);
-            if (mysqli_affected_rows($conn) > 0) {
+            if (mysqli_affected_rows($conn) > 0){
+
+                $dietquery = "INSERT INTO userdiet (userID, diet)
+                VALUES ('$userID', '$diet')";
 
                 $conn=mysqli_query($conn,"UPDATE users SET subscription_plan='$subscription_plan' WHERE user_id ='".$_SESSION['user_id']."'");
-                
-                $_SESSION['transactionRef'] = $transactionRef;
+
                 echo "<meta http-equiv='refresh' content='0; URL=payment-success?status=success'>";
                 
-            } else {
+            }else{
                 echo 'Error Occured'. mysqli_error($conn);
                 exit;
             }

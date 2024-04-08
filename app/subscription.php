@@ -40,34 +40,14 @@
                                                 <hr class="my-4">
                                                 <div class="d-flex flex-wrap gap-2 align-items-center justify-content-between">
                                                     <a href="" data-bs-target="#basicPlanModal" data-bs-toggle="modal" class="text-muted text-dark-hover text-sm fw-semibold"><i class="bi bi-info-circle text-danger"></i> Plan features</a>
-                                                    <form id="paymentForm">
-                                                        <div class="form-floating mb-3" style="display: none">
-                                                            <input type="text" class="form-control" id="userID" placeholder="name@example.com" value="<?php echo $_SESSION['user_id']; ?>" disabled/>
+                                                    <div class="mb-3">
+                                                        <div style="<?php if($subscription_plan == ""){echo 'display: unset';}elseif($subscription_plan == "Basic Plan"){echo 'display: none';}else{echo 'display: unset';}?>">
+                                                            <a href="basic-diets" class="btn btn-sm btn-danger" type="submit">Subscribe</a>
                                                         </div>
-                                                        <div class="form-floating mb-3" style="display: none">
-                                                            <input type="text" class="form-control" id="first_name" value="<?php echo $_SESSION['first_name']; ?>" disabled />
+                                                        <div>
+                                                            <button class="btn btn-sm btn-danger" type="button" disabled style="<?php if($subscription_plan == "Basic Plan"){echo 'display: unset';}else{echo 'display: none';}?>">Subscribed</button>
                                                         </div>
-                                                        <div class="form-floating mb-3" style="display: none">
-                                                            <input type="text" class="form-control" id="last_name" value="<?php echo $_SESSION['last_name']; ?>" disabled />
-                                                        </div>
-                                                        <div class="form-floating mb-3" style="display: none">
-                                                            <input type="text" class="form-control" id="email" value="<?php echo $_SESSION['email']; ?>" disabled />
-                                                        </div>
-                                                        <div class="form-floating mb-3" style="display: none">
-                                                            <input type="text" class="form-control" id="subscription_plan" value="Basic Plan" disabled />
-                                                        </div>
-                                                        <div class="form-floating mb-3" style="display: none">
-                                                            <input type="text" class="form-control" id="amount" value="1000" disabled />
-                                                        </div>
-                                                        <div class="input-group mb-3">
-                                                            <div>
-                                                                <button class="btn btn-sm btn-danger" type="submit" onclick="payWithPaystack()" style="<?php if($subscription_plan == ""){echo 'display: unset';}elseif($subscription_plan == "Basic Plan"){echo 'display: none';}else{echo 'display: unset';}?>">Subscribe</button>
-                                                            </div>
-                                                            <div>
-                                                                <button class="btn btn-sm btn-danger" type="button" disabled style="<?php if($subscription_plan == "Basic Plan"){echo 'display: unset';}else{echo 'display: none';}?>">Subscribed</button>
-                                                            </div>
-                                                        </div>
-                                                    </form>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

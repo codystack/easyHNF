@@ -17,7 +17,7 @@ if (mysqli_num_rows($result) > 0) {
 }
 
 
-$select_diet_query = "SELECT * FROM user_diet WHERE userID ='".$_SESSION['user_id']."'";
+$select_diet_query = "SELECT * FROM userdiet WHERE userID ='".$_SESSION['user_id']."'";
 $result = mysqli_query($conn, $select_diet_query);
 if (mysqli_num_rows($result) > 0) {
     // output data of each row
