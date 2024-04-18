@@ -21,111 +21,79 @@
                             </div>
                         </div>
                     </div>
-    
-                    <div class="row g-3 g-xxl-6" style=" display: <?php if (!$subscription_plan){ echo 'none';}else { echo 'unset';}?>">
+                    
+                    <div class="row g-3 g-xxl-6 mt-6" style=" display: <?php if (!$subscription_plan){ echo 'none';}else { echo 'unset';}?>">
                         <div class="col-xxl-12">
                             <div class="vstack gap-3 gap-md-6">
-                                <div class="row row-cols-sm-2 row-cols-md-4 g-3">
-                                    <div class="col">
-                                        <div class="card bg-success bg-opacity-10 border-success border-opacity-40">
-                                            <div class="card-body d-flex gap-3">
-                                                <img src="./assets/img/healthy-food.png" class="w-rem-8 h-rem-8 mt-1" alt="...">
-                                                <div class="">
-                                                    <span class="d-block mb-1 text-dark">Monday</span> 
-                                                    <span class="d-block text-muted text-sm">Greek Yogurt, Apple & Almond</span>
-                                                </div>
-                                                <span class="stretched-link ms-auto text-muted text-primary-hover" data-bs-target="#mondayMealPlanModal" data-bs-toggle="modal" role="button"><i class="bi bi-eye-fill text-success"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="card">
+                                    <div class="card-body pb-0">
+                                        <div class="table-responsive mb-10 mt-5">
+                                            <table id="subscription" class="table table-hover table-striped table-sm table-nowrap">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col" style="display: none">SN</th>
+                                                        <th scope="col">
+                                                            <div class="d-flex align-items-center gap-2 ps-1">
+                                                                <span>Meal Plan Title</span>
+                                                            </div>
+                                                        </th>
+                                                        <th scope="col">Plan Info</th>
+                                                        <th scope="col">Curated Date</th>
+                                                        <th scope="col">Status</th>
+                                                        <th scope="col" class="d-none text-end d-xl-table-cell">Action</th>
+                                                    </tr>
+                                                </thead>
 
-                                    <div class="col">
-                                        <div class="card bg-success bg-opacity-10 border-success border-opacity-40">
-                                            <div class="card-body d-flex gap-3">
-                                                <img src="./assets/img/healthy-food.png" class="w-rem-8 h-rem-8 mt-1" alt="...">
-                                                <div class="">
-                                                    <span class="d-block mb-1 text-dark">Tuesday</span> 
-                                                    <span class="d-block text-muted text-sm">Greek Yogurt, Apple & Almond</span>
-                                                </div>
-                                                <span class="stretched-link ms-auto text-muted text-primary-hover" data-bs-target="#cryptoModal" data-bs-toggle="modal" role="button"><i class="bi bi-eye-fill text-success"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col">
-                                        <div class="card bg-success bg-opacity-10 border-success border-opacity-40">
-                                            <div class="card-body d-flex gap-3">
-                                                <img src="./assets/img/healthy-food.png" class="w-rem-8 h-rem-8 mt-1" alt="...">
-                                                <div class="">
-                                                    <span class="d-block mb-1 text-dark">Wednesday</span> 
-                                                    <span class="d-block text-muted text-sm">Greek Yogurt, Apple & Almond</span>
-                                                </div>
-                                                <span class="stretched-link ms-auto text-muted text-primary-hover" data-bs-target="#cryptoModal" data-bs-toggle="modal" role="button"><i class="bi bi-eye-fill text-success"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col">
-                                        <div class="card bg-success bg-opacity-10 border-success border-opacity-40">
-                                            <div class="card-body d-flex gap-3">
-                                                <img src="./assets/img/healthy-food.png" class="w-rem-8 h-rem-8 mt-1" alt="...">
-                                                <div class="">
-                                                    <span class="d-block mb-1 text-dark">Thursday</span> 
-                                                    <span class="d-block text-muted text-sm">Greek Yogurt, Apple & Almond</span>
-                                                </div>
-                                                <span class="stretched-link ms-auto text-muted text-primary-hover" data-bs-target="#cryptoModal" data-bs-toggle="modal" role="button"><i class="bi bi-eye-fill text-success"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col">
-                                        <div class="card bg-success bg-opacity-10 border-success border-opacity-40">
-                                            <div class="card-body d-flex gap-3">
-                                                <img src="./assets/img/healthy-food.png" class="w-rem-8 h-rem-8 mt-1" alt="...">
-                                                <div class="">
-                                                    <span class="d-block mb-1 text-dark">Friday</span> 
-                                                    <span class="d-block text-muted text-sm">Greek Yogurt, Apple & Almond</span>
-                                                </div>
-                                                <span class="stretched-link ms-auto text-muted text-primary-hover" data-bs-target="#cryptoModal" data-bs-toggle="modal" role="button"><i class="bi bi-eye-fill text-success"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col">
-                                        <div class="card bg-success bg-opacity-10 border-success border-opacity-40">
-                                            <div class="card-body d-flex gap-3">
-                                                <img src="./assets/img/healthy-food.png" class="w-rem-8 h-rem-8 mt-1" alt="...">
-                                                <div class="">
-                                                    <span class="d-block mb-1 text-dark">Saturday</span> 
-                                                    <span class="d-block text-muted text-sm">Greek Yogurt, Apple & Almond</span>
-                                                </div>
-                                                <span class="stretched-link ms-auto text-muted text-primary-hover" data-bs-target="#cryptoModal" data-bs-toggle="modal" role="button"><i class="bi bi-eye-fill text-success"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col">
-                                        <div class="card bg-success bg-opacity-10 border-success border-opacity-40">
-                                            <div class="card-body d-flex gap-3">
-                                                <img src="./assets/img/healthy-food.png" class="w-rem-8 h-rem-8 mt-1" alt="...">
-                                                <div class="">
-                                                    <span class="d-block mb-1 text-dark">Sunday</span> 
-                                                    <span class="d-block text-muted text-sm">Greek Yogurt, Apple & Almond</span>
-                                                </div>
-                                                <span class="stretched-link ms-auto text-muted text-primary-hover" data-bs-target="#cryptoModal" data-bs-toggle="modal" role="button"><i class="bi bi-eye-fill text-success"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col">
-                                        <div class="card bg-warning bg-opacity-10 border-warning border-opacity-40">
-                                            <div class="card-body d-flex gap-3">
-                                                <img src="./assets/img/healthy-food.png" class="w-rem-8 h-rem-8 mt-1" alt="...">
-                                                <div class="">
-                                                    <span class="d-block mb-1 text-dark">Freestyle Day</span> 
-                                                    <span class="d-block text-muted text-sm">Greek Yogurt, Apple & Almond</span>
-                                                </div>
-                                            </div>
+                                                <tbody>
+                                                    <?php
+                                                    $mp_id = 1;
+                                                    $select_query = "SELECT * FROM custom_meal_plan WHERE userID ='".$_SESSION['user_id']."' ORDER BY created_at ASC";
+                                                        $result = mysqli_query($conn, $select_query);
+                                                        if (mysqli_num_rows($result) > 0) {
+                                                            // output data of each row
+                                                            while($row = mysqli_fetch_assoc($result)) {
+                                                                $plan_title = $row['plan_title'];
+                                                                $plan_id = $row['plan_id'];
+                                                                $monday_breakfast = $row['monday_breakfast'];
+                                                                $status = $row['status'];
+                                                                $monday_lunch = $row['monday_lunch'];
+                                                                $created_at = $row['created_at'];
+                                                                $date = strtotime($created_at);
+                                                                switch ($status) {
+                                                                    case "Inactive";
+                                                                        $class  = 'bg-warning';
+                                                                        $text = 'text-warning';
+                                                                        break;
+                                                                    case "Active";
+                                                                        $class  = 'bg-success';
+                                                                        $text = 'text-success';
+                                                                        break;
+                                                                    default:
+                                                                        $class  = '';
+                                                                }
+                                                    ?>
+                                                    <tr>
+                                                        <td style="display: none"><?php echo $mp_id; ?></td>
+                                                        <td>
+                                                            <div class="d-flex align-items-center gap-3 ps-1">
+                                                                <div class="icon icon-shape w-rem-10 h-rem-10 rounded-circle text-sm bg-primary bg-opacity-25 text-primary"><i class="bi bi-egg-fried"></i></div>
+                                                                <div><span class="d-block text-heading fw-bold"><?php echo $plan_title; ?></span></div>
+                                                            </div>
+                                                        </td>
+                                                        <td><?php echo $monday_breakfast; ?>, <?php echo $monday_lunch; ?>....</td>
+                                                        <td><?php echo date('j F Y', $date); ?></td>
+                                                        <td><span class="badge <? echo $class; ?> bg-opacity-25 text-xs <? echo $text; ?>"><?php echo $status; ?></span></td>
+                                                        <td class="text-end">
+                                                            <a href="view-plan?id=<?php echo $plan_id; ?>" class='btn btn-dark btn-sm'><i class="bi bi-eye"></i> View</a>
+                                                        </td>
+                                                    </tr>
+                                                    <?php
+                                                    $mp_id++;
+                                                            }
+                                                        }
+                                                    ?>
+                                                </tbody>
+                                            </table>
                                         </div>
                                     </div>
                                 </div>
@@ -138,6 +106,5 @@
     </div>
 
 <?php 
-include "./components/modals.php";
 include "./components/footer.php";
 ?>

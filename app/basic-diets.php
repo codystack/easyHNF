@@ -56,6 +56,16 @@
                                                 <div class="col-md-2"><label class="form-label mb-0">Choose Diet</label></div>
                                                 <div class="col-md-10 col-xl-12">
                                                     <div class="row mb-5 g-3 g-xl-6">
+                                                        <?php
+                                                            $select_query = "SELECT * FROM basic_diet ORDER BY diet_id ASC";
+                                                                $result = mysqli_query($conn, $select_query);
+                                                                if (mysqli_num_rows($result) > 0) {
+                                                                    // output data of each row
+                                                                    while($row = mysqli_fetch_assoc($result)) {
+                                                                        $diet_id = $row['diet_id'];
+                                                                        $title = $row['title'];
+                                                                        $price = $row['price'];
+                                                        ?>
                                                         <div class="col-xl-3 col-sm-6">
                                                             <div class="card">
                                                                 <div class="card-body pb-5">
@@ -76,14 +86,14 @@
                                                                             <input type="text" class="form-control" id="subscription_plan" value="Basic Plan" />
                                                                         </div>
                                                                         <div class="form-floating mb-3" style="display: none">
-                                                                            <input type="text" class="form-control" id="diet" value="1,200 Calories" />
+                                                                            <input type="text" class="form-control" id="diet" value="<?php echo $title; ?>" />
                                                                         </div>
                                                                         <div class="form-floating mb-3" style="display: none">
-                                                                            <input type="text" class="form-control" id="amount" value="1000" />
+                                                                            <input type="text" class="form-control" id="amount" value="<?php echo $price; ?>" />
                                                                         </div>
                                                                         <div class="">
                                                                             <button class="stretched-link h6 mb-2" style="display: contents" type="submit" onclick="payWithPaystack()"></button>
-                                                                            <h6 class="d-block mb-2 text-heading fw-bold">1,200 Calories</h6>
+                                                                            <h6 class="d-block mb-2 text-heading fw-bold"><?php echo $title; ?></h6>
                                                                             <div class="d-flex justify-content-between gap-4">
                                                                                 <div class=""><span class="d-block text-sm text-muted">Basic Plan</span></div>
                                                                             </div>
@@ -92,6 +102,10 @@
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                        <?php
+                                                                }
+                                                            }
+                                                        ?>
                                                     </div>
                                                 </div>
                                             </div>
