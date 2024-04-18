@@ -37,7 +37,7 @@
                 </li>
 
                 <li class="nav-item my-1">
-                    <a class="nav-link d-flex align-items-center rounded-pill <?php if($page=='Booking'){echo 'active';}?>" href="booking"><i class="bi bi-calendar-date-fill"></i> <span>Book a Session</span> </a>
+                    <a class="nav-link d-flex align-items-center rounded-pill <?php if($page=='Booking'){echo 'active';}?>" href="booking"><i class="bi bi-calendar-date-fill"></i> <span>Book a Consultation</span> </a>
                 </li>
 
                 <li class="nav-item my-1">
