@@ -16,7 +16,7 @@
                             </div>
                             <div class="col" style="display: <?php if ($subscription_plan == 'Basic Plan'){ echo 'unset';}elseif ($subscription_plan == 'Customized Plan' || 'Nutrition Coaching Plan'){ echo 'none';}else{ echo 'unset';}?>">
                                 <div class="hstack justify-content-end">
-                                    <a href="basic-diets" class="btn d-inline-flex btn-sm btn-neutral"><span class="pe-2"><i class="bi bi-arrow-left-right"></i></span> <span> Swap Diets</span></a>
+                                    <button data-bs-toggle="modal" data-bs-target="#basicSubscriptionModal" type="button" class="btn d-inline-flex btn-sm btn-neutral"><span class="pe-2"><i class="bi bi-arrow-left-right"></i></span> <span> Swap Diets</span></button>
                                 </div>
                             </div>
                         </div>
@@ -42,7 +42,7 @@
                                                     <a href="" data-bs-target="#basicPlanModal" data-bs-toggle="modal" class="text-muted text-dark-hover text-sm fw-semibold"><i class="bi bi-info-circle text-danger"></i> Plan features</a>
                                                     <div class="mb-3">
                                                         <div style="<?php if($subscription_plan == ""){echo 'display: unset';}elseif($subscription_plan == "Basic Plan"){echo 'display: none';}else{echo 'display: unset';}?>">
-                                                            <a href="basic-diets" class="btn btn-sm btn-danger" type="submit">Subscribe</a>
+                                                            <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#basicSubscriptionModal">Subscribe</button>
                                                         </div>
                                                         <div>
                                                             <button class="btn btn-sm btn-danger" type="button" disabled style="<?php if($subscription_plan == "Basic Plan"){echo 'display: unset';}else{echo 'display: none';}?>">Subscribed</button>

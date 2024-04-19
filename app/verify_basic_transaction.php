@@ -60,7 +60,7 @@
             mysqli_query($conn, $query);
             if (mysqli_affected_rows($conn) > 0){
 
-                $dietquery = "INSERT INTO userdiet (userID, diet)
+               "INSERT INTO userdiet (userID, diet)
                 VALUES ('$userID', '$diet')";
 
                 $conn=mysqli_query($conn,"UPDATE users SET subscription_plan='$subscription_plan' WHERE user_id ='".$_SESSION['user_id']."'");

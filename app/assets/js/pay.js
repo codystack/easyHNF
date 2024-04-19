@@ -1,6 +1,6 @@
 const paymentForm = document.getElementById('paymentForm');
 paymentForm.addEventListener("submit", payWithPaystack, false);
-function payWithPaystack() {
+function payWithPaystack(e) {
   e.preventDefault();
   let handler = PaystackPop.setup({
     key: 'pk_test_c1ff9832479e57844403e068516234c701d625ab', // Replace with your public key
@@ -19,7 +19,7 @@ function payWithPaystack() {
         value: document.getElementById('subscription_plan').value
         },
         {
-          display_name: "Diet Plan",
+          display_name: "Diet",
           variable_name: "diet",
           value: document.getElementById('diet').value
         }

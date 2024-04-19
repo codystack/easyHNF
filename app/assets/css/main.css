@@ -1220,12 +1220,12 @@ progress {
     --x-btn-bg: #ff3366;
     --x-btn-border-color: #ff3366;
     --x-btn-hover-color: #fff;
-    --x-btn-hover-bg: #6e46cc;
-    --x-btn-hover-border-color: #6e46cc;
+    --x-btn-hover-bg: #d81b4a;
+    --x-btn-hover-border-color: #d81b4a;
     --x-btn-focus-shadow-rgb: 155,112,255;
     --x-btn-active-color: #fff;
-    --x-btn-active-bg: #6e46cc;
-    --x-btn-active-border-color: #6741bf;
+    --x-btn-active-bg: #d81b4a;
+    --x-btn-active-border-color: #d81b4a;
     --x-btn-active-shadow: 0 0 0 0 transparent;
     --x-btn-disabled-color: #fff;
     --x-btn-disabled-bg: #ff3366;

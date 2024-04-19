@@ -231,3 +231,74 @@
         </div>
     </div>
     <!-- View Coaching Plan Feature modal end-->
+
+
+    <!-- Basic Subscription Plan modal start-->
+    <div  class="modal fade" id="basicSubscriptionModal" tabindex="-1" aria-labelledby="basicSubscriptionModal" aria-hidden="false">
+        <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-content overflow-hidden">
+                <div class="modal-header pb-0 border-0">
+                    <h1 class="modal-title h4" id="topUpModalLabel">Basic Plan</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body undefined">
+                    <form class="vstack gap-8" id="paymentForm">
+                        <div>
+                            <label class="form-label">Select Diet Plan</label>
+                            <div class="justify-content-between p-4 bg-body-tertiary border rounded">
+
+                                <div class="form-floating mb-3" style="display: none">
+                                    <input type="text" class="form-control" id="userID" value="<?php echo $_SESSION['user_id']; ?>" />
+                                </div>
+                                <div class="form-floating mb-3" style="display: none">
+                                    <input type="text" class="form-control" id="first_name" value="<?php echo $_SESSION['first_name']; ?>" />
+                                </div>
+                                <div class="form-floating mb-3" style="display: none">
+                                    <input type="text" class="form-control" id="last_name" value="<?php echo $_SESSION['last_name']; ?>" />
+                                </div>
+                                <div class="form-floating mb-3" style="display: none">
+                                    <input type="text" class="form-control" id="email" value="<?php echo $_SESSION['email']; ?>" />
+                                </div>
+                                <div class="form-floating mb-3" style="display: none">
+                                    <input type="text" class="form-control" id="subscription_plan" value="Basic Plan" />
+                                </div>
+
+                                <div class="form-floating mb-3" style="display: none">
+                                    <input type="text" class="form-control" id="amount" value="1000" />
+                                </div>
+
+                                <div class="form-floating">
+                                    <label class="visually-hidden">Diet</label> 
+                                    <select class="form-select" id="diet">
+                                        <?php
+                                            $select_query = "SELECT * FROM basic_diet ORDER BY diet_id ASC";
+                                            $result = mysqli_query($conn, $select_query);
+                                            if (mysqli_num_rows($result) > 0) {
+                                                // output data of each row
+                                                while($row = mysqli_fetch_assoc($result)) {
+                                                    $diet_id = $row['diet_id'];
+                                                    $title = $row['title'];
+                                                    $price = $row['price'];
+                                        ?>
+                                        <option value="<?php echo $title; ?>"><?php echo $title; ?></option>
+                                        <?php
+                                                }
+                                            }
+                                        ?>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="vstack gap-2">
+                                <div class="text-center">
+                                    <button type="submit" onclick="payWithPaystack()" class="btn btn-primary w-100">Deposit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Basic Subscription Plan modal end-->
