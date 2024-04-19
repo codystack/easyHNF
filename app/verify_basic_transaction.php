@@ -19,7 +19,7 @@
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => "GET",
         CURLOPT_HTTPHEADER => array(
-        "Authorization: Bearer sk_test_6b40ec0fb2219f4e58739cbc178a868bc1b41495",
+        "Authorization: Bearer sk_test_361959c5aa7038177439211363d843ec57233f38",
         "Cache-Control: no-cache",
         ),
     ));
@@ -59,9 +59,7 @@
                 
             mysqli_query($conn, $query);
             if (mysqli_affected_rows($conn) > 0){
-
-               "INSERT INTO userdiet (userID, diet)
-                VALUES ('$userID', '$diet')";
+                $dietquery=mysqli_query($conn,"INSERT INTO userdiet (userID, diet) VALUES ('$userID', '$diet')");
 
                 $conn=mysqli_query($conn,"UPDATE users SET subscription_plan='$subscription_plan' WHERE user_id ='".$_SESSION['user_id']."'");
 
