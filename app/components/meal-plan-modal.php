@@ -396,12 +396,12 @@
     <!-- Friday Meal Plan Modal End-->
 
 
-    <!-- Freestyle Meal Plan Modal Start-->
-    <div class="modal fade" id="freestyleMealPlanModal" tabindex="-1" aria-labelledby="freestyleMealPlanModal" aria-hidden="false">
+    <!-- Saturday Meal Plan Modal Start-->
+    <div class="modal fade" id="saturdayMealPlanModal" tabindex="-1" aria-labelledby="saturdayMealPlanModal" aria-hidden="false">
         <div class="modal-dialog modal-sm modal-dialog-centered">
             <div class="modal-content overflow-hidden">
                 <div class="modal-header pb-0 border-0">
-                    <h1 class="modal-title h4" id="freestyleMealPlanModal">Freestyle Meal Plan</h1>
+                    <h1 class="modal-title h4" id="saturdayMealPlanModal">Saturday Meal Plan</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
                     </button>
                 </div>
@@ -414,8 +414,8 @@
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $freestyle_breakfast; ?></label>
-                                    <p class="text-sm text-muted"><?php echo $freestyle_breakfast_calorie_count; ?></p>
+                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $saturday_breakfast; ?></label>
+                                    <p class="text-sm text-muted"><?php echo $saturday_breakfast_calorie_count; ?></p>
                                 </div>
                             </div>
                         </div>
@@ -430,8 +430,8 @@
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $freestyle_lunch; ?></label>
-                                    <p class="text-sm text-muted"><?php echo $freestyle_lunch_calorie_count; ?></p>
+                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $saturday_lunch; ?></label>
+                                    <p class="text-sm text-muted"><?php echo $saturday_lunch_calorie_count; ?></p>
                                 </div>
                             </div>
                         </div>
@@ -446,8 +446,8 @@
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $freestyle_snack; ?></label>
-                                    <p class="text-sm text-muted"><?php echo $freestyle_snack_calorie_count; ?></p>
+                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $saturday_snack; ?></label>
+                                    <p class="text-sm text-muted"><?php echo $saturday_snack_calorie_count; ?></p>
                                 </div>
                             </div>
                         </div>
@@ -462,8 +462,8 @@
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $freestyle_dinner; ?></label>
-                                    <p class="text-sm text-muted"><?php echo $freestyle_dinner_calorie_count; ?></p>
+                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $saturday_dinner; ?></label>
+                                    <p class="text-sm text-muted"><?php echo $saturday_dinner_calorie_count; ?></p>
                                 </div>
                             </div>
                         </div>
@@ -472,4 +472,84 @@
             </div>
         </div>
     </div>
-    <!-- Freestyle Meal Plan Modal End-->
+    <!-- Saturday Meal Plan Modal End-->
+
+
+
+    <!-- Sunday Meal Plan Modal Start-->
+    <div class="modal fade" id="sundayMealPlanModal" tabindex="-1" aria-labelledby="sundayMealPlanModal" aria-hidden="false">
+        <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-content overflow-hidden">
+                <div class="modal-header pb-0 border-0">
+                    <h1 class="modal-title h4" id="sundayMealPlanModal">Sunday Meal Plan</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <hr class="mb-0">
+                <div class="modal-body undefined">
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <label class="form-label mb-0">Breakfast</label>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="d-flex mb-5">
+                                <div>
+                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $sunday_breakfast; ?></label>
+                                    <p class="text-sm text-muted"><?php echo $sunday_breakfast_calorie_count; ?></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="my-6">
+
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <label class="form-label mb-0">Lunch</label>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="d-flex mb-5">
+                                <div>
+                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $sunday_lunch; ?></label>
+                                    <p class="text-sm text-muted"><?php echo $sunday_lunch_calorie_count; ?></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="my-6">
+
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <label class="form-label mb-0">Snack</label>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="d-flex mb-5">
+                                <div>
+                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $sunday_snack; ?></label>
+                                    <p class="text-sm text-muted"><?php echo $sunday_snack_calorie_count; ?></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="my-6">
+
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <label class="form-label mb-0">Dinner</label>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="d-flex mb-5">
+                                <div>
+                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $sunday_dinner; ?></label>
+                                    <p class="text-sm text-muted"><?php echo $sunday_dinner_calorie_count; ?></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sunday Meal Plan Modal End-->

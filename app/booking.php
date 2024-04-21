@@ -20,6 +20,7 @@
                         <div class="row g-3 align-items-center">
                             <div class="col">
                                 <h2 class="ls-tight">Book a Session</h2>
+                                <p>Schedule an appointment with our dietitian.</p>
                             </div>
                         </div>
                     </div>

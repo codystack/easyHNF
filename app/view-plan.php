@@ -57,14 +57,22 @@
             $friday_snack_calorie_count = $row['friday_snack_calorie_count'];
             $friday_dinner = $row['friday_dinner'];
             $friday_dinner_calorie_count = $row['friday_dinner_calorie_count'];
-            $freestyle_breakfast = $row['freestyle_breakfast'];
-            $freestyle_breakfast_calorie_count = $row['freestyle_breakfast_calorie_count'];
-            $freestyle_lunch = $row['freestyle_lunch'];
-            $freestyle_lunch_calorie_count = $row['freestyle_lunch_calorie_count'];
-            $freestyle_snack = $row['freestyle_snack'];
-            $freestyle_snack_calorie_count = $row['freestyle_snack_calorie_count'];
-            $freestyle_dinner = $row['freestyle_dinner'];
-            $freestyle_dinner_calorie_count = $row['freestyle_dinner_calorie_count'];
+            $saturday_breakfast = $row['saturday_breakfast'];
+            $saturday_breakfast_calorie_count = $row['saturday_breakfast_calorie_count'];
+            $saturday_lunch = $row['saturday_lunch'];
+            $saturday_lunch_calorie_count = $row['saturday_lunch_calorie_count'];
+            $saturday_snack = $row['saturday_snack'];
+            $saturday_snack_calorie_count = $row['saturday_snack_calorie_count'];
+            $saturday_dinner = $row['saturday_dinner'];
+            $saturday_dinner_calorie_count = $row['saturday_dinner_calorie_count'];
+            $sunday_breakfast = $row['sunday_breakfast'];
+            $sunday_breakfast_calorie_count = $row['sunday_breakfast_calorie_count'];
+            $sunday_lunch = $row['sunday_lunch'];
+            $sunday_lunch_calorie_count = $row['sunday_lunch_calorie_count'];
+            $sunday_snack = $row['sunday_snack'];
+            $sunday_snack_calorie_count = $row['sunday_snack_calorie_count'];
+            $sunday_dinner = $row['sunday_dinner'];
+            $sunday_dinner_calorie_count = $row['sunday_dinner_calorie_count'];
         }
     }
 ?>
@@ -166,10 +174,23 @@
                                             <div class="card-body d-flex gap-3">
                                                 <img src="./assets/img/healthy-food.png" class="w-rem-8 h-rem-8 mt-1" alt="...">
                                                 <div class="">
-                                                    <span class="d-block mb-1 text-dark">Freestyle Day</span> 
-                                                    <span class="d-block text-muted text-sm"><?php echo $freestyle_breakfast_calorie_count; ?></span>
+                                                    <span class="d-block mb-1 text-dark">Saturday</span> 
+                                                    <span class="d-block text-muted text-sm"><?php echo $saturday_breakfast_calorie_count; ?></span>
                                                 </div>
-                                                <span class="stretched-link ms-auto text-muted text-primary-hover" data-bs-target="#freestyleMealPlanModal" data-bs-toggle="modal" role="button"><i class="bi bi-eye-fill text-warning"></i></span>
+                                                <span class="stretched-link ms-auto text-muted text-primary-hover" data-bs-target="#saturdayMealPlanModal" data-bs-toggle="modal" role="button"><i class="bi bi-eye-fill text-warning"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="card bg-warning bg-opacity-10 border-warning border-opacity-40">
+                                            <div class="card-body d-flex gap-3">
+                                                <img src="./assets/img/healthy-food.png" class="w-rem-8 h-rem-8 mt-1" alt="...">
+                                                <div class="">
+                                                    <span class="d-block mb-1 text-dark">Sunday</span> 
+                                                    <span class="d-block text-muted text-sm"><?php echo $saturday_breakfast_calorie_count; ?></span>
+                                                </div>
+                                                <span class="stretched-link ms-auto text-muted text-primary-hover" data-bs-target="#sundayMealPlanModal" data-bs-toggle="modal" role="button"><i class="bi bi-eye-fill text-warning"></i></span>
                                             </div>
                                         </div>
                                     </div>
