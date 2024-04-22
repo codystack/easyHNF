@@ -10,7 +10,7 @@
 
     $plan_id = $_GET['id'];
                     
-    $select_query = "SELECT * FROM custom_meal_plan WHERE plan_id ='$plan_id'";
+    $select_query = "SELECT * FROM basic_meal_plan WHERE plan_id ='$plan_id'";
     $result = mysqli_query($conn, $select_query);
     if (mysqli_num_rows($result) > 0) {
         // output data of each row

@@ -84,7 +84,7 @@
                                                         <td><?php echo date('j F Y', $date); ?></td>
                                                         <td><span class="badge <? echo $class; ?> bg-opacity-25 text-xs <? echo $text; ?>"><?php echo $status; ?></span></td>
                                                         <td class="text-end">
-                                                            <a href="view-plan?id=<?php echo $plan_id; ?>" class='btn btn-dark btn-sm'><i class="bi bi-eye"></i> View</a>
+                                                            <a href="view-basic-plan?id=<?php echo $plan_id; ?>" class='btn btn-dark btn-sm'><i class="bi bi-eye"></i> View</a>
                                                         </td>
                                                     </tr>
                                                     <?php
