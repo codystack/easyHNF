@@ -10,13 +10,11 @@
 
     $plan_id = $_GET['id'];
                     
-    $select_query = "SELECT * FROM basic_meal_plan, meals WHERE plan_id ='$plan_id'";
+    $select_query = "SELECT * FROM basic_meal_plan WHERE plan_id ='$plan_id'";
     $result = mysqli_query($conn, $select_query);
     if (mysqli_num_rows($result) > 0) {
         // output data of each row
         while($row = mysqli_fetch_assoc($result)) {
-            $title = $row['title'];
-            $meal_id = $row['meal_id'];
             $plan_id = $row['plan_id'];
             $plan_title = $row['plan_title'];
             $monday_breakfast = $row['monday_breakfast'];
