@@ -255,7 +255,9 @@
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $thursday_breakfast; ?></label>
+                                    <a href="view-meal?id=<?php if($thursday_breakfast == $title){echo $meal_id;} ?>">
+                                        <label class="form-label mb-0 text-dark" for="check_notification_1"><?php echo $thursday_breakfast; ?></label>
+                                    </a>
                                     <p class="text-sm text-muted"><?php echo $thursday_breakfast_calorie_count; ?></p>
                                 </div>
                             </div>
@@ -271,7 +273,9 @@
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $thursday_lunch; ?></label>
+                                    <a href="view-meal?id=<?php if($thursday_lunch == $title){echo $meal_id;} ?>">
+                                        <label class="form-label mb-0 text-dark" for="check_notification_1"><?php echo $thursday_lunch; ?></label>
+                                    </a>
                                     <p class="text-sm text-muted"><?php echo $thursday_lunch_calorie_count; ?></p>
                                 </div>
                             </div>
@@ -287,7 +291,9 @@
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $thursday_snack; ?></label>
+                                    <a href="view-meal?id=<?php if($thursday_snack == $title){echo $meal_id;} ?>">
+                                        <label class="form-label mb-0 text-dark" for="check_notification_1"><?php echo $thursday_snack; ?></label>
+                                    </a>
                                     <p class="text-sm text-muted"><?php echo $thursday_snack_calorie_count; ?></p>
                                 </div>
                             </div>
@@ -303,7 +309,9 @@
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $thursday_dinner; ?></label>
+                                    <a href="view-meal?id=<?php if($thursday_dinner == $title){echo $meal_id;} ?>">
+                                        <label class="form-label mb-0 text-dark" for="check_notification_1"><?php echo $thursday_dinner; ?></label>
+                                    </a>
                                     <p class="text-sm text-muted"><?php echo $thursday_dinner_calorie_count; ?></p>
                                 </div>
                             </div>
@@ -335,7 +343,9 @@
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $friday_breakfast; ?></label>
+                                    <a href="view-meal?id=<?php if($friday_breakfast == $title){echo $meal_id;} ?>">
+                                        <label class="form-label mb-0" for="check_notification_1"><?php echo $friday_breakfast; ?></label>
+                                    </a>
                                     <p class="text-sm text-muted"><?php echo $friday_breakfast_calorie_count; ?></p>
                                 </div>
                             </div>
@@ -351,7 +361,9 @@
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $friday_lunch; ?></label>
+                                    <a href="view-meal?id=<?php if($friday_lunch == $title){echo $meal_id;} ?>">
+                                        <label class="form-label mb-0" for="check_notification_1"><?php echo $friday_lunch; ?></label>
+                                    </a>
                                     <p class="text-sm text-muted"><?php echo $friday_lunch_calorie_count; ?></p>
                                 </div>
                             </div>
@@ -367,7 +379,9 @@
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $friday_snack; ?></label>
+                                    <a href="view-meal?id=<?php if($friday_snack == $title){echo $meal_id;} ?>">
+                                        <label class="form-label mb-0" for="check_notification_1"><?php echo $friday_snack; ?></label>
+                                    </a>
                                     <p class="text-sm text-muted"><?php echo $friday_snack_calorie_count; ?></p>
                                 </div>
                             </div>
@@ -383,7 +397,9 @@
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $friday_dinner; ?></label>
+                                    <a href="view-meal?id=<?php if($friday_dinner == $title){echo $meal_id;} ?>">
+                                        <label class="form-label mb-0" for="check_notification_1"><?php echo $friday_dinner; ?></label>
+                                    </a>
                                     <p class="text-sm text-muted"><?php echo $friday_dinner_calorie_count; ?></p>
                                 </div>
                             </div>
@@ -414,7 +430,9 @@
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $saturday_breakfast; ?></label>
+                                    <a href="view-meal?id=<?php if($saturday_breakfast == $title){echo $meal_id;} ?>">
+                                        <label class="form-label mb-0" for="check_notification_1"><?php echo $saturday_breakfast; ?></label>
+                                    </a>
                                     <p class="text-sm text-muted"><?php echo $saturday_breakfast_calorie_count; ?></p>
                                 </div>
                             </div>
@@ -430,7 +448,9 @@
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $saturday_lunch; ?></label>
+                                    <a href="view-meal?id=<?php if($saturday_lunch == $title){echo $meal_id;} ?>">
+                                        <label class="form-label mb-0" for="check_notification_1"><?php echo $saturday_lunch; ?></label>
+                                    </a>
                                     <p class="text-sm text-muted"><?php echo $saturday_lunch_calorie_count; ?></p>
                                 </div>
                             </div>
@@ -446,7 +466,9 @@
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $saturday_snack; ?></label>
+                                    <a href="view-meal?id=<?php if($saturday_snack == $title){echo $meal_id;} ?>">
+                                        <label class="form-label mb-0" for="check_notification_1"><?php echo $saturday_snack; ?></label>
+                                    </a>
                                     <p class="text-sm text-muted"><?php echo $saturday_snack_calorie_count; ?></p>
                                 </div>
                             </div>
@@ -462,7 +484,9 @@
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $saturday_dinner; ?></label>
+                                    <a href="view-meal?id=<?php if($saturday_dinner == $title){echo $meal_id;} ?>">
+                                        <label class="form-label mb-0" for="check_notification_1"><?php echo $saturday_dinner; ?></label>
+                                    </a>
                                     <p class="text-sm text-muted"><?php echo $saturday_dinner_calorie_count; ?></p>
                                 </div>
                             </div>
@@ -494,7 +518,9 @@
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $sunday_breakfast; ?></label>
+                                    <a href="view-meal?id=<?php if($sunday_breakfast == $title){echo $meal_id;} ?>">
+                                        <label class="form-label mb-0" for="check_notification_1"><?php echo $sunday_breakfast; ?></label>
+                                    </a>
                                     <p class="text-sm text-muted"><?php echo $sunday_breakfast_calorie_count; ?></p>
                                 </div>
                             </div>
@@ -510,7 +536,9 @@
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $sunday_lunch; ?></label>
+                                    <a href="view-meal?id=<?php if($sunday_lunch == $title){echo $meal_id;} ?>">
+                                        <label class="form-label mb-0 text-dark" for="check_notification_1"><?php echo $sunday_lunch; ?></label>
+                                    </a>
                                     <p class="text-sm text-muted"><?php echo $sunday_lunch_calorie_count; ?></p>
                                 </div>
                             </div>
@@ -526,7 +554,10 @@
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $sunday_snack; ?></label>
+                                    <?php
+                                    $select_query = "SELECT meals.meal_id, basic_meal_plan.sunday_snack, meals.title FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.sunday_snack = meals.title";
+                                    echo "<p> $meal_id </p>";
+                                    ?>
                                     <p class="text-sm text-muted"><?php echo $sunday_snack_calorie_count; ?></p>
                                 </div>
                             </div>
@@ -539,10 +570,14 @@
                         <div class="col-md-4">
                             <label class="form-label mb-0">Dinner</label>
                         </div>
+                        
                         <div class="col-md-5">
                             <div class="d-flex mb-5">
                                 <div>
-                                    <label class="form-label mb-0" for="check_notification_1"><?php echo $sunday_dinner; ?></label>
+                                    <a href="view-meal?id=<?php if($sunday_dinner === $title){echo $meal_id;} ?>">
+                                    <?php echo $sunday_dinner; ?> <?php echo $title; ?>  <?php echo $meal_id; ?>
+                                        <!-- <label class="form-label mb-0" for="check_notification_1"><?php echo $sunday_dinner; ?></label> -->
+                                    </a>
                                     <p class="text-sm text-muted"><?php echo $sunday_dinner_calorie_count; ?></p>
                                 </div>
                             </div>

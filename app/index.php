@@ -47,11 +47,11 @@
                             <div class="row">
 
                                 <div class="col-12 col-md-6 col-lg-4 mt-6">
-                                    <div class="py-10 rounded-5 px-lg-16 text-center text-md-start" style="background-image: url('./assets/img/meal_plan.jpg'); background-repeat: no-repeat; background-size: cover;">
+                                    <div class="py-10 rounded-5 px-lg-3 text-center text-md-start" style="background-image: url('./assets/img/meal_plan.jpg'); background-repeat: no-repeat; background-size: cover;">
                                         <div class="row justify-content-center">
                                             <div class="col-12 col-md-12 col-lg-12 text-center">
                                                 <h2 class="ls-tight fw-bolder mb-5 text-white">My Plan</h2>
-                                                <p class="lead text-white opacity-8 mb-10">Discover the joy of healthy eating with this inspiring meal plan.</p>
+                                                <p class="lead text-white opacity-8 mb-10">Discover the joys of eating with a variety of delicious meals and snacks.</p>
                                                 <div class="mx-n2">
                                                     <a href="my-plan" class="btn btn-light mx-2 px-lg-8">View Plan</a>
                                                 </div>
@@ -61,10 +61,10 @@
                                 </div>
 
                                 <div class="col-12 col-md-6 col-lg-4 mt-6">
-                                    <div class="py-10 rounded-5 px-lg-16 text-center text-md-start" style="background-image: url('./assets/img/session.jpg'); background-repeat: no-repeat; background-size: cover;">
+                                    <div class="py-10 rounded-5 px-lg-3 text-center text-md-start" style="background-image: url('./assets/img/session.jpg'); background-repeat: no-repeat; background-size: cover;">
                                         <div class="row justify-content-center">
                                             <div class="col-12 col-md-12 col-lg-12 text-center">
-                                                <h2 class="ls-tight fw-bolder mb-5 text-white">Book a Session</h2>
+                                                <h2 class="ls-tight fw-bolder mb-5 text-white">Schedule a Consultation</h2>
                                                 <p class="lead text-white opacity-8 mb-10">Get expert guidance for healthy eating habits that last.</p>
                                                 <div class="mx-n2">
                                                     <a href="booking" class="btn btn-light mx-2 px-lg-8">Book a Session</a>
@@ -75,7 +75,7 @@
                                 </div>
 
                                 <div class="col-12 col-md-6 col-lg-4 mt-6">
-                                    <div class="py-10 rounded-5 px-lg-16 text-center text-md-start" style="background-image: url('./assets/img/communitybg.jpg'); background-repeat: no-repeat; background-size: cover;">
+                                    <div class="py-10 rounded-5 px-lg-3 text-center text-md-start" style="background-image: url('./assets/img/communitybg.jpg'); background-repeat: no-repeat; background-size: cover;">
                                         <div class="row justify-content-center">
                                             <div class="col-12 col-md-12 col-lg-12 text-center">
                                                 <h2 class="ls-tight fw-bolder mb-5 text-white">Expert Tips</h2>

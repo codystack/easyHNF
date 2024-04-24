@@ -10,11 +10,13 @@
 
     $plan_id = $_GET['id'];
                     
-    $select_query = "SELECT * FROM basic_meal_plan WHERE plan_id ='$plan_id'";
+    $select_query = "SELECT * FROM basic_meal_plan, meals WHERE plan_id ='$plan_id'";
     $result = mysqli_query($conn, $select_query);
     if (mysqli_num_rows($result) > 0) {
         // output data of each row
         while($row = mysqli_fetch_assoc($result)) {
+            $title = $row['title'];
+            $meal_id = $row['meal_id'];
             $plan_id = $row['plan_id'];
             $plan_title = $row['plan_title'];
             $monday_breakfast = $row['monday_breakfast'];
@@ -75,7 +77,6 @@
             $sunday_dinner_calorie_count = $row['sunday_dinner_calorie_count'];
         }
     }
-    
 ?>
     <div class="d-flex flex-column flex-lg-row h-lg-100 gap-1" style=" display: <?php if (!$subscription_plan){ echo 'none';}else { echo 'unset';}?>">
         <?php include "./components/side-nav.php"; ?>
@@ -96,7 +97,7 @@
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="row g-3 g-xxl-6" style="display: <?php if ($subscription_plan == 'Basic Plan'){ echo 'unset';}elseif ($subscription_plan == 'Customized Plan' || 'Nutrition Coaching Plan'){ echo 'none';}else{ echo 'none';}?>">
                         <div class="col-xxl-12">
                             <div class="vstack gap-3 gap-md-6">
@@ -127,110 +128,7 @@
                                         </div>
                                     </div>
 
-
-                                    <div class="col">
-                                        <div class="card bg-success bg-opacity-10 border-success border-opacity-40">
-                                            <div class="card-body d-flex gap-3">
-                                                <img src="./assets/img/healthy-food.png" class="w-rem-8 h-rem-8 mt-1" alt="...">
-                                                <div class="">
-                                                    <span class="d-block mb-1 text-dark">Wednesday</span> 
-                                                    <span class="d-block text-muted text-sm"><?php echo $wednesday_breakfast_calorie_count; ?></span>
-                                                </div>
-                                                <span class="stretched-link ms-auto text-muted text-primary-hover" data-bs-target="#wednesdayMealPlanModal" data-bs-toggle="modal" role="button"><i class="bi bi-eye-fill text-success"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="col">
-                                        <div class="card bg-success bg-opacity-10 border-success border-opacity-40">
-                                            <div class="card-body d-flex gap-3">
-                                                <img src="./assets/img/healthy-food.png" class="w-rem-8 h-rem-8 mt-1" alt="...">
-                                                <div class="">
-                                                    <span class="d-block mb-1 text-dark">Thursday</span> 
-                                                    <span class="d-block text-muted text-sm"><?php echo $thursday_breakfast_calorie_count; ?></span>
-                                                </div>
-                                                <span class="stretched-link ms-auto text-muted text-primary-hover" data-bs-target="#thursdayMealPlanModal" data-bs-toggle="modal" role="button"><i class="bi bi-eye-fill text-success"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="col">
-                                        <div class="card bg-success bg-opacity-10 border-success border-opacity-40">
-                                            <div class="card-body d-flex gap-3">
-                                                <img src="./assets/img/healthy-food.png" class="w-rem-8 h-rem-8 mt-1" alt="...">
-                                                <div class="">
-                                                    <span class="d-block mb-1 text-dark">Friday</span> 
-                                                    <span class="d-block text-muted text-sm"><?php echo $friday_breakfast_calorie_count; ?></span>
-                                                </div>
-                                                <span class="stretched-link ms-auto text-muted text-primary-hover" data-bs-target="#fridayMealPlanModal" data-bs-toggle="modal" role="button"><i class="bi bi-eye-fill text-success"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="col">
-                                        <div class="card bg-warning bg-opacity-10 border-warning border-opacity-40">
-                                            <div class="card-body d-flex gap-3">
-                                                <img src="./assets/img/healthy-food.png" class="w-rem-8 h-rem-8 mt-1" alt="...">
-                                                <div class="">
-                                                    <span class="d-block mb-1 text-dark">Saturday</span> 
-                                                    <span class="d-block text-muted text-sm"><?php echo $saturday_breakfast_calorie_count; ?></span>
-                                                </div>
-                                                <span class="stretched-link ms-auto text-muted text-primary-hover" data-bs-target="#saturdayMealPlanModal" data-bs-toggle="modal" role="button"><i class="bi bi-eye-fill text-warning"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col">
-                                        <div class="card bg-warning bg-opacity-10 border-warning border-opacity-40">
-                                            <div class="card-body d-flex gap-3">
-                                                <img src="./assets/img/healthy-food.png" class="w-rem-8 h-rem-8 mt-1" alt="...">
-                                                <div class="">
-                                                    <span class="d-block mb-1 text-dark">Sunday</span> 
-                                                    <span class="d-block text-muted text-sm"><?php echo $saturday_breakfast_calorie_count; ?></span>
-                                                </div>
-                                                <span class="stretched-link ms-auto text-muted text-primary-hover" data-bs-target="#sundayMealPlanModal" data-bs-toggle="modal" role="button"><i class="bi bi-eye-fill text-warning"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row g-3 g-xxl-6" style="display: <?php if ($subscription_plan == 'Customized Plan' OR $subscription_plan == 'Nutrition Coaching Plan'){ echo 'unset';} elseif ($subscription_plan == 'Basic Plan'){ echo 'none';}else{ echo 'none';}?>">
-                        <div class="col-xxl-12">
-                            <div class="vstack gap-3 gap-md-6">
-                                <div class="row row-cols-sm-2 row-cols-md-4 g-3">
-                                    <div class="col">
-                                        <div class="card bg-success bg-opacity-10 border-success border-opacity-40">
-                                            <div class="card-body d-flex gap-3">
-                                                <img src="./assets/img/healthy-food.png" class="w-rem-8 h-rem-8 mt-1" alt="...">
-                                                <div class="">
-                                                    <span class="d-block mb-1 text-dark">Monday</span> 
-                                                    <span class="d-block text-muted text-sm"><?php echo $monday_breakfast_calorie_count; ?></span>
-                                                </div>
-                                                <span class="stretched-link ms-auto text-muted text-primary-hover" data-bs-target="#mondayMealPlanModal" data-bs-toggle="modal" role="button"><i class="bi bi-eye-fill text-success"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col">
-                                        <div class="card bg-success bg-opacity-10 border-success border-opacity-40">
-                                            <div class="card-body d-flex gap-3">
-                                                <img src="./assets/img/healthy-food.png" class="w-rem-8 h-rem-8 mt-1" alt="...">
-                                                <div class="">
-                                                    <span class="d-block mb-1 text-dark">Tuesday</span> 
-                                                    <span class="d-block text-muted text-sm"><?php echo $tuesday_breakfast_calorie_count; ?></span>
-                                                </div>
-                                                <span class="stretched-link ms-auto text-muted text-primary-hover" data-bs-target="#tuesdayMealPlanModal" data-bs-toggle="modal" role="button"><i class="bi bi-eye-fill text-success"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
+            
                                     <div class="col">
                                         <div class="card bg-success bg-opacity-10 border-success border-opacity-40">
                                             <div class="card-body d-flex gap-3">
