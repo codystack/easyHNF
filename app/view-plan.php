@@ -308,6 +308,6 @@
     </div>
 
 <?php 
-include "./components/meal-plan-modal.php";
+include "./components/custom-meal-plan-modal.php";
 include "./components/footer.php";
 ?>
