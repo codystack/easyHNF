@@ -4,8 +4,12 @@ require_once "./auth/userinfo.php";
 <div class="d-none d-lg-flex py-3">
     <div class="d-lg-none d-xxl-flex align-items-center gap-4 px-4 scrollable-x">
         <div class="d-flex gap-2 text-xs">
-            <span class="text-heading fw-semibold">Subscription:</span> 
-            <span class="badge badge-sm rounded-pill me-n2 bg-primary-subtle text-primary ms-auto"><?php echo $subscription_plan; ?></span>
+            <span class="text-heading fw-semibold" style="display: <?php if ($subscription_plan == 'Basic Plan'){ echo 'unset';}elseif ($subscription_plan == 'Customized Plan' || 'Nutrition Coaching Plan'){ echo 'none';}else{ echo 'unset';}?>">Subscription:</span> 
+            <span class="badge badge-sm rounded-pill bg-primary-subtle text-primary ms-auto" style="display: <?php if ($subscription_plan == 'Basic Plan'){ echo 'unset';}elseif ($subscription_plan == 'Customized Plan' || 'Nutrition Coaching Plan'){ echo 'none';}else{ echo 'unset';}?>"><?php echo $subscription_plan; ?> <span class="small">(<?php echo $diet; ?>)</span></span>
+        </div>
+        <div class="d-flex gap-2 text-xs">
+            <span class="text-heading fw-semibold" style="display: <?php if ($subscription_plan == 'Customized Plan' OR $subscription_plan == 'Nutrition Coaching Plan'){ echo 'unset';} elseif ($subscription_plan == 'Basic Plan'){ echo 'none';}else{ echo 'unset';}?>">Subscription:</span> 
+            <span class="badge badge-sm rounded-pill bg-primary-subtle text-primary ms-auto" style="display: <?php if ($subscription_plan == 'Customized Plan' OR $subscription_plan == 'Nutrition Coaching Plan'){ echo 'unset';} elseif ($subscription_plan == 'Basic Plan'){ echo 'none';}else{ echo 'unset';}?>"><?php echo $subscription_plan; ?></span>
         </div>
     </div>
     <div class="hstack flex-fill justify-content-end flex-nowrap gap-6 ms-auto px-6 px-xxl-8">

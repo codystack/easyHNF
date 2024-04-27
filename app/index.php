@@ -32,24 +32,26 @@
 
                     <div class="py-lg-10">
                         <div class="container mw-screen-xl">
-                            <div class="py-10 rounded-5 px-lg-16 text-center text-md-start" style="background-image: url('./assets/img/communitybg.jpg'); background-repeat: no-repeat; background-size: cover;">
+                            <div class="py-10 rounded-5 px-lg-16 text-center text-md-start" style="background-image: url('./assets/img/meals.jpg'); background-repeat: no-repeat; background-size: cover;">
                                 <div class="row justify-content-center">
                                     <div class="col-12 col-md-12 col-lg-12 text-center">
-                                        <h3 class="ls-tight fw-bolder display-4 mb-5 text-white">Expert tips & tricks</h3>
-                                        <p class="lead text-white opacity-8 mb-10">Connect with others who share your goals and get motivated by their success stories.</p>
+                                        <h3 class="ls-tight fw-bolder display-4 mb-5 text-white">Buy a Plan</h3>
+                                        <p class="lead text-white opacity-8 mb-10">Take control of your health, one delicious meal at a time.</p>
                                         <div class="mx-n2">
-                                            <a href="https://www.instagram.com/easyhnf/" target="_blank" class="btn btn-lg btn-light mx-2 px-lg-8">Join our community</a>
+                                            <a href="subscription" class="btn btn-light mx-2 px-lg-8">Subscribe</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="row">
+
                                 <div class="col-12 col-md-6 col-lg-4 mt-6">
-                                    <div class="py-10 rounded-5 px-lg-16 text-center text-md-start" style="background-image: url('./assets/img/meal_plan.jpg'); background-repeat: no-repeat; background-size: cover;">
+                                    <div class="py-10 rounded-5 px-lg-3 text-center text-md-start" style="background-image: url('./assets/img/meal_plan.jpg'); background-repeat: no-repeat; background-size: cover;">
                                         <div class="row justify-content-center">
                                             <div class="col-12 col-md-12 col-lg-12 text-center">
-                                                <h2 class="ls-tight fw-bolder mb-5 text-white">My Meal Plan</h2>
-                                                <p class="lead text-white opacity-8 mb-10">Discover the joy of healthy eating with this inspiring meal plan.</p>
+                                                <h2 class="ls-tight fw-bolder mb-5 text-white">My Plan</h2>
+                                                <p class="lead text-white opacity-8 mb-10">Discover the joys of eating with a variety of delicious meals and snacks.</p>
                                                 <div class="mx-n2">
                                                     <a href="my-plan" class="btn btn-light mx-2 px-lg-8">View Plan</a>
                                                 </div>
@@ -59,24 +61,10 @@
                                 </div>
 
                                 <div class="col-12 col-md-6 col-lg-4 mt-6">
-                                    <div class="py-10 rounded-5 px-lg-16 text-center text-md-start" style="background-image: url('./assets/img/meals.jpg'); background-repeat: no-repeat; background-size: cover;">
+                                    <div class="py-10 rounded-5 px-lg-3 text-center text-md-start" style="background-image: url('./assets/img/session.jpg'); background-repeat: no-repeat; background-size: cover;">
                                         <div class="row justify-content-center">
                                             <div class="col-12 col-md-12 col-lg-12 text-center">
-                                                <h2 class="ls-tight fw-bolder mb-5 text-white">My Meals</h2>
-                                                <p class="lead text-white opacity-8 mb-10">Take control of your health, one delicious meal at a time.</p>
-                                                <div class="mx-n2">
-                                                    <a href="https://www.instagram.com/easyhnf/" class="btn btn-light mx-2 px-lg-8">View Meals</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-12 col-md-6 col-lg-4 mt-6">
-                                    <div class="py-10 rounded-5 px-lg-16 text-center text-md-start" style="background-image: url('./assets/img/session.jpg'); background-repeat: no-repeat; background-size: cover;">
-                                        <div class="row justify-content-center">
-                                            <div class="col-12 col-md-12 col-lg-12 text-center">
-                                                <h2 class="ls-tight fw-bolder mb-5 text-white">Book a Session</h2>
+                                                <h2 class="ls-tight fw-bolder mb-5 text-white">Schedule a Consultation</h2>
                                                 <p class="lead text-white opacity-8 mb-10">Get expert guidance for healthy eating habits that last.</p>
                                                 <div class="mx-n2">
                                                     <a href="booking" class="btn btn-light mx-2 px-lg-8">Book a Session</a>
@@ -85,7 +73,22 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="col-12 col-md-6 col-lg-4 mt-6">
+                                    <div class="py-10 rounded-5 px-lg-3 text-center text-md-start" style="background-image: url('./assets/img/communitybg.jpg'); background-repeat: no-repeat; background-size: cover;">
+                                        <div class="row justify-content-center">
+                                            <div class="col-12 col-md-12 col-lg-12 text-center">
+                                                <h2 class="ls-tight fw-bolder mb-5 text-white">Expert Tips</h2>
+                                                <p class="lead text-white opacity-8 mb-10">Connect with others who share same goals and get motivated.</p>
+                                                <div class="mx-n2">
+                                                    <a href="https://wa.me/message/DNKRTYDTKSNEC1" target="_blank" class="btn btn-light mx-2 px-lg-8">Join Community</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </main>

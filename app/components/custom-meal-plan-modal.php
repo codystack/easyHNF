@@ -19,7 +19,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.monday_breakfast_calorie_count, basic_meal_plan.monday_breakfast FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.monday_breakfast = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.monday_breakfast_calorie_count, custom_meal_plan.monday_breakfast FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.monday_breakfast = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -54,7 +54,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.monday_lunch_calorie_count, basic_meal_plan.monday_lunch FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.monday_lunch = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.monday_lunch_calorie_count, custom_meal_plan.monday_lunch FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.monday_lunch = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -89,7 +89,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.monday_snack_calorie_count, basic_meal_plan.monday_snack FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.monday_snack = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.monday_snack_calorie_count, custom_meal_plan.monday_snack FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.monday_snack = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -125,7 +125,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.monday_dinner_calorie_count, basic_meal_plan.monday_dinner FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.monday_dinner = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.monday_dinner_calorie_count, custom_meal_plan.monday_dinner FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.monday_dinner = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -174,7 +174,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.tuesday_breakfast_calorie_count, basic_meal_plan.tuesday_breakfast FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.tuesday_breakfast = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.tuesday_breakfast_calorie_count, custom_meal_plan.tuesday_breakfast FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.tuesday_breakfast = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -209,7 +209,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.tuesday_lunch_calorie_count, basic_meal_plan.tuesday_lunch FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.tuesday_lunch = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.tuesday_lunch_calorie_count, custom_meal_plan.tuesday_lunch FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.tuesday_lunch = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -244,7 +244,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.tuesday_snack_calorie_count, basic_meal_plan.tuesday_snack FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.tuesday_snack = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.tuesday_snack_calorie_count, custom_meal_plan.tuesday_snack FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.tuesday_snack = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -280,7 +280,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.tuesday_dinner_calorie_count, basic_meal_plan.tuesday_dinner FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.tuesday_dinner = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.tuesday_dinner_calorie_count, custom_meal_plan.tuesday_dinner FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.tuesday_dinner = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -329,7 +329,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.wednesday_breakfast_calorie_count, basic_meal_plan.wednesday_breakfast FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.wednesday_breakfast = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.wednesday_breakfast_calorie_count, custom_meal_plan.wednesday_breakfast FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.wednesday_breakfast = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -364,7 +364,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.wednesday_lunch_calorie_count, basic_meal_plan.wednesday_lunch FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.wednesday_lunch = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.wednesday_lunch_calorie_count, custom_meal_plan.wednesday_lunch FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.wednesday_lunch = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -399,7 +399,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.wednesday_snack_calorie_count, basic_meal_plan.wednesday_snack FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.wednesday_snack = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.wednesday_snack_calorie_count, custom_meal_plan.wednesday_snack FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.wednesday_snack = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -435,7 +435,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.wednesday_dinner_calorie_count, basic_meal_plan.wednesday_dinner FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.wednesday_dinner = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.wednesday_dinner_calorie_count, custom_meal_plan.wednesday_dinner FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.wednesday_dinner = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -484,7 +484,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.thursday_breakfast_calorie_count, basic_meal_plan.thursday_breakfast FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.thursday_breakfast = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.thursday_breakfast_calorie_count, custom_meal_plan.thursday_breakfast FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.thursday_breakfast = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -519,7 +519,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.thursday_lunch_calorie_count, basic_meal_plan.thursday_lunch FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.thursday_lunch = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.thursday_lunch_calorie_count, custom_meal_plan.thursday_lunch FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.thursday_lunch = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -554,7 +554,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.thursday_snack_calorie_count, basic_meal_plan.thursday_snack FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.thursday_snack = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.thursday_snack_calorie_count, custom_meal_plan.thursday_snack FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.thursday_snack = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -590,7 +590,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.thursday_dinner_calorie_count, basic_meal_plan.thursday_dinner FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.thursday_dinner = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.thursday_dinner_calorie_count, custom_meal_plan.thursday_dinner FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.thursday_dinner = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -639,7 +639,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.friday_breakfast_calorie_count, basic_meal_plan.friday_breakfast FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.friday_breakfast = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.friday_breakfast_calorie_count, custom_meal_plan.friday_breakfast FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.friday_breakfast = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -674,7 +674,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.friday_lunch_calorie_count, basic_meal_plan.friday_lunch FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.friday_lunch = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.friday_lunch_calorie_count, custom_meal_plan.friday_lunch FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.friday_lunch = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -709,7 +709,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.friday_snack_calorie_count, basic_meal_plan.friday_snack FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.friday_snack = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.friday_snack_calorie_count, custom_meal_plan.friday_snack FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.friday_snack = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -745,7 +745,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.friday_dinner_calorie_count, basic_meal_plan.friday_dinner FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.friday_dinner = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.friday_dinner_calorie_count, custom_meal_plan.friday_dinner FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.friday_dinner = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -794,7 +794,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.saturday_breakfast_calorie_count, basic_meal_plan.saturday_breakfast FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.saturday_breakfast = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.saturday_breakfast_calorie_count, custom_meal_plan.saturday_breakfast FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.saturday_breakfast = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -829,7 +829,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.saturday_lunch_calorie_count, basic_meal_plan.saturday_lunch FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.saturday_lunch = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.saturday_lunch_calorie_count, custom_meal_plan.saturday_lunch FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.saturday_lunch = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -864,7 +864,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.saturday_snack_calorie_count, basic_meal_plan.saturday_snack FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.saturday_snack = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.saturday_snack_calorie_count, custom_meal_plan.saturday_snack FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.saturday_snack = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -900,7 +900,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.saturday_dinner_calorie_count, basic_meal_plan.saturday_dinner FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.saturday_dinner = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.saturday_dinner_calorie_count, custom_meal_plan.saturday_dinner FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.saturday_dinner = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -949,7 +949,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.sunday_breakfast_calorie_count, basic_meal_plan.sunday_breakfast FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.sunday_breakfast = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.sunday_breakfast_calorie_count, custom_meal_plan.sunday_breakfast FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.sunday_breakfast = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -984,7 +984,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.sunday_lunch_calorie_count, basic_meal_plan.sunday_lunch FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.sunday_lunch = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.sunday_lunch_calorie_count, custom_meal_plan.sunday_lunch FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.sunday_lunch = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -1019,7 +1019,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.sunday_snack_calorie_count, basic_meal_plan.sunday_snack FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.sunday_snack = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.sunday_snack_calorie_count, custom_meal_plan.sunday_snack FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.sunday_snack = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
@@ -1055,7 +1055,7 @@
                                     <?php
                                         $plan_id = $_GET['id'];
 
-                                        $select_query = "SELECT meals.meal_id, meals.title, basic_meal_plan.plan_id, basic_meal_plan.sunday_dinner_calorie_count, basic_meal_plan.sunday_dinner FROM basic_meal_plan INNER JOIN meals WHERE basic_meal_plan.sunday_dinner = meals.meal_id AND basic_meal_plan.plan_id = '$plan_id'";
+                                        $select_query = "SELECT meals.meal_id, meals.title, custom_meal_plan.plan_id, custom_meal_plan.sunday_dinner_calorie_count, custom_meal_plan.sunday_dinner FROM custom_meal_plan INNER JOIN meals WHERE custom_meal_plan.sunday_dinner = meals.meal_id AND custom_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
