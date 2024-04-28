@@ -234,7 +234,7 @@
 
 
     <!-- Basic Subscription Plan modal start-->
-    <div  class="modal fade" id="basicSubscriptionModal" tabindex="-1" aria-labelledby="basicSubscriptionModal" aria-hidden="false">
+    <div class="modal fade" id="basicSubscriptionModal" tabindex="-1" aria-labelledby="basicSubscriptionModal" aria-hidden="false">
         <div class="modal-dialog modal-sm modal-dialog-centered">
             <div class="modal-content overflow-hidden">
                 <div class="modal-header pb-0 border-0">
@@ -268,22 +268,22 @@
                                 </div>
 
                                 <div class="form-floating">
-                                    <label class="visually-hidden">Diet</label> 
+                                    <label class="visually-hidden">Diet</label>
                                     <select class="form-select" id="diet">
                                         <?php
-                                            $select_query = "SELECT * FROM basic_diet ORDER BY diet_id ASC";
-                                            $result = mysqli_query($conn, $select_query);
-                                            if (mysqli_num_rows($result) > 0) {
-                                                // output data of each row
-                                                while($row = mysqli_fetch_assoc($result)) {
-                                                    $diet_id = $row['diet_id'];
-                                                    $title = $row['title'];
-                                                    $price = $row['price'];
+                                        $select_query = "SELECT * FROM basic_diet ORDER BY diet_id ASC";
+                                        $result = mysqli_query($conn, $select_query);
+                                        if (mysqli_num_rows($result) > 0) {
+                                            // output data of each row
+                                            while ($row = mysqli_fetch_assoc($result)) {
+                                                $diet_id = $row['diet_id'];
+                                                $title = $row['title'];
+                                                $price = $row['price'];
                                         ?>
-                                        <option value="<?php echo $title; ?>"><?php echo $title; ?></option>
+                                                <option value="<?php echo $title; ?>"><?php echo $title; ?></option>
                                         <?php
-                                                }
                                             }
+                                        }
                                         ?>
                                     </select>
                                 </div>
@@ -292,7 +292,7 @@
                         <div>
                             <div class="vstack gap-2">
                                 <div class="text-center">
-                                    <button type="submit" onclick="payWithPaystack()" class="btn btn-primary w-100">Deposit</button>
+                                    <button type="submit" onclick="payWithPaystack()" class="btn btn-primary w-100">Proceed To Payments</button>
                                 </div>
                             </div>
                         </div>
