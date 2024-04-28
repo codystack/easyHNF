@@ -27,17 +27,19 @@ include "./components/header.php";
                                         </div>
                                         <div class="mt-6">
                                             <h5 class="h2 mb-1 fw-semibold">Subscription Successful👏</h5>
-                                            <p class="mb-0">You are being redirected to your plans.</p>
-                                            <a href="booking" style="display: <?php if ($subscription_plan == "Customized plan" || $subscription_plan == "Nutrition Coaching plan") {
-                                                                                    echo 'none';
-                                                                                } else {
+                                            <p class="mb-0">You are being redirected.</p>
+                                            <a href="booking" style="display: <?php if ($subscription_plan == 'Customized Plan' || $subscription_plan == 'Nutrition Coaching Plan') {
                                                                                     echo 'unset';
-                                                                                } ?>" class="btn btn-md btn-danger mt-5"><i class="bi bi-arrow-left me-2"></i>Continue</a>
-                                            <a href="my-plan" style="display: <?php if ($subscription_plan == "Basic plan") {
-                                                                                    echo 'none';
                                                                                 } else {
-                                                                                    echo 'unset';
+                                                                                    echo 'none';
                                                                                 } ?>" class="btn btn-md btn-danger mt-5"><i class="bi bi-arrow-left me-2"></i>Continue</a>
+
+                                            <a href="my-plan" style="display: <?php if ($subscription_plan == 'Basic Plan') {
+                                                                                    echo 'unset';
+                                                                                } else {
+                                                                                    echo 'none';
+                                                                                } ?>" class="btn btn-md btn-danger mt-5"><i class="bi bi-arrow-left me-2"></i>Continue</a>
+
                                         </div>
                                     </div>
                                 </div>

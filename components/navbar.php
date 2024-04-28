@@ -24,10 +24,10 @@
                             <li><a href="https://www.instagram.com/easyhnf?igsh=MzRlODBiNWFlZA==" target="_blank"><i class="icofont-instagram"></i></a></li>
                         </ul>
 
-                        <!-- <div class="header-btn">
+                        <div class="header-btn">
                             <a class="btn btn-hover-primary" href="login">Log In</a>
                             <a class="btn btn-secondary btn-hover-primary" href="sign-up">Sign Up</a>
-                        </div> -->
+                        </div>
 
                     </div>
 
