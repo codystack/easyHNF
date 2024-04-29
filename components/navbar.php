@@ -20,9 +20,9 @@
 
                         </ul>
 
-                        <ul class="social" style="margin-left: 30px;">
+                        <!-- <ul class="social" style="margin-left: 30px;">
                             <li><a href="https://www.instagram.com/easyhnf?igsh=MzRlODBiNWFlZA==" target="_blank"><i class="icofont-instagram"></i></a></li>
-                        </ul>
+                        </ul> -->
 
                         <div class="header-btn">
                             <a class="btn btn-hover-primary" href="login">Log In</a>
