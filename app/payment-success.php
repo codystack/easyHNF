@@ -1,10 +1,10 @@
 <?php
-    // if ($_GET['status'] !== "success") {
-    //     header("location:javascript://history.go(-1)");
-    // }
+    if ($_GET['status'] !== "success") {
+        header("location:javascript://history.go(-1)");
+    }
 
-    $page = "Subscription";
-    include "./components/header.php";
+$page = "Subscription";
+include "./components/header.php";
 ?>
     <div class="d-flex flex-column flex-lg-row h-lg-100 gap-1">
         <?php include "./components/side-nav.php"; ?>
@@ -29,7 +29,6 @@
                                                 <h5 class="h2 mb-1 fw-semibold">Subscription Successful👏</h5>
                                                 <p class="mb-0">You are being redirected back to subscriptions.</p>
                                                 <a href="subscription" class="btn btn-md btn-danger mt-5"><i class="bi bi-arrow-left me-2"></i>Go back</a>
-                                                <a href="subscription" class="btn btn-md btn-danger mt-5"><i class="bi bi-arrow-left me-2"></i>Go back</a>
                                             </div>
                                         </div>
                                     </div>
@@ -38,12 +37,12 @@
                         </div>
                     </div>
 
-                </main>
-            </div>
+            </main>
         </div>
     </div>
+</div>
 
-<?php 
+<?php
 include "./components/modals.php";
 include "./components/footer.php";
 ?>

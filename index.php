@@ -20,7 +20,7 @@
                             <h6 class="sub-title">Health, Nutrition & Fitness </h6>
                             <h1 class="main-title">Enjoy food on your fitness and health journey.</h1>
                             <p>We’ve helped about 1,000 people achieve their fitness goals and manage their health conditions.</p>
-                            <a href="#" class="btn btn-primary btn-hover-secondary">Start Here</a>
+                            <a href="login" class="btn btn-primary btn-hover-secondary">Start Here</a>
                         </div>
                     </div>
 
@@ -58,9 +58,9 @@
                                 <div class="content-wrapper">
                                     <h4 class="title"><a href="#">Basic Plans</a></h4>
                                     <p>Explore options of our redesigned meal plans for weight loss or weight gain and health management .</p>
-                                   
+
                                 </div>
-                                
+
                             </div>
                         </div>
                         <!-- Single Feature End -->
@@ -76,7 +76,7 @@
                                     <h4 class="title"><a href="#">Customized Plan</a></h4>
                                     <p>Schedule an appointment with our dietitian to design a meal plan specific to your goal and health need.</p>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <!-- Single Feature End -->
@@ -92,7 +92,7 @@
                                     <h4 class="title"><a href="#">Nutrition coaching</a></h4>
                                     <p>In addition to consultation sessions and designing you a tailor-made meal plan, we will coach you 1-on-1 on nutrition and meal prep.</p>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <!-- Single Feature End -->
@@ -228,7 +228,7 @@
         </div>
     </div>
 
-        <!-- <div class="section section-padding">
+    <!-- <div class="section section-padding">
             <div class="container">
 
                 <div class="download-wrapper">
