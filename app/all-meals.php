@@ -61,7 +61,6 @@
                                     
                                 </div>
                                 <div class="text-center mt-5">
-                                    <button  class="btn btn-lg btn-dark" type="button" style="display: <?php if (!$subscription_plan){ echo 'none';}elseif ($subscription_plan == "Basic Plan"){ echo 'none';}else{ echo 'unset';}?>">View All Meals</button>
                                     <a href="subscription"  class="btn btn-lg btn-danger" style="display: <?php if ($subscription_plan == "Basic Plan"){ echo 'unset';}else{ echo 'none';}?>">Upgrade to view all meal</a>
                                 </div>
                             </div>

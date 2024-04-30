@@ -34,7 +34,7 @@
                                                         <h6 class="h5 text-limit fw-semibold mb-1">Basic Plan</h6>
                                                     </div>
                                                     <div class="ms-sm-auto">
-                                                        <div class="align-items-center mt-5 mb-3 lh-none text-heading d-block display-5 ls-tight mb-0"><span class="fw-semibold text-2xl align-self-start mt-1 me-1">₦</span><span>10,000</span><span class="d-inline-block fw-normal text-muted text-lg mt-sm-3 ms-1">/ month</span></div>
+                                                        <div class="align-items-center mt-5 mb-3 lh-none text-heading d-block display-5 ls-tight mb-0"><span class="fw-semibold text-2xl align-self-start mt-1 me-1">₦</span><span>20,000</span><span class="d-inline-block fw-normal text-muted text-lg mt-sm-3 ms-1">/ month</span></div>
                                                     </div>
                                                 </div>
                                                 <hr class="my-4">
