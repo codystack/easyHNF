@@ -89,24 +89,14 @@ require_once "./auth/userinfo.php";
                                                         <input type="text" class="form-control" id="customized_subscription_plan" value="Customized Plan" disabled />
                                                     </div>
                                                     <div class="form-floating mb-3" style="display: none">
-                                                        <input type="text" class="form-control" id="customizedAmount" value="3000" disabled />
+                                                        <input type="text" class="form-control" id="customizedAmount" value="150000" disabled />
                                                     </div>
                                                     <div class="input-group mb-3">
                                                         <div>
-                                                            <button class="btn btn-sm btn-warning text-white" type="submit" onclick="payWithPaystackCustomized()" style="<?php if ($subscription_plan == "") {
-                                                                                                                                                                                echo 'display: unset';
-                                                                                                                                                                            } elseif ($subscription_plan == "Customized Plan") {
-                                                                                                                                                                                echo 'display: none';
-                                                                                                                                                                            } else {
-                                                                                                                                                                                echo 'display: unset';
-                                                                                                                                                                            } ?>">Subscribe</button>
+                                                            <button class="btn btn-sm btn-warning text-white" type="submit" onclick="payWithPaystackCustomized()" style="<?php if ($subscription_plan == "") {echo 'display: unset';} elseif ($subscription_plan == "Customized Plan") {echo 'display: none';} else {echo 'display: unset';} ?>">Subscribe</button>
                                                         </div>
                                                         <div>
-                                                            <button class="btn btn-sm btn-warning text-white" type="button" disabled style="<?php if ($subscription_plan == "Customized Plan") {
-                                                                                                                                                echo 'display: unset';
-                                                                                                                                            } else {
-                                                                                                                                                echo 'display: none';
-                                                                                                                                            } ?>">Subscribed</button>
+                                                            <button class="btn btn-sm btn-warning text-white" type="button" disabled style="<?php if ($subscription_plan == "Customized Plan") {echo 'display: unset';} else {echo 'display: none';} ?>">Subscribed</button>
                                                         </div>
                                                     </div>
                                                 </form>
@@ -146,24 +136,14 @@ require_once "./auth/userinfo.php";
                                                         <input type="text" class="form-control" id="coaching_subscription_plan" value="Nutrition Coaching Plan" disabled />
                                                     </div>
                                                     <div class="form-floating mb-3" style="display: none">
-                                                        <input type="text" class="form-control" id="coachingAmount" value="6000" disabled />
+                                                        <input type="text" class="form-control" id="coachingAmount" value="450000" disabled />
                                                     </div>
                                                     <div class="input-group mb-3">
                                                         <div>
-                                                            <button class="btn btn-sm btn-success text-white" type="submit" onclick="payWithPaystackCoaching()" style="<?php if ($subscription_plan == "") {
-                                                                                                                                                                            echo 'display: unset';
-                                                                                                                                                                        } elseif ($subscription_plan == "Nutrition Coaching Plan") {
-                                                                                                                                                                            echo 'display: none';
-                                                                                                                                                                        } else {
-                                                                                                                                                                            echo 'display: unset';
-                                                                                                                                                                        } ?>">Subscribe</button>
+                                                            <button class="btn btn-sm btn-success text-white" type="submit" onclick="payWithPaystackCoaching()" style="<?php if ($subscription_plan == "") {echo 'display: unset';} elseif ($subscription_plan == "Nutrition Coaching Plan") {echo 'display: none';} else {echo 'display: unset';} ?>">Subscribe</button>
                                                         </div>
                                                         <div>
-                                                            <button class="btn btn-sm btn-success text-white" type="button" disabled style="<?php if ($subscription_plan == "Nutrition Coaching Plan") {
-                                                                                                                                                echo 'display: unset';
-                                                                                                                                            } else {
-                                                                                                                                                echo 'display: none';
-                                                                                                                                            } ?>">Subscribed</button>
+                                                            <button class="btn btn-sm btn-success text-white" type="button" disabled style="<?php if ($subscription_plan == "Nutrition Coaching Plan") {echo 'display: unset';} else {echo 'display: none';} ?>">Subscribed</button>
                                                         </div>
                                                     </div>
                                                 </form>
