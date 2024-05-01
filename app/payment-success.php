@@ -1,7 +1,7 @@
 <?php
-    if ($_GET['status'] !== "success") {
-        header("location:javascript://history.go(-1)");
-    }
+    // if ($_GET['status'] !== "success") {
+    //     header("location:javascript://history.go(-1)");
+    // }
 
 $page = "Subscription";
 include "./components/header.php";
@@ -28,7 +28,8 @@ include "./components/header.php";
                                             <div class="mt-6">
                                                 <h5 class="h2 mb-1 fw-semibold">Subscription Successful👏</h5>
                                                 <p class="mb-0">You are being redirected back to subscriptions.</p>
-                                                <a href="subscription" class="btn btn-md btn-danger mt-5"><i class="bi bi-arrow-left me-2"></i>Go back</a>
+                                                <a href="booking" style="display: <?php if ($subscription_plan == 'Customized Plan' || $subscription_plan == 'Nutrition Coaching Plan') {echo 'unset';} else {echo 'none';} ?>" class="btn btn-md btn-danger mt-5"><i class="bi bi-arrow-left me-2"></i>Continue</a>
+                                                <a href="my-plan" style="display: <?php if ($subscription_plan == 'Basic Plan') {echo 'unset';} else {echo 'none';} ?>" class="btn btn-md btn-danger mt-5"><i class="bi bi-arrow-left me-2"></i>Continue</a>
                                             </div>
                                         </div>
                                     </div>
