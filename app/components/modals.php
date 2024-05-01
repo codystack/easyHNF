@@ -264,7 +264,7 @@
                                 </div>
 
                                 <div class="form-floating mb-3" style="display: none">
-                                    <input type="text" class="form-control" id="amount" value="1000" />
+                                    <input type="text" class="form-control" id="amount" value="20000" />
                                 </div>
 
                                 <div class="form-floating">
