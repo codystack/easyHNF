@@ -42,13 +42,8 @@ include "./components/header.php";
                                     <h5 class="mt-2">Meal Code: <?php echo $meal_code; ?></h5>
                                 </div>
 
-                            <div class="d-flex col-12">
-                                <div class="text-start">
-                                    <h2 class="ls-tight">Ingredients</h2>
-                                </div>
-                                <div class="hstack justify-content-end">
-                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 0.1px solid #0f172a; */background-color: #0f172a;"></div>
-                                </div>
+                            <div class="col-sm-4 col-12">
+                                <h2 class="ls-tight">Ingredients</h2>
                             </div>
                             <div class="mb-20 mt-5">
                                <?php echo $ingredients; ?>
@@ -57,22 +52,12 @@ include "./components/header.php";
                             <div class="col-sm-4 col-12">
                                 <h2 class="ls-tight">Direction</h2>
                             </div>
-                            <div class="col">
-                                <div class="hstack justify-content-end">
-                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 0.1px solid #0f172a; */background-color: #0f172a;"></div>
-                                </div>
-                            </div>
                             <div class="mb-20 mt-5">
                                <?php echo $instructions; ?>
                             </div>
 
                             <div class="col-sm-4 col-12">
                                 <h2 class="ls-tight">Notes</h2>
-                            </div>
-                            <div class="col">
-                                <div class="hstack justify-content-end">
-                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 0.1px solid #0f172a; */background-color: #0f172a;"></div>
-                                </div>
                             </div>
                             <div class="mb-20 mt-5">
                                <?php echo $notes; ?>
@@ -81,11 +66,6 @@ include "./components/header.php";
                             <div class="col-sm-4 col-12">
                                 <h2 class="ls-tight">Nutrition Info</h2>
                             </div>
-                            <div class="col">
-                                <div class="hstack justify-content-end">
-                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 0.1px solid #0f172a; */background-color: #0f172a;"></div>
-                                </div>
-                            </div>
                             <div class="mb-20 mt-5">
                                <?php echo $nutrition; ?>
                             </div>
@@ -93,21 +73,12 @@ include "./components/header.php";
                             <div class="col-sm-4 col-12" style="display: <?php if (!$short_description) { echo 'none';}else { echo 'unset';}; ?>">
                                 <h2 class="ls-tight">Short Description</h2>
                             </div>
-                            <div class="col" style="display: <?php if (!$short_description) { echo 'none';}else { echo 'unset';}; ?>">
-                                <div class="hstack justify-content-end">
-                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 0.1px solid #0f172a; */background-color: #0f172a;"></div>
-                                </div>
-                                <div class="mb-20 mt-5" style="display: <?php if (!$short_description){echo 'none';}else{echo 'unset';}; ?>">
-                                    <?php echo $short_description; ?>
-                                </div>
+                            <div class="mb-20 mt-5" style="display: <?php if (!$short_description){echo 'none';}else{echo 'unset';}; ?>">
+                                <?php echo $short_description; ?>
+                            </div>
 
                             <div class="col-sm-4 col-12" style="display: <?php if (!$long_description){ echo 'none';}else{ echo 'unset';}; ?>">
                                 <h2 class="ls-tight">Long Description</h2>
-                            </div>
-                            <div class="col">
-                                <div class="hstack justify-content-end" style="display: <?php if (!$long_description) { echo 'none';}else { echo 'unset';}; ?>">
-                                    <div class="d-flex" style="width: 100%;height: 1px;/* border: 0.1px solid #0f172a; */background-color: #0f172a;"></div>
-                                </div>
                             </div>
                             <div class="mb-20 mt-5" style="display: <?php if (!$long_description) { echo 'none';}else { echo 'unset';}; ?>">
                                <?php echo $long_description; ?>
