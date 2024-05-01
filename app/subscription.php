@@ -29,15 +29,19 @@ require_once "./auth/userinfo.php";
                                     <div class="col-md col-sm-6">
                                         <div class="card bg-danger bg-opacity-10 border-danger border-opacity-40">
                                             <div class="card-body py-4">
+
                                                 <div class="align-items-center justify-content-center text-center mb-5">
                                                     <div class="flex-1">
                                                         <h6 class="h5 text-limit fw-semibold mb-1">Basic Plan</h6>
                                                     </div>
+                                                    
                                                     <div class="ms-sm-auto">
-                                                        <div class="align-items-center mt-5 mb-3 lh-none text-heading d-block display-5 ls-tight mb-0"><span class="fw-semibold text-2xl align-self-start mt-1 me-1">₦</span><span>10,000</span><span class="d-inline-block fw-normal text-muted text-lg mt-sm-3 ms-1">/ month</span></div>
+                                                        <div class="align-items-center mt-5 mb-3 lh-none text-heading d-block display-5 ls-tight mb-0"><span class="fw-semibold text-2xl align-self-start mt-1 me-1">₦</span><span>20,000</span><span class="d-inline-block fw-normal text-muted text-lg mt-sm-3 ms-1">/ month</span></div>
                                                     </div>
                                                 </div>
+
                                                 <hr class="my-4">
+
                                                 <div class="d-flex flex-wrap gap-2 align-items-center justify-content-between">
                                                     <a href="" data-bs-target="#basicPlanModal" data-bs-toggle="modal" class="text-muted text-dark-hover text-sm fw-semibold"><i class="bi bi-info-circle text-danger"></i> Plan features</a>
                                                     <div class="mb-3">
@@ -49,6 +53,7 @@ require_once "./auth/userinfo.php";
                                                         </div>
                                                     </div>
                                                 </div>
+
                                             </div>
                                         </div>
                                     </div>

@@ -1,6 +1,6 @@
 <?php
-// //Connect email sending
-// require_once "../auth/emails/sendmail.php";
+//Connect email sending
+require_once "./auth/emails/sendmail.php";
 
 session_start();
 
@@ -28,10 +28,10 @@ if (isset($_POST['user_registration'])) {
         // Finally, register user if there are no errors in the form
         $password = sha1($password);//encrypt the password before saving in the database
         $query = "INSERT INTO users (first_name, last_name, email, password, phone, picture, token, status, verified) 
-  			        VALUES('$first_name', '$last_name', '$email', '$password', '$phone', 'assets/img/memoji/memoji-1.svg', '$token', 'Active', '1')";
+  			        VALUES('$first_name', '$last_name', '$email', '$password', '$phone', 'assets/img/memoji/memoji-1.svg', '$token', 'Active', '0')";
         mysqli_query($conn, $query);
         if (mysqli_affected_rows($conn) > 0) {
-            // sendVerificationEmail($email, $token, $first_name, $companyName);
+            sendVerificationEmail($email, $token, $first_name, $last_name);
             // sendStartupEmail($email, $first_name, $companyName);
 
             $_SESSION['email'] = $email;

@@ -34,7 +34,6 @@
     <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
 
     <link rel="stylesheet" href="assets/css/style.css">
-
     <style>
         @supports (animation: grow .5s cubic-bezier(.25, .25, .25, 1) forwards) {
             .tick {
@@ -98,11 +97,11 @@
                                         </div>
                                         <div style="margin-top: 20px">
                                             <h6 class="h3 mb-1">Welcome to the Easy Life👏</h6>
-                                            <p class="h6 mb-0">Login and start your to a healthier life.</p>
-                                            <!-- <p class="h6 mb-0">An email with a verification link has been sent to your email (<?php echo $_SESSION['email']; ?>)</p> -->
-                                            <!-- <hr class="mb-2 mt-2">
+                                            <!-- <p class="h6 mb-0">Login and start your to a healthier life.</p> -->
+                                            <p class="h6 mb-0">An email with a verification link has been sent to your email (<?php echo $_SESSION['email']; ?>)</p>
+                                            <hr class="mb-2 mt-2">
                                             <p class="h6 mb-2">Please verify your email<br>
-                                                to gain access to your account.</p> -->
+                                                to gain access to your account.</p>
                                             <form method="get" style="margin-top: 20px">
                                                 <button class="btn btn-secondary" name="close" type="submit">Close</button>
                                             </form>
