@@ -27,7 +27,7 @@
                         <div class="pricing">
                             <div class="plan">
                                 <h2>Basic</h2>
-                                <div class="price"><small style="font-size: .575em">₦</small>10,000<small style="font-size: .575em">/month</small></div>
+                                <div class="price"><small style="font-size: .575em">₦</small>20,000<small style="font-size: .575em">/month</small></div>
                                 <ul class="features">
                                     <li><i class="fas fa-check-circle"></i> 1 basic meal plan</li>
                                     <li><i class="fas fa-check-circle"></i> 5+ Diets plan</li>
