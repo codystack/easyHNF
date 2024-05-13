@@ -13,7 +13,7 @@ require_once "./auth/userinfo.php";
         </div>
     </div>
     <div class="hstack flex-fill justify-content-end flex-nowrap gap-6 ms-auto px-6 px-xxl-8">
-        <div class="dropdown">
+        <!-- <div class="dropdown">
             <a href="#" class="nav-link" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="bi bi-sun-fill"></i>
             </a>
@@ -22,7 +22,7 @@ require_once "./auth/userinfo.php";
                 <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">Dark</button>
                 <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">System</button>
             </div>
-        </div>
+        </div> -->
         <div class="dropdown">
             <a class="avatar avatar-sm text-bg-dark rounded-circle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
                 <img src="<?php echo $_SESSION['picture']; ?>">

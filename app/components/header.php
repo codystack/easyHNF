@@ -16,7 +16,7 @@ if (isset($_GET['logout'])) {
 
 ?>
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
 
 <head>
     <meta charset="UTF-8">

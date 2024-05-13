@@ -58,21 +58,10 @@
 
         <div class="mobile-menu-items">
             <ul class="nav-menu">
-                <li><a class="<?php if ($page == 'Plans') {
-                                    echo 'active';
-                                } ?>" href="plan">Plans</a></li>
-                <li><a class="<?php if ($page == 'Podcast') {
-                                    echo 'active';
-                                } ?>" href="podcast">Podcast</a></li>
-                <li><a class="<?php if ($page == 'Blog') {
-                                    echo 'active';
-                                } ?>" href="blog">Blog</a></li>
-                <li><a class="<?php if ($page == 'About') {
-                                    echo 'active';
-                                } ?>" href="about">About</a></li>
-                <li><a class="<?php if ($page == 'Faq') {
-                                    echo 'active';
-                                } ?>" href="faq">Faq</a></li>
+                <li><a class="<?php if ($page == 'About') {echo 'active';} ?>" href="about">About</a></li>
+                <li><a class="<?php if ($page == 'Plans') {echo 'active';} ?>" href="plan">Plans</a></li>
+                <li><a class="<?php if ($page == 'Faq') {echo 'active';} ?>" href="faq">Faq</a></li>
+                <li><a class="<?php if ($page == 'Podcast') {echo 'active';} ?>" href="podcast">Podcast</a></li>
             </ul>
         </div>
 
