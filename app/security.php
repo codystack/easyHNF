@@ -105,7 +105,6 @@
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script src="assets/js/datatable.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/switcher.js"></script>
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

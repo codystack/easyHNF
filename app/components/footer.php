@@ -11,7 +11,6 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/delete.js"></script>
     <script src="assets/js/view.js"></script>
-    <script src="assets/js/switcher.js"></script>
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
