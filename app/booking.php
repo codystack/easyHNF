@@ -3,9 +3,9 @@
     include "./components/header.php";
     require_once "./auth/userinfo.php";
     if (!$subscription_plan) {
-        $_SESSION['sub_error_message'] = "Upgrade your subscription to book a session";
+        $_SESSION['sub_error_message'] = "Upgrade to custom plan or nutrition coaching to access this service.";
     }elseif ($subscription_plan == "Basic Plan") {
-        $_SESSION['sub_error_message'] = "Upgrade your subscription to book a session";
+        $_SESSION['sub_error_message'] = "Upgrade to custom plan or nutrition coaching to access this service.";
     }else {
         //Do Nothing
     }

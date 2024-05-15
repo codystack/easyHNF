@@ -651,7 +651,16 @@ progress {
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+    .meal_img {
+        height: 400px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1400px) {
     .meal_img {
         height: 800px;
         background-repeat: no-repeat;
