@@ -82,7 +82,6 @@
                                                 $meal_code = $row['meal_code'];
                                                 $title = $row['title'];
                                                 $meal_image = $row['meal_image'];
-                                                echo "ID from current month: $meal_id"
                                     ?>
                                     <div class="col-xl-3 col-sm-6">
                                         <div class="card">
