@@ -26,25 +26,25 @@
                         <div class="col-xxl-12">
                             <div class="vstack gap-6">
                                 <!-- <div class="row g-6">
-                                    <?php
-                                    $select_query = "SELECT * FROM meals ORDER BY meal_id ASC";
-                                        $result = mysqli_query($conn, $select_query);
-                                        if (mysqli_num_rows($result) > 0) {
+                                    // <?php
+                                    // $select_query = "SELECT * FROM meals ORDER BY meal_id ASC";
+                                    //     $result = mysqli_query($conn, $select_query);
+                                    //     if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
-                                            while($row = mysqli_fetch_assoc($result)) {
-                                                $meal_id = $row['meal_id'];
-                                                $meal_code = $row['meal_code'];
-                                                $title = $row['title'];
-                                                $meal_image = $row['meal_image'];
-                                    ?>
+                                            // while($row = mysqli_fetch_assoc($result)) {
+                                            //     $meal_id = $row['meal_id'];
+                                            //     $meal_code = $row['meal_code'];
+                                            //     $title = $row['title'];
+                                            //     $meal_image = $row['meal_image'];
+                                    // ?>
                                     <div class="col-xl-3 col-sm-6">
                                         <div class="card">
-                                            <a href="view-meal?id=<?php echo $meal_id; ?>">
+                                            <a href="view-meal?id=<?php //echo $meal_id; ?>">
                                                 <div class="position-relative group-item-hover">
-                                                    <img src="https://admin.easyhnf.com/<?php echo $meal_image; ?>" class="card-img-rounded" alt="...">
+                                                    <img src="https://admin.easyhnf.com/<?php //echo $meal_image; ?>" class="card-img-rounded" alt="...">
                                                     <div class="group-item rounded d-flex flex-column p-4 position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-25">
                                                         <div class="mt-auto">
-                                                            <div class="gap-2"><span class="h4 text-md text-white"><?php echo $title; ?></span></div>
+                                                            <div class="gap-2"><span class="h4 text-md text-white"><?php //echo $title; ?></span></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -52,8 +52,8 @@
                                         </div>
                                     </div>
                                     <?php
-                                        }
-                                    }
+                                    //     }
+                                    // }
                                     ?>
                                     
                                 </div> -->
@@ -67,7 +67,7 @@
                                             // Fetch the ID
                                             while($row = mysqli_fetch_assoc($result)) {
                                                 $plan_id = $row['plan_id'];
-                                                // echo "ID from current month: $plan_id";
+                                                echo "ID from current month: $plan_id";
                                             }
                                         } else {
                                             $_SESSION['sub_error_message'] = "Buy a subscription plan to view meals";
