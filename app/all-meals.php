@@ -60,7 +60,7 @@
 
                                 <div class="row g-6">
                                     <?php
-                                    $select_date_query = "SELECT * FROM basic_meal_plan CROSS JOIN userdiet WHERE userdiet.created_at >= DATE_SUB(NOW(), INTERVAL 1 MONTH)";
+                                    $select_date_query = "SELECT * FROM basic_meal_plan CROSS JOIN userdiet WHERE basic_meal_plan.diet = userdiet.diet AND userdiet.created_at >= DATE_SUB(NOW(), INTERVAL 1 MONTH)";
                                         $result = mysqli_query($conn, $select_date_query);
                                         // Check if there are results
                                         if (mysqli_num_rows($result) > 0) {
@@ -73,7 +73,7 @@
                                             $_SESSION['sub_error_message'] = "Buy a subscription plan to view meals";
                                         }
 
-                                    $select_query = "SELECT meals.meal_image, meals.meal_id, meals.meal_code, meals.title, basic_meal_plan.plan_id FROM meals INNER JOIN basic_meal_plan WHERE basic_meal_plan.plan_id = '$plan_id'";
+                                    $select_query = "SELECT * FROM meals CROSS JOIN basic_meal_plan WHERE basic_meal_plan.plan_id = '$plan_id'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
