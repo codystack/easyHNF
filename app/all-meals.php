@@ -60,7 +60,7 @@
 
                                 <div class="row g-6">
                                     <?php
-                                    $select_date_query = "SELECT plan_id FROM basic_meal_plan WHERE created_at >= DATE_FORMAT(CURRENT_DATE, '%Y-%m-01') AND created_at < DATE_FORMAT(CURRENT_DATE, '%Y-%m-01') + INTERVAL 1 MONTH;";
+                                    $select_date_query = "SELECT * FROM basic_meal_plan CROSS JOIN userdiet WHERE userdiet.created_at >= DATE_SUB(NOW(), INTERVAL 1 MONTH)";
                                         $result = mysqli_query($conn, $select_date_query);
                                         // Check if there are results
                                         if (mysqli_num_rows($result) > 0) {

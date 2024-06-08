@@ -47,7 +47,7 @@ if (!$subscription_plan) {
                                             <tbody>
                                                 <?php
                                                 $mp_id = 1;
-                                                $select_query = "SELECT * FROM basic_meal_plan CROSS JOIN userdiet WHERE basic_meal_plan.diet = userdiet.diet AND userdiet.userID = ".$_SESSION['user_id']." AND userdiet.created_at >= DATE_SUB(NOW(), INTERVAL 30 DAY) ";
+                                                $select_query = "SELECT * FROM basic_meal_plan CROSS JOIN userdiet WHERE basic_meal_plan.diet = userdiet.diet AND userdiet.userID = ".$_SESSION['user_id']." AND userdiet.created_at >= DATE_SUB(NOW(), INTERVAL 1 MONTH) ";
                                                 $result = mysqli_query($conn, $select_query);
                                                 if (mysqli_num_rows($result) > 0) {
                                                     // output data of each row
