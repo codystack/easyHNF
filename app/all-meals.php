@@ -88,7 +88,8 @@
                                         <div class="card">
                                             <a href="view-meal?id=<?php echo $meal_id; ?>">
                                                 <div class="position-relative group-item-hover">
-                                                    <img src="https://admin.easyhnf.com/<?php echo $meal_image; ?>" class="card-img-rounded" alt="...">
+                                                    <!-- <img src="https://admin.easyhnf.com/<?php //echo $meal_image; ?>" class="card-img-rounded" alt="..."> -->
+                                                    <p>meal ID: <?php echo $meal_image; ?></p>
                                                     <div class="group-item rounded d-flex flex-column p-4 position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-25">
                                                         <div class="mt-auto">
                                                             <div class="gap-2"><span class="h4 text-md text-white"><?php echo $title; ?></span></div>
