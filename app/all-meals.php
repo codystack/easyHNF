@@ -60,7 +60,7 @@
 
                                 <div class="row g-6">
                                     <?php
-                                    $select_date_query = "SELECT * FROM basic_meal_plan CROSS JOIN userdiet WHERE basic_meal_plan.diet = userdiet.diet AND userdiet.created_at >= DATE_SUB(NOW(), INTERVAL 1 MONTH)";
+                                    $select_date_query = "SELECT * FROM basic_meal_plan CROSS JOIN userdiet WHERE basic_meal_plan.diet = userdiet.diet AND userdiet.created_at >= DATE_SUB(NOW(), INTERVAL 1 MONTH) AND userdiet.userID = '".$_SESSION['user_id']."'";
                                         $result = mysqli_query($conn, $select_date_query);
                                         // Check if there are results
                                         if (mysqli_num_rows($result) > 0) {
