@@ -103,8 +103,8 @@ function sendPasswordResetEmail($userEmail, $token)
                                         <p class=\'mgb-1x\' style="font-family:\'Helvetica\',sans-serif;font-size:14px;line-height:20px;letter-spacing:-0.2px;text-align:center"><b>Hello Dear,</b></p>
                                         <p class=\'mgb-1x\' style="font-family:\'Helvetica\',sans-serif;font-size:14px;line-height:20px;letter-spacing:-0.2px;text-align:center">You requested for a password update, did you do this?<br>If yes, please click the link or button below to finish resetting your password.</p>
                                         <p style="text-align:center;padding-bottom:35px;font-family:\'Helvetica\',Helvetica,Arial,sans-serif;font-size:14px;">
-                                        <a href="https://easyhnf.com/new-password?token=' . $token . '" class=\'btn\' style="color: #ffffff; text-decoration: none;">Verify Account</a><br>
-                                        <a href="https://easyhnf.com/new-password?token=' . $token . '" style="text-decoration: none;">https://easyhnf.com/new-password?token=' . $token . '</a>
+                                        <a href="http://localhost/easyHNF/new-password?token=' . $token . '" class=\'btn\' style="color: #ffffff; text-decoration: none;">Verify Account</a><br>
+                                        <a href="http://localhost/easyHNF/new-password?token=' . $token . '" style="text-decoration: none;">http://localhost/easyHNF/new-password?token=' . $token . '</a>
                                         </p>
                                     </td>
                                 </tr>

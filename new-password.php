@@ -1,5 +1,4 @@
 <?php 
-    
     include "./auth/password.php";
     $token = $_GET['token'];
 ?>
@@ -76,7 +75,9 @@
                                             unset($_SESSION['success_message']);
                                         }
                                     ?>
+                                    
                                     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
+
                                         <div class="single-form">
                                             <input type="password" name="new_password" id="newpassword" required placeholder="New Password">
                                         </div>

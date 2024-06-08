@@ -39,28 +39,30 @@ if (isset($_POST['password_reset'])) {
 
 
 
-// Save Ne Password Query
+// Save New Password Query
 if (isset($_POST['new_password'])) {
-    $new_password = $conn->real_escape_string($_POST['new_password']);
-    $confirm_new_password = $conn->real_escape_string($_POST['confirm_new_password']);
+
+    $new_password = mysqli_real_escape_string($conn, $_POST['new_password']);
+    $confirm_new_password = mysqli_real_escape_string($conn, $_POST['confirm_new_password']);
   
     // Grab to token that came from the email link
     $token = $_SESSION['token'];
-    $token = $_GET['token'];
-
     
-
     // select email address of user from the password_reset table 
-    $check_token_query = "SELECT email FROM password_reset WHERE token='$token' LIMIT 1";
-    $result = mysqli_query($conn, $check_token_query);
-    if (mysqli_num_rows($result) > 0){
-        $new_password = sha1($new_password);
-        $update_password_query = "UPDATE users SET password='$new_password' WHERE email='$email'";
-        $result = mysqli_query($conn, $update_password_query);
+    $sql = "SELECT email FROM password_reset WHERE token='$token' LIMIT 1";
+    $results = mysqli_query($conn, $sql);
+    $email = mysqli_fetch_assoc($results)['email'];
 
-        $_SESSION['success_message'] = "Password Changed Successfully";
-        header('location: login');
-    }else {
-        $_SESSION['error_message'] = "Error resetting password".mysqli_error($conn);
+    if($email){
+
+        $new_password = sha1($new_password);
+        $sql = "UPDATE users SET password='$new_password' WHERE email='$email'";
+        $results = mysqli_query($conn, $sql);
+
+        $_SESSION['success_message'] = "Password Reset Successful";
+        echo "<meta http-equiv='refresh' content='5; URL=login'>";
+        
+    }else{
+        $_SESSION['error_message'] = "Error Resetting Password".mysqli_error($conn);
     }
-}
+  }
