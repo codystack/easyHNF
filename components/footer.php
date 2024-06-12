@@ -31,19 +31,19 @@
                                     <h3 class="footer-widget-title">All Plans</h3>
 
                                     <ul class="widget-link">
-                                        <li><a href="easyhnf.com/login">Basic</a>
+                                        <li><a href="/login">Basic</a>
                                             <ul class="dropdown" style="margin-left: 20px;">
-                                                <li><a href="easyhnf.com/login">- 1,200 calories plan</a></li>
-                                                <li><a href="easyhnf.com/login">- 1,500 calories</a></li>
-                                                <li><a href="easyhnf.com/login">- 1,500 calories high protein</a></li>
-                                                <li><a href="easyhnf.com/login">- 1,500 blood sugar friendly plan</a></li>
-                                                <li><a href="easyhnf.com/login">- 1,500 DASH</a></li>
-                                                <li><a href="easyhnf.com/login">- Cholesterol friendly plan</a></li>
+                                                <li><a href="/login">- 1,200 calories plan</a></li>
+                                                <li><a href="/login">- 1,500 calories</a></li>
+                                                <li><a href="/login">- 1,500 calories high protein</a></li>
+                                                <li><a href="/login">- 1,500 blood sugar friendly plan</a></li>
+                                                <li><a href="/login">- 1,500 DASH</a></li>
+                                                <li><a href="/login">- Cholesterol friendly plan</a></li>
                                             </ul>
                                         </li>
 
-                                        <li><a href="easyhnf.com/login">Custom </a></li>
-                                        <li><a href="easyhnf.com/login">Nutrition coaching</a></li>
+                                        <li><a href="/login">Custom </a></li>
+                                        <li><a href="/login">Nutrition coaching</a></li>
                                     </ul>
                                 </div>
 
