@@ -19,7 +19,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="section section-padding bg-grey">
             <div class="container">
                 <div class="row justify-content-center">
@@ -64,10 +64,14 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
+
             </div>
+            <div class="plan-btn" style="margin:50px auto; width:200px">
+                <a class="btn btn-primary btn-hover-secondary" href="login">Buy Now</a>
+            </div>
+
         </div>
 
-<?php @include("./components/footer.php"); ?>
-
-        
+        <?php @include("./components/footer.php"); ?>
