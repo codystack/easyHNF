@@ -156,7 +156,7 @@
                             </div>
                             <div class="courses-content">
                                 <div class="content-wrapper">
-                                    <h4 style="align-items: center;" class="title"><a href="courses-details-left-sidebar.html">High Protein</a></h4>
+                                    <h4 style="align-items: center;" class="title"><a href="login">High Protein</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +169,7 @@
                             </div>
                             <div class="courses-content">
                                 <div class="content-wrapper">
-                                    <h4 style="align-items: center;" class="title">Blood sugar friendly</a></h4>
+                                    <h4 style="align-items: center;" class="title"><a href="login">Blood sugar friendly</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -181,7 +181,7 @@
                             </div>
                             <div class="courses-content">
                                 <div class="content-wrapper">
-                                    <h4 style="align-items: center;" class="title"> DASH (Dietary Approaches to Stop Hypertension) diet</a></h4>
+                                    <h4 style="align-items: center;" class="title"><a href="login"> DASH (Dietary Approaches to Stop Hypertension) diet</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -193,7 +193,7 @@
                             </div>
                             <div class="courses-content">
                                 <div class="content-wrapper">
-                                    <h4 style="align-items: center;" class="title">Weight loss</a></h4>
+                                    <h4 style="align-items: center;" class="title"><a href="login">Weight loss</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -205,7 +205,7 @@
                             </div>
                             <div class="courses-content">
                                 <div class="content-wrapper">
-                                    <h4 style="align-items: center;" class="title">Weight gain</a></h4>
+                                    <h4 style="align-items: center;" class="title"><a href="login">Weight gain</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -217,7 +217,7 @@
                             </div>
                             <div class="courses-content">
                                 <div class="content-wrapper">
-                                    <h4 style="align-items: center;" class="title">Cholesterol friendly </a></h4>
+                                    <h4 style="align-items: center;" class="title"><a href="login">Cholesterol friendly </a></h4>
                                 </div>
                             </div>
                         </div>
