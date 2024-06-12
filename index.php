@@ -56,7 +56,7 @@
                             </div>
                             <div class="feature-content">
                                 <div class="content-wrapper">
-                                    <h4 class="title"><a href="easyhnf.com/login">Basic Plans</a></h4>
+                                    <h4 class="title"><a href="./login.php">Basic Plans</a></h4>
                                     <p>Explore options of our redesigned meal plans for weight loss or weight gain and health management .</p>
 
                                 </div>
@@ -73,7 +73,7 @@
                             </div>
                             <div class="feature-content">
                                 <div class="content-wrapper">
-                                    <h4 class="title"><a href="easyhnf.com/login">Customized Plan</a></h4>
+                                    <h4 class="title"><a href="./login.php">Customized Plan</a></h4>
                                     <p>Schedule an appointment with our dietitian to design a meal plan specific to your goal and health need.</p>
                                 </div>
 
@@ -89,7 +89,7 @@
                             </div>
                             <div class="feature-content">
                                 <div class="content-wrapper">
-                                    <h4 class="title"><a href="easyhnf.com/login">Nutrition coaching</a></h4>
+                                    <h4 class="title"><a href="./login.php">Nutrition coaching</a></h4>
                                     <p>In addition to consultation sessions and designing you a tailor-made meal plan, we will coach you 1-on-1 on nutrition and meal prep.</p>
                                 </div>
 
