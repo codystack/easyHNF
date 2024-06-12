@@ -73,17 +73,59 @@
                                             $_SESSION['sub_error_message'] = "Buy a subscription plan to view meals";
                                         }
 
-                                    $select_query = "SELECT * FROM meals INNER JOIN basic_meal_plan WHERE basic_meal_plan.plan_id = '$planID'";
+                                    $select_query = "SELECT meal_id, meal_image, title, monday_breakfast FROM meals INNER JOIN basic_meal_plan WHERE basic_meal_plan.monday_breakfast = meals.meal_id AND basic_meal_plan.plan_id = '$planID'";
                                         $result = mysqli_query($conn, $select_query);
                                         if (mysqli_num_rows($result) > 0) {
                                             // output data of each row
                                             while($row = mysqli_fetch_assoc($result)) {
                                                 $meal_id = $row['meal_id'];
-                                                $meal_code = $row['meal_code'];
                                                 $title = $row['title'];
                                                 $meal_image = $row['meal_image'];
+                                                $monday_breakfast = $row['monday_breakfast'];
                                     ?>
-                                    <?php echo $planID; ?>
+                                    <div class="col-xl-3 col-sm-6">
+                                        <div class="card">
+                                            <a href="view-meal?id=<?php echo $meal_id; ?>">
+                                                <div class="position-relative group-item-hover">
+                                                    <img src="https://admin.easyhnf.com/<?php echo $meal_image; ?>" class="card-img-rounded" alt="...">
+                                                    <div class="group-item rounded d-flex flex-column p-4 position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-25">
+                                                        <div class="mt-auto">
+                                                            <div class="gap-2"><span class="h4 text-md text-white"><?php echo $title; ?></span></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <?php
+                                        }
+                                    }
+                                    ?>
+
+                                    <?php
+                                        $select_date_query = "SELECT * FROM basic_meal_plan INNER JOIN userdiet WHERE basic_meal_plan.diet = userdiet.diet AND userdiet.created_at >= DATE_SUB(NOW(), INTERVAL 1 MONTH) AND userdiet.userID = '".$_SESSION['user_id']."'";
+                                            $result = mysqli_query($conn, $select_date_query);
+                                            // Check if there are results
+                                            if (mysqli_num_rows($result) > 0) {
+                                                // Fetch the ID
+                                                while($row = mysqli_fetch_assoc($result)) {
+                                                    $planID = $row['plan_id'];
+                                                    // echo "ID from current month: $planID";
+                                                }
+                                            } else {
+                                                $_SESSION['sub_error_message'] = "Buy a subscription plan to view meals";
+                                            }
+
+                                        $select_query = "SELECT meal_id, meal_image, title, monday_lunch FROM meals INNER JOIN basic_meal_plan WHERE basic_meal_plan.monday_lunch = meals.meal_id AND basic_meal_plan.plan_id = '$planID'";
+                                            $result = mysqli_query($conn, $select_query);
+                                            if (mysqli_num_rows($result) > 0) {
+                                                // output data of each row
+                                                while($row = mysqli_fetch_assoc($result)) {
+                                                    $meal_id = $row['meal_id'];
+                                                    $title = $row['title'];
+                                                    $meal_image = $row['meal_image'];
+                                                    $monday_lunch = $row['monday_lunch'];
+                                    ?>
                                     <div class="col-xl-3 col-sm-6">
                                         <div class="card">
                                             <a href="view-meal?id=<?php echo $meal_id; ?>">
