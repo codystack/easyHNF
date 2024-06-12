@@ -42,8 +42,8 @@
                                             </ul>
                                         </li>
 
-                                        <li><a href="login">Custom </a></li>
-                                        <li><a href="login">Nutrition coaching</a></li>
+                                        <li><a href="easyhnf.com/login">Custom </a></li>
+                                        <li><a href="easyhnf.com/login">Nutrition coaching</a></li>
                                     </ul>
                                 </div>
 
