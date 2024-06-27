@@ -17,7 +17,7 @@
                             <!-- <li><a class="" href="blog.php">Blog</a></li> -->
                             <li><a class="" href="faq">Faq</a></li>
                             <li><a class="" href="podcast">Podcast</a></li>
-
+                            <li><a class="" href="https://medium.com/@easyhnf">Blog</a></li>
                         </ul>
 
                         <!-- <ul class="social" style="margin-left: 30px;">
