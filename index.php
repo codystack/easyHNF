@@ -271,11 +271,11 @@
                             <div class="blog">
                                 <div class="blog-date-meta">
                                     <div class="meta">
-                                        <p class="author">By: <a href="https://medium.com/@easyhnf/fueling-your-fitness-journey-how-nutrition-nurtures-health-1cc5341d0b06">Arinola Odunuga <p>Medium</p></a></p>
+                                        <p class="author">By: <a href="https://medium.com/@easyhnf/fueling-your-fitness-journey-how-nutrition-nurtures-health-1cc5341d0b06" target="_blank">Arinola Odunuga <p>Medium</p></a></p>
                                     </div>
                                 </div>
 
-                                <h4 class="title"><a href="https://medium.com/@easyhnf/fueling-your-fitness-journey-how-nutrition-nurtures-health-1cc5341d0b06 ">“Fueling Your Fitness Journey: How Nutrition Nurtures Health”
+                                <h4 class="title"><a href="https://medium.com/@easyhnf/fueling-your-fitness-journey-how-nutrition-nurtures-health-1cc5341d0b06 "  target="_blank">“Fueling Your Fitness Journey: How Nutrition Nurtures Health”
                                     </a></h4>
                                 <p>With a track record of assisting over 1,000 individuals in achieving their fitness objectives and managing health conditions</p>
                             </div>
@@ -290,11 +290,11 @@
                                 <div class="blog-date-meta">
 
                                     <div class="meta">
-                                        <p class="author">By: <a href="https://www.arise.tv/losing-weight-reaching-fitness-goals-easier-than-you-think/ ">Arinola Odunuga <p>Arise News</p> <br></a></p>
+                                        <p class="author">By: <a href="https://www.arise.tv/losing-weight-reaching-fitness-goals-easier-than-you-think/ " target="_blank">Arinola Odunuga <p>Arise News</p> <br></a></p>
                                     </div>
                                 </div>
 
-                                <h4 class="title"><a href="https://www.arise.tv/losing-weight-reaching-fitness-goals-easier-than-you-think/">Losing Weight, Reaching Fitness Goals Easier Than You Think</a></h4>
+                                <h4 class="title"><a href="https://www.arise.tv/losing-weight-reaching-fitness-goals-easier-than-you-think/" target="_blank">Losing Weight, Reaching Fitness Goals Easier Than You Think</a></h4>
                                 <p>Setting goals that you can visualize yourself achieving will make you more committed but that doesn’t mean your goals shouldn’t challenge you.</p>
                             </div>
                         </div>
@@ -308,11 +308,11 @@
                                 <div class="blog-date-meta">
 
                                     <div class="meta">
-                                        <p class="author">By: <a href="https://www.thisdaylive.com/index.php/2021/07/11/how-crash-dieting-messes-up-your-metabolism ">Arinola Odunuga <p>ThisDayLive</p> <br></a></p>
+                                        <p class="author">By: <a href="https://www.thisdaylive.com/index.php/2021/07/11/how-crash-dieting-messes-up-your-metabolism " target="_blank">Arinola Odunuga <p>ThisDayLive</p> <br></a></p>
                                     </div>
                                 </div>
 
-                                <h4 class="title"><a href="https://www.thisdaylive.com/index.php/2021/07/11/how-crash-dieting-messes-up-your-metabolism ">How Crash Dieting Messes up Your Metabolism</a></h4>
+                                <h4 class="title"><a href="https://www.thisdaylive.com/index.php/2021/07/11/how-crash-dieting-messes-up-your-metabolism " target="_blank">How Crash Dieting Messes up Your Metabolism</a></h4>
                                 <p>A crash diet is typically a low-calorie diet where you eat very restrictively for a short period of time.</p>
                             </div>
                         </div>
