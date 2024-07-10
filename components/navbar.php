@@ -62,6 +62,7 @@
                 <li><a class="<?php if ($page == 'Plans') {echo 'active';} ?>" href="plan">Plans</a></li>
                 <li><a class="<?php if ($page == 'Faq') {echo 'active';} ?>" href="faq">Faq</a></li>
                 <li><a class="<?php if ($page == 'Podcast') {echo 'active';} ?>" href="podcast">Podcast</a></li>
+                <li><a class="<?php if ($page == 'Blog') {echo 'active';} ?>" href="https://medium.com/@easyhnf">Blog</a></li>
             </ul>
         </div>
 
