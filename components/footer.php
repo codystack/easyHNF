@@ -116,6 +116,17 @@
     <script src="assets/js/plugins/ajax-contact.js"></script>
 
     <script src="assets/js/main.js"></script>
+    <!-- Hotjar Tracking Code for Site 5052727 (name missing) -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:5052727,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
