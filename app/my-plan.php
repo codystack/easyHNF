@@ -75,10 +75,12 @@ if (!$subscription_plan) {
                                                         <tr>
                                                             <td style="display: none"><?php echo $mp_id; ?></td>
                                                             <td>
-                                                                <div class="d-flex align-items-center gap-3 ps-1">
-                                                                    <div class="icon icon-shape w-rem-10 h-rem-10 rounded-circle text-sm bg-primary bg-opacity-25 text-primary"><i class="bi bi-egg-fried"></i></div>
-                                                                    <div><span class="d-block text-heading fw-bold"><?php echo $plan_title; ?></span></div>
-                                                                </div>
+                                                                <a href="view-basic-plan?id=<?php echo $plan_id; ?>">
+                                                                    <div class="d-flex align-items-center gap-3 ps-1">
+                                                                            <div class="icon icon-shape w-rem-10 h-rem-10 rounded-circle text-sm bg-primary bg-opacity-25 text-primary"><i class="bi bi-egg-fried"></i></div>
+                                                                            <div><span class="d-block text-heading fw-bold"><?php echo $plan_title; ?></span></div>
+                                                                    </div>
+                                                                </a>
                                                             </td>
                                                             <td><?php echo $monday_breakfast; ?>, <?php echo $monday_lunch; ?>....</td>
                                                             <td><?php echo date('j F Y', $date); ?></td>
